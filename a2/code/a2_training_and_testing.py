@@ -120,8 +120,8 @@ def compute_batch_total_bleu(E_ref, E_cand, target_sos, target_eos):
     # of numbers
     total = 0
     for ref, cand in zip(E_ref.tolist(), E_cand.tolist()):
-        ref = ref.replace(target_eos, '').replace(target_sos, '').strip()
-        cand = cand.replace(target_eos, '').replace(target_sos, '').strip()
+        ref = " ".join(ref).replace(target_eos, '').replace(target_sos, '').strip().split(' ')
+        cand = " ".join(cand).replace(target_eos, '').replace(target_sos, '').strip().split(' ')
         total += a2_bleu_score(ref, cand, 4)
     return total
 
