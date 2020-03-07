@@ -50,7 +50,7 @@ def n_gram_precision(reference, candidate, n):
         `p_n` is 0.
     '''
     # if n == 0?
-    if len(candidate) == 0:
+    if len(candidate) < n:
         return 0
     refgrams = grouper(reference, n)
     candgrams = grouper(candidate, n)
