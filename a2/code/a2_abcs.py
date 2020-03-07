@@ -698,7 +698,6 @@ class EncoderDecoderBase(torch.nn.Module, metaclass=abc.ABCMeta):
         return pad_mask
 
     def forward(self, F, F_lens, E=None, max_T=100, on_max='halt'):
-        print(f'training={self.training}')
         if self.training:
             if E is None:
                 raise RuntimeError('E must be set for training')
@@ -780,7 +779,6 @@ class EncoderDecoderBase(torch.nn.Module, metaclass=abc.ABCMeta):
         t = 0
         while torch.any(b_tm1_1[-1, :, 0] != self.target_eos):
             if t == max_T:
-                print(b_tm1_1)
                 if on_max == 'raise':
                     raise RuntimeError(
                         f'Beam search has not finished by t={t}. Increase the '
