@@ -94,6 +94,7 @@ def train(opts):
         patience = opts.patience
     while epoch <= max_epochs and num_poor < patience:
         model.train()
+        print('training')
         loss = a2_training_and_testing.train_for_epoch(
             model, train_dataloader, optimizer, opts.device)
         model.eval()
