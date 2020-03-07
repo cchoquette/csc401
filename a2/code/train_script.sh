@@ -16,6 +16,19 @@ TRAIN=/scratch/ssd001/home/cchoquet/csc401/a2/data/Hansard/Training/
 TEST=/scratch/ssd001/home/cchoquet/csc401/a2/data/Hansard/Testing/
 CELL_TYPE="lstm"
 
+is_expid="false"
+expid="0"
+
+for arg in $@; do
+    if [[ "${arg}" == "--expid" ]]; then
+        is_expid="true"
+    elif [[ "${is_expid}" == "true" ]]; then
+        expid="${arg}"
+        is_expid="false"
+    fi
+done
+
+
 if [[ "${SLURM_ARRAY_TASK_ID}" == "1" ]]; then
 	python -u a2_run.py vocab $TRAIN e vocab.e.gz
 	python -u a2_run.py vocab $TRAIN f vocab.f.gz

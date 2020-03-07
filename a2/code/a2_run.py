@@ -98,6 +98,7 @@ def train(opts):
         loss = a2_training_and_testing.train_for_epoch(
             model, train_dataloader, optimizer, opts.device)
         model.eval()
+        print('evaluating')
         bleu = a2_training_and_testing.compute_average_bleu_over_dataset(
             model, dev_dataloader,
             dev_dataloader.dataset.target_sos,

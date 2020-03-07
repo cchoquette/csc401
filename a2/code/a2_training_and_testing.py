@@ -65,6 +65,7 @@ def train_for_epoch(model, dataloader, optimizer, device):
     # If you are running into CUDA memory errors part way through training,
     # try "del F, F_lens, E, logits, loss" at the end of each iteration of
     # the loop.
+    print('train for epoch')
     loss_fn = torch.nn.CrossEntropyLoss(ignore_index=model.target_eos)
     total_loss = 0
     n_batches = 0
