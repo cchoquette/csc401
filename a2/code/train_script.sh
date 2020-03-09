@@ -14,7 +14,7 @@ conda activate 401a2
 
 TRAIN=/scratch/ssd001/home/cchoquet/csc401/a2/data/Hansard/Training/
 TEST=/scratch/ssd001/home/cchoquet/csc401/a2/data/Hansard/Testing/
-CELL_TYPE="gru"
+CELL_TYPE="lstm"
 
 is_expid="false"
 expid="0"
