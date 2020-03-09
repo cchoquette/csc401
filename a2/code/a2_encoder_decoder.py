@@ -181,11 +181,11 @@ class DecoderWithAttention(DecoderWithoutAttention):
         # same as before, but initialize to zeros
         # relevant pytorch modules: torch.zeros_like
         # ensure result is on same device as h!
-        return torch.zeros_like(h[-1])
+        return torch.zeros_like(h[-1], device=h.device)
 
     def get_current_rnn_input(self, E_tm1, htilde_tm1, h, F_lens):
         # update to account for attention. Use attend() for c_t
-        device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+        device = h.device
         mask = torch.where(E_tm1 == torch.tensor([self.pad_id]).to(device),
                            torch.tensor([0.]).to(device), torch.tensor([1.]).to(device)).to(device)
         if self.cell_type == 'lstm':
@@ -227,11 +227,14 @@ class DecoderWithAttention(DecoderWithoutAttention):
         # htilde = htilde_t.unsqueeze(1)  # (N, 1, 2*H)
         # energy = scale * torch.bmm(h, htilde)  # (N, S, 1)
         # energy.squeeze(2).transpose(0, 1)  # (S, N) as desired
-        energy = torch.zeros(h.size()[:2], device=h.device)
-        for s in range(h.size()[0]):
-          energy[s] = torch.nn.functional.cosine_similarity(htilde_t,
-                                                            h[s], dim=1)
-        return energy
+        csim = torch.nn.CosineSimilarity(dim=2)
+        # energy = torch.zeros(h.size()[:2], device=h.device)
+        # for s in range(h.size()[0]):
+        #   energy[s] = torch.nn.functional.cosine_similarity(htilde_t,
+        #                                                     h[s], dim=1)
+        htilde_t = htilde_t.unsqueeze(0)
+        similarties = csim(htilde_t, h)
+        return similarties
 
 class EncoderDecoder(EncoderDecoderBase):
 
@@ -274,11 +277,11 @@ class EncoderDecoder(EncoderDecoderBase):
         # initialize the first hidden state
         logits = []  # for holding logits as we do all steps in time
         h_tilde_tm1 = None
-        for t in range(E.size()[0]-1):  # T-1
+        for t in range(E.size()[0]):  # run all T, with first being the SOS
             l, h_tilde_tm1 = self.decoder.forward(E[t], h_tilde_tm1, h, F_lens)
             logits.append(l)
-        logits = torch.stack(logits, 0)
-        return torch.log(logits)
+        logits = torch.stack(logits[1:], 0)  # take all but the SOS one.
+        return logits
 
     def update_beam(self, htilde_t, b_tm1_1, logpb_tm1, logpy_t):
         # perform the operations within the psuedo-code's loop in the
