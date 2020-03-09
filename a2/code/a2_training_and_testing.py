@@ -127,13 +127,11 @@ def compute_batch_total_bleu(E_ref, E_cand, target_sos, target_eos):
     total = 0
     eos = str(target_eos)
     sos = str(target_sos)
-    for ref, cand in zip(E_ref.tolist(), E_cand.tolist()):
-        # ref.remove(target_eos)
-        # ref.remove(target_sos)
+    E_ref = E_ref.permute(1, 0).tolist()
+    E_cand = E_cand.permute(1, 0).tolist()
+    for ref, cand in zip(E_ref, E_cand):
         ref = [str(x) for x in ref if str(x) != eos and str(x) != sos]
         cand = [str(x) for x in cand if str(x) != eos and str(x) != sos]
-        # cand.remove(target_sos)
-        # cand.remove(target_eos)
         total += a2_bleu_score.BLEU_score(ref, cand, 4)
     return total
 
