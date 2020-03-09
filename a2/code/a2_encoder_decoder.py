@@ -61,7 +61,7 @@ class Encoder(EncoderBase):
         # first pack
         x = torch.nn.utils.rnn.pack_padded_sequence(x, F_lens, enforce_sorted=False)
         # then pad
-        x = torch.nn.utils.rnn.pad_packed_sequence(x, padding_value=h_pad)
+        x, _ = torch.nn.utils.rnn.pad_packed_sequence(x, padding_value=h_pad)
         outputs, _ = self.rnn.forward(x)
         # outputs = outputs[unperm_idx]
         return outputs
