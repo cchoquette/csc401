@@ -106,7 +106,7 @@ class DecoderWithoutAttention(DecoderBase):
         # relevant pytorch modules: torch.cat
 
         mid = self.hidden_state_size // 2
-        f = h[F_lens - 1, torch.arange(F_lens.size(0)), :mid]  # forward hidden state
+        f = h[F_lens - 1, torch.arange(F_lens.size(0), device=h.device), :mid]  # forward hidden state
         b = h[0, F_lens, mid:]  # backward hidden state
         return torch.cat([f.squeeze(), b.squeeze()], dim=1)
 
@@ -273,8 +273,8 @@ class EncoderDecoder(EncoderDecoderBase):
         # give start of string
         # initialize the first hidden state
         logits = []  # for holding logits as we do all steps in time
-        l, h_tilde_tm1 = self.decoder.forward(E[0], None, h, F_lens)  # SOS tag
-        for t in range(1, E.size()[0]):  # T-1
+        h_tilde_tm1 = None
+        for t in range(E.size()[0]-1):  # T-1
             l, h_tilde_tm1 = self.decoder.forward(E[t], h_tilde_tm1, h, F_lens)
             logits.append(l)
         logits = torch.stack(logits, 0)
