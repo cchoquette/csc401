@@ -61,8 +61,9 @@ class Encoder(EncoderBase):
         # first pack
         x = torch.nn.utils.rnn.pack_padded_sequence(x, F_lens, enforce_sorted=False)
         # then pad
-        x, _ = torch.nn.utils.rnn.pad_packed_sequence(x, padding_value=h_pad)
+        # x, _ = torch.nn.utils.rnn.pad_packed_sequence(x, padding_value=h_pad)
         outputs, _ = self.rnn.forward(x)
+        outputs, _ = torch.nn.utils.rnn.pad_packed_sequence(outputs, padding_value=h_pad)
         # outputs = outputs[unperm_idx]
         return outputs
 
@@ -109,12 +110,12 @@ class DecoderWithoutAttention(DecoderBase):
         # relevant pytorch modules: torch.cat
         mid = self.hidden_state_size // 2
         # concatenate the forward with the backward hidden state for all items in batch
-        batched_hidden_state = [torch.cat([h[F_lens[i].item()-1, i, :mid],
-                                          h[0, i, mid:]]).unsqueeze(0) for i in range(F_lens.size(0))]
-        return torch.cat(batched_hidden_state)
-        # f = h[F_lens - 1, torch.arange(F_lens.size(0), device=h.device), :mid]  # forward hidden state
-        # b = h[0, F_lens, mid:]  # backward hidden state
-        # return torch.cat([f.squeeze(), b.squeeze()], dim=1)
+        # batched_hidden_state = [torch.cat([h[F_lens[i].item()-1, i, :mid],
+        #                                   h[0, i, mid:]]).unsqueeze(0) for i in range(F_lens.size(0))]
+        # return torch.cat(batched_hidden_state)
+        f = h[F_lens - 1, torch.arange(F_lens.size(0), device=h.device), :mid]  # forward hidden state
+        b = h[0, :, mid:]  # backward hidden state
+        return torch.cat([f.squeeze(), b.squeeze()], dim=1)
 
     def get_current_rnn_input(self, E_tm1, htilde_tm1, h, F_lens):
         # determine the input to the rnn for *just* the current time step.
@@ -126,11 +127,12 @@ class DecoderWithoutAttention(DecoderBase):
         # xtilde_t (output) is of shape (N, Itilde)
         # assert False, "Fill me"
         # device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-        # mask = torch.where(E_tm1 == torch.tensor([self.pad_id]).to(device),
-        #                    torch.tensor([0.]).to(device), torch.tensor([1.]).to(device)).to(device)
-        # xtilde_t = self.embedding(E_tm1) * mask.view(-1, 1)
-        # return xtilde_t
-        return self.embedding(E_tm1)
+        device = h.device
+        mask = torch.where(E_tm1 == torch.tensor([self.pad_id]).to(device),
+                           torch.tensor([0.]).to(device), torch.tensor([1.]).to(device)).to(device)
+        xtilde_t = self.embedding(E_tm1) * mask.view(-1, 1)
+        return xtilde_t
+        # return self.embedding(E_tm1)
 
     def get_current_hidden_state(self, xtilde_t, htilde_tm1):
         # update the previous hidden state to the current hidden state.
@@ -188,7 +190,7 @@ class DecoderWithAttention(DecoderWithoutAttention):
         # same as before, but initialize to zeros
         # relevant pytorch modules: torch.zeros_like
         # ensure result is on same device as h!
-        return torch.zeros_like(h[-1], device=h.device)
+        return torch.zeros_like(h[0], device=h.device)
 
     def get_current_rnn_input(self, E_tm1, htilde_tm1, h, F_lens):
         # update to account for attention. Use attend() for c_t
@@ -208,9 +210,9 @@ class DecoderWithAttention(DecoderWithoutAttention):
         # c_t (output) is of shape (N, 2 * H)
         alpha = self.get_attention_weights(htilde_t, h, F_lens)  # (S, N)
         alpha = alpha.transpose(0, 1)  # (N, S)
-        alpha = alpha.unsqueeze(1)  # (N, 1, S)
-        h = h.permute(1, 0, 2)  # (N, S, 2*H)
-        c_t = torch.bmm(alpha, h).squeeze(1)  # (N, 2*H) as desired.
+        alpha = alpha.unsqueeze(2)  # (N, S, 1)
+        h = h.permute(1, 2, 0)  # (N, 2*H, S)
+        c_t = torch.bmm(h, alpha).squeeze()  # (N, 2*H) as desired.
         return c_t
 
     def get_attention_weights(self, htilde_t, h, F_lens):
@@ -284,10 +286,10 @@ class EncoderDecoder(EncoderDecoderBase):
         # initialize the first hidden state
         logits = []  # for holding logits as we do all steps in time
         h_tilde_tm1 = None
-        for t in range(E.size()[0]):  # run all T, with first being the SOS
+        for t in range(E.size()[0] - 1):  # run all T, with first being the SOS
             l, h_tilde_tm1 = self.decoder.forward(E[t], h_tilde_tm1, h, F_lens)
             logits.append(l)
-        logits = torch.stack(logits[:-1], 0)  # take all but the SOS one.
+        logits = torch.stack(logits[:], 0)  # take all but the SOS one.
         return logits
 
     def update_beam(self, htilde_t, b_tm1_1, logpb_tm1, logpy_t):
