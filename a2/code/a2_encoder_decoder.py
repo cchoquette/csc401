@@ -280,7 +280,7 @@ class EncoderDecoder(EncoderDecoderBase):
         for t in range(E.size()[0]):  # run all T, with first being the SOS
             l, h_tilde_tm1 = self.decoder.forward(E[t], h_tilde_tm1, h, F_lens)
             logits.append(l)
-        logits = torch.stack(logits[1:], 0)  # take all but the SOS one.
+        logits = torch.stack(logits[:-1], 0)  # take all but the SOS one.
         return logits
 
     def update_beam(self, htilde_t, b_tm1_1, logpb_tm1, logpy_t):
