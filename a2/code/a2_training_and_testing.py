@@ -66,7 +66,7 @@ def train_for_epoch(model, dataloader, optimizer, device):
     # try "del F, F_lens, E, logits, loss" at the end of each iteration of
     # the loop.
     print('train for epoch')
-    loss_fn = torch.nn.CrossEntropyLoss(ignore_index=model.target_eos)
+    loss_fn = torch.nn.CrossEntropyLoss(ignore_index=model.source_pad_id)
     total_loss = 0
     n_batches = 0
     for F, F_lens, E in dataloader:
@@ -80,20 +80,15 @@ def train_for_epoch(model, dataloader, optimizer, device):
         logits = model(F, F_lens, E, 'ignore')
         # E = E[1:, :]
         mask = model.get_target_padding_mask(E)
-        E = E.masked_fill(mask, model.target_eos)
+        E = E.masked_fill(mask, model.source_pad_id)
         # 5. Flatten sequence dimension
         logits = torch.flatten(logits, start_dim=0, end_dim=-2)
         E = torch.flatten(E[1:], start_dim=0)
-        # logits = logits.view(-1, logits.size()[-1])  # (T-1, N, V) -> ((T-1)*N, V)
-        # E = E.transpose(0, 1)
-        # E = E.reshape(-1)  # target,  (N, T) -> ((T-1)*N, 1)
-
         loss = loss_fn(logits, E)  # T-1
-        total_loss += loss
         loss.backward()
         optimizer.step()
+        total_loss += loss.item()
         n_batches += 1
-
         del F, F_lens, E, logits, loss
     print(f'loss={total_loss/n_batches}')
     print(f'n_batches: {n_batches}')
