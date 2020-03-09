@@ -1,0 +1,13 @@
+
+
+
+
+2. 
+Without attention, average Test Set BLEU:
+With attention, average Test Set BLEU:
+
+3.
+We notice that the average BLEU results on the test set are higher than the training set. This result is unpexpected in that we almost always expect that test set accuracy to be (at best, marginally) worse than the training set results. Seeing this result, there are a few explanations. 1. The test set is 'easier' than the training set. In general, given a large enough dataset sampled i.i.d from our natural underlying distribution this should not be the case. However, it is possible that the samples lead to reduced bias and are more 'prototypical' leading to better results. 2. This could mean that the model generalizes very well and has learned to well model its training set. Given tha tthe BLEU scores are far from 1, it could be possible that we are generalizing well and simply not overfitting to the training or test data (though have not yet achieved a great model to gets high BLEU scores). 3. It could be our evaluationg method itself, in that we only do a single holdout test set evaluation; we should try using k-fold cross validation, other cell types, and other parameter values to see if this result is consistent. 4. Step 3 will also help solve this, but it is entirely possible that this result is a fluke. Likely, the test set accuracies have some variance and so some evaluations might lead to higher test accuracies. Averaging over multiple seeds is a common and good solution for this problem.
+
+We also see that attention appears to perform better than without attention. This result is expected and can be partially explained by, 1. using a better selection of which prior words to consider (it does not depend equally on all words prior, so we are using a better posterior estiamte of which words to consider at our current timestep), 2. by helping better consider context over longer sequences (as rnn's are known to have memory problems), and 3. by looking holistically at the totality of the sequence to understand the effect of the sequence (rather than locally, as cells do).
+   
