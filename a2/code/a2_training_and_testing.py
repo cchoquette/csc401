@@ -172,7 +172,7 @@ def compute_average_bleu_over_dataset(
     n_batch = 0
     total = 0
     print('evaluating')
-    for F, F_lens, E in tqdm(dataloader):
+    for F, F_lens, E in dataloader:
         F = F.to(device)
         F_lens = F_lens.to(device)
         b_1 = model(F, F_lens)
