@@ -125,11 +125,15 @@ def compute_batch_total_bleu(E_ref, E_cand, target_sos, target_eos):
     # you can use E_ref.tolist() to convert the LongTensor to a python list
     # of numbers
     total = 0
-    eos = str(target_eos)
-    sos = str(target_sos)
+    # eos = str(target_eos)
+    # sos = str(target_sos)
     for ref, cand in zip(E_ref.tolist(), E_cand.tolist()):
-        ref = [str(x) for x in ref if x != eos and x != sos]
-        cand = [str(x) for x in cand if x != eos and x != sos]
+        ref.remove(target_eos)
+        ref.remove(target_sos)
+        # ref = [str(x) for x in ref if x != eos and x != sos]
+        # cand = [str(x) for x in cand if x != eos and x != sos]
+        cand.remove(target_sos)
+        cand.remove(target_eos)
         total += a2_bleu_score.BLEU_score(ref, cand, 4)
     return total
 
@@ -169,14 +173,14 @@ def compute_average_bleu_over_dataset(
         The total BLEU score summed over all sequences divided by the number of
         sequences
     '''
-    n_batch = 0
+    n_data = 0
     total = 0
     print('evaluating')
     for F, F_lens, E in dataloader:
         F = F.to(device)
         F_lens = F_lens.to(device)
+        n_data += F_lens.size(0)
         b_1 = model(F, F_lens)
-        E_cand = b_1[:, 0]
+        E_cand = b_1[:, :, 0]
         total += compute_batch_total_bleu(E, E_cand, target_sos, target_eos)
-        n_batch += len(F_lens)
-    return total / n_batch
+    return total / n_data
