@@ -57,9 +57,12 @@ class Encoder(EncoderBase):
         # F_lens, perm_idx = F_lens.sort(0, descending=True)
         # _, unperm_idx = perm_idx.sort(0)
         # x = x[:, perm_idx, :]
+
+        # first pack
         x = torch.nn.utils.rnn.pack_padded_sequence(x, F_lens, enforce_sorted=False)
+        # then pad
+        x = torch.nn.utils.rnn.pad_packed_sequence(x, padding_value=h_pad)
         outputs, _ = self.rnn.forward(x)
-        outputs, _ = torch.nn.utils.rnn.pad_packed_sequence(outputs, padding_value=h_pad)
         # outputs = outputs[unperm_idx]
         return outputs
 
@@ -104,11 +107,14 @@ class DecoderWithoutAttention(DecoderBase):
         # F_lens is of shape (N,)
         # htilde_tm1 (output) is of shape (N, 2 * H)
         # relevant pytorch modules: torch.cat
-
         mid = self.hidden_state_size // 2
-        f = h[F_lens - 1, torch.arange(F_lens.size(0), device=h.device), :mid]  # forward hidden state
-        b = h[0, F_lens, mid:]  # backward hidden state
-        return torch.cat([f.squeeze(), b.squeeze()], dim=1)
+        # concatenate the forward with the backward hidden state for all items in batch
+        batched_hidden_state = [torch.cat([h[F_lens[i].items()-1, i, :mid],
+                                          h[0, i, mid:]]).unsqueeze(0) for i in range(F_lens.size(0))]
+        return torch.cat(batched_hidden_state)
+        # f = h[F_lens - 1, torch.arange(F_lens.size(0), device=h.device), :mid]  # forward hidden state
+        # b = h[0, F_lens, mid:]  # backward hidden state
+        # return torch.cat([f.squeeze(), b.squeeze()], dim=1)
 
     def get_current_rnn_input(self, E_tm1, htilde_tm1, h, F_lens):
         # determine the input to the rnn for *just* the current time step.
@@ -119,11 +125,12 @@ class DecoderWithoutAttention(DecoderBase):
         # F_lens is of shape (N,)
         # xtilde_t (output) is of shape (N, Itilde)
         # assert False, "Fill me"
-        device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-        mask = torch.where(E_tm1 == torch.tensor([self.pad_id]).to(device),
-                           torch.tensor([0.]).to(device), torch.tensor([1.]).to(device)).to(device)
-        xtilde_t = self.embedding(E_tm1) * mask.view(-1, 1)
-        return xtilde_t
+        # device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+        # mask = torch.where(E_tm1 == torch.tensor([self.pad_id]).to(device),
+        #                    torch.tensor([0.]).to(device), torch.tensor([1.]).to(device)).to(device)
+        # xtilde_t = self.embedding(E_tm1) * mask.view(-1, 1)
+        # return xtilde_t
+        return self.embedding(E_tm1)
 
     def get_current_hidden_state(self, xtilde_t, htilde_tm1):
         # update the previous hidden state to the current hidden state.
