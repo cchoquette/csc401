@@ -1,0 +1,6 @@
+In my bonus, I explore (scaled) dot-product attention. I have commented out in my code the attention changes needed to perform dot product attention as mentioned in https://arxiv.org/pdf/1706.03762.pdf and described in class.
+
+The major different between between these two types of attention is the distance metric used. Cosine similarity only cares about the angle of difference, whereas the dot product cares about both the angle and the magnitude. The subtle difference in utility of these metrics is often explained from an image standpoint, where magnitude would correspond often to brightness.In this case, if you were trying to find elephants in photos, you may not care much about the magnitude as this could mean you learn to only identify elephants in sunny places, but not in darker places. In the context of language models, the magnitude could be important as it could explain the correspondance an embedding has to the latent features.
+
+ 
+
