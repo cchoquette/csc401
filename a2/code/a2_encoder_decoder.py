@@ -223,14 +223,14 @@ class DecoderWithAttention(DecoderWithoutAttention):
         # h is of shape (S, N, 2 * H)
         # e_t (output) is of shape (S, N)
         # h = h.permute(1, 2, 0)  # (N, S, 2*H) so batches front
-        scale = torch.inverse(torch.sqrt(self.hidden_state_size * 2))
-        htilde = htilde_t.unsqueeze(1)  # (N, 1, 2*H)
-        energy = scale * torch.bmm(h, htilde)  # (N, S, 1)
-        energy.squeeze(2).transpose(0, 1)  # (S, N) as desired
-        # energy = torch.zeros(h.size()[:2], device=h.device)
-        # for s in range(h.size()[0]):
-        #   energy[s] = torch.nn.functional.cosine_similarity(htilde_t,
-        #                                                     h[s], dim=1)
+        # scale = torch.inverse(torch.sqrt(self.hidden_state_size * 2))
+        # htilde = htilde_t.unsqueeze(1)  # (N, 1, 2*H)
+        # energy = scale * torch.bmm(h, htilde)  # (N, S, 1)
+        # energy.squeeze(2).transpose(0, 1)  # (S, N) as desired
+        energy = torch.zeros(h.size()[:2], device=h.device)
+        for s in range(h.size()[0]):
+          energy[s] = torch.nn.functional.cosine_similarity(htilde_t,
+                                                            h[s], dim=1)
         return energy
 
 class EncoderDecoder(EncoderDecoderBase):
