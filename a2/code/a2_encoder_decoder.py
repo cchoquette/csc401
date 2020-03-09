@@ -109,7 +109,7 @@ class DecoderWithoutAttention(DecoderBase):
         # relevant pytorch modules: torch.cat
         mid = self.hidden_state_size // 2
         # concatenate the forward with the backward hidden state for all items in batch
-        batched_hidden_state = [torch.cat([h[F_lens[i].items()-1, i, :mid],
+        batched_hidden_state = [torch.cat([h[F_lens[i].item()-1, i, :mid],
                                           h[0, i, mid:]]).unsqueeze(0) for i in range(F_lens.size(0))]
         return torch.cat(batched_hidden_state)
         # f = h[F_lens - 1, torch.arange(F_lens.size(0), device=h.device), :mid]  # forward hidden state
