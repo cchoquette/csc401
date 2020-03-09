@@ -65,7 +65,6 @@ def train_for_epoch(model, dataloader, optimizer, device):
     # If you are running into CUDA memory errors part way through training,
     # try "del F, F_lens, E, logits, loss" at the end of each iteration of
     # the loop.
-    print('train for epoch')
     loss_fn = torch.nn.CrossEntropyLoss(ignore_index=model.source_pad_id)
     total_loss = 0
     n_batches = 0
@@ -77,7 +76,7 @@ def train_for_epoch(model, dataloader, optimizer, device):
         # zero the gradient
         optimizer.zero_grad()
         # get logits
-        logits = model(F, F_lens, E, 'ignore')
+        logits = model(F, F_lens, E)
         # E = E[1:, :]
         mask = model.get_target_padding_mask(E)
         E = E.masked_fill(mask, model.source_pad_id)
@@ -91,8 +90,6 @@ def train_for_epoch(model, dataloader, optimizer, device):
         total_loss += loss.item()
         n_batches += 1
         del F, F_lens, E, logits, loss
-    print(f'loss={total_loss/n_batches}')
-    print(f'n_batches: {n_batches}')
     return total_loss/n_batches
 
 
@@ -170,7 +167,6 @@ def compute_average_bleu_over_dataset(
     '''
     n_data = 0
     total = 0
-    print('evaluating')
     for F, F_lens, E in dataloader:
         F = F.to(device)
         F_lens = F_lens.to(device)
