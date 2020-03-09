@@ -172,5 +172,5 @@ def compute_average_bleu_over_dataset(
         b_1 = model(F, F_lens)
         E_cand = b_1[:, 0]
         total += compute_batch_total_bleu(E, E_cand, target_sos, target_eos)
-        n_batch += 1
+        n_batch += len(F_lens)
     return total / n_batch
