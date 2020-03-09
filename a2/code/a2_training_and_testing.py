@@ -85,6 +85,7 @@ def train_for_epoch(model, dataloader, optimizer, device):
         logits = torch.flatten(logits, start_dim=0, end_dim=-2)
         E = torch.flatten(E[1:], start_dim=0)
         loss = loss_fn(logits, E)  # T-1
+        # apply gradients
         loss.backward()
         optimizer.step()
         total_loss += loss.item()
@@ -125,6 +126,7 @@ def compute_batch_total_bleu(E_ref, E_cand, target_sos, target_eos):
     E_ref = E_ref.permute(1, 0).tolist()
     E_cand = E_cand.permute(1, 0).tolist()
     for ref, cand in zip(E_ref, E_cand):
+        # make sure that we don't evaluate the eos and sos tokens.
         ref = [str(x) for x in ref if str(x) != eos and str(x) != sos]
         cand = [str(x) for x in cand if str(x) != eos and str(x) != sos]
         total += a2_bleu_score.BLEU_score(ref, cand, 4)
@@ -176,4 +178,4 @@ def compute_average_bleu_over_dataset(
         b_1 = model(F, F_lens)
         E_cand = b_1[:, :, 0]
         total += compute_batch_total_bleu(E, E_cand, target_sos, target_eos)
-    return total / n_data
+    return total / n_data  # normalize by number of samples
