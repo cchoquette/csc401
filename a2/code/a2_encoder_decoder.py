@@ -223,6 +223,11 @@ class DecoderWithAttention(DecoderWithoutAttention):
         # e_t (output) is of shape (S, N)
         # h = h.permute(1, 2, 0)  # (N, S, 2*H) so batches front
         # Dot product attention below, uncomment for the bonus.
+        #htilde = htilde_t.unsqueeze(1)  # (N, 1, 2*H)
+        #energy = torch.bmm(h, htilde)  # (N, S, 1)
+        #energy.squeeze(2).transpose(0, 1)  # (S, N) as desired
+        #return energy
+        # scaled Dot product attention below, uncomment for the bonus.
         #scale = torch.inverse(
         #  torch.sqrt(
         #    torch.tensor([self.hidden_state_size * 2]).to(h.device)))
