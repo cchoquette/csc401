@@ -106,8 +106,9 @@ class DecoderWithoutAttention(DecoderBase):
         # relevant pytorch modules: torch.cat
 
         mid = self.hidden_state_size // 2
-        return torch.cat([h[-1, F_lens, :mid],
-                          h[0, F_lens, mid:]], dim=1).squeeze(1)
+        f = h[F_lens - 1, :, :mid]  # forward hidden state
+        b = h[0, F_lens, mid:]  # backward hidden state
+        return torch.cat([f.squeeze(), b.squeeze()], dim=1)
 
     def get_current_rnn_input(self, E_tm1, htilde_tm1, h, F_lens):
         # determine the input to the rnn for *just* the current time step.
