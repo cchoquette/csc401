@@ -5,8 +5,8 @@
 #SBATCH --cpus-per-task=1                    # CPU cores/threads
 #SBATCH --qos=normal                        
 #SBATCH --partition=gpu
-#SBATCH --output=train_%a.out # specify output file
-#SBATCH --error=train_%a.err  # specify error file
+#SBATCH --output=train_%a_%A.out # specify output file
+#SBATCH --error=train_%a_%A.err  # specify error file
 #SBATCH --array=1,2
 
 eval "$(conda shell.bash hook)"
@@ -30,16 +30,16 @@ done
 
 
 if [[ "${SLURM_ARRAY_TASK_ID}" == "1" ]]; then
-	python -u a2_run.py vocab $TRAIN e vocab.e.gz
-	python -u a2_run.py vocab $TRAIN f vocab.f.gz
-	python -u a2_run.py split $TRAIN train.txt.gz dev.txt.gz
-    python -u a2_run.py train $TRAIN vocab.e.gz vocab.f.gz train.txt.gz dev.txt.gz model_wo_att.pt.gz --cell-type $CELL_TYPE --device cuda
-    python -u a2_run.py test $TEST vocab.e.gz vocab.f.gz model_wo_att.pt.gz --device cuda
+	python -u a2_run.py vocab $TRAIN e vocab"${expid}".e.gz
+	python -u a2_run.py vocab $TRAIN f vocab"${expid}".f.gz
+	python -u a2_run.py split $TRAIN train"${expid}".txt.gz dev"${expid}".txt.gz
+    python -u a2_run.py train $TRAIN vocab"${expid}".e.gz vocab"${expid}".f.gz train"${expid}".txt.gz dev"${expid}".txt.gz model_wo_att.pt.gz --cell-type $CELL_TYPE --device cuda
+    python -u a2_run.py test $TEST vocab"${expid}".e.gz vocab"${expid}".f.gz model_wo_att.pt.gz --device cuda
 elif [[ "${SLURM_ARRAY_TASK_ID}" == "2" ]]; then
-	python -u a2_run.py vocab $TRAIN e vocab2.e.gz
-	python -u a2_run.py vocab $TRAIN f vocab2.f.gz
-    python -u a2_run.py split $TRAIN train2.txt.gz dev2.txt.gz
-    python -u a2_run.py train $TRAIN vocab2.e.gz vocab2.f.gz train2.txt.gz dev2.txt.gz model_w_att.pt.gz --cell-type $CELL_TYPE --with-attention --device cuda
-    python -u a2_run.py test $TEST vocab2.e.gz vocab2.f.gz model_w_att.pt.gz --cell-type $CELL_TYPE --with-attention --device cuda
+	python -u a2_run.py vocab $TRAIN e vocab2"${expid}".e.gz
+	python -u a2_run.py vocab $TRAIN f vocab2"${expid}".f.gz
+    python -u a2_run.py split $TRAIN train2"${expid}".txt.gz dev2"${expid}".txt.gz
+    python -u a2_run.py train $TRAIN vocab2"${expid}".e.gz vocab2"${expid}".f.gz train2"${expid}".txt.gz dev2"${expid}".txt.gz model_w_att.pt.gz --cell-type $CELL_TYPE --with-attention --device cuda
+    python -u a2_run.py test $TEST vocab2"${expid}".e.gz vocab2"${expid}".f.gz model_w_att.pt.gz --cell-type $CELL_TYPE --with-attention --device cuda
 fi
 
