@@ -1,10 +1,20 @@
+Without Attention
+Epoch 1: loss=3.3663745014851174, BLEU=0.23737006275392983
+Epoch 2: loss=2.4521490265947183, BLEU=0.26252119949579816 
+Epoch 3: loss=2.000662117531353, BLEU=0.27695319436238974
+Epoch 4: loss=1.6592181945894158, BLEU=0.28606852731807453 
+Epoch 5: loss=1.3983864366064147, BLEU=0.2890663768434226 
 
-
-
+With Attention
+Epoch 1: loss=3.0735585617452665, BLEU=0.28418299133632263 
+Epoch 2: loss=2.063284093866767, BLEU=0.31085046181010145 
+Epoch 3: loss=1.6068889948856582, BLEU=0.3202476219022787 
+Epoch 4: loss=1.2897637289706712, BLEU=0.3253698921157571 
+Epoch 5: loss=1.0655587373919586, BLEU=0.32269140756963705
 
 2. 
-Without attention, average Test Set BLEU:
-With attention, average Test Set BLEU:
+Without attention, The average BLEU score over the test set was 0.32310813895756785 
+With attention, The average BLEU score over the test set was 0.3623632550416011 
 
 3.
 We notice that the average BLEU results on the test set are higher than the training set. This result is unpexpected in that we almost always expect that test set accuracy to be (at best, marginally) worse than the training set results. Seeing this result, there are a few explanations. 1. The test set is 'easier' than the training set. In general, given a large enough dataset sampled i.i.d from our natural underlying distribution this should not be the case. However, it is possible that the samples lead to reduced bias and are more 'prototypical' leading to better results. 2. This could mean that the model generalizes very well and has learned to well model its training set. Given tha tthe BLEU scores are far from 1, it could be possible that we are generalizing well and simply not overfitting to the training or test data (though have not yet achieved a great model to gets high BLEU scores). 3. It could be our evaluationg method itself, in that we only do a single holdout test set evaluation; we should try using k-fold cross validation, other cell types, and other parameter values to see if this result is consistent. 4. Step 3 will also help solve this, but it is entirely possible that this result is a fluke. Likely, the test set accuracies have some variance and so some evaluations might lead to higher test accuracies. Averaging over multiple seeds is a common and good solution for this problem.
