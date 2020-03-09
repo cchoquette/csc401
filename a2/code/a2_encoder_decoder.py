@@ -230,7 +230,7 @@ class DecoderWithAttention(DecoderWithoutAttention):
         # scaled Dot product attention below, uncomment for the bonus.
         #scale = torch.inverse(
         #  torch.sqrt(
-        #    torch.tensor([self.hidden_state_size * 2]).to(h.device)))
+        #    torch.tensor(self.hidden_state_size * 2, type=torch.float64).to(h.device)))
         #htilde = htilde_t.unsqueeze(1)  # (N, 1, 2*H)
         #energy = scale * torch.bmm(h, htilde)  # (N, S, 1)
         #energy.squeeze(2).transpose(0, 1)  # (S, N) as desired
