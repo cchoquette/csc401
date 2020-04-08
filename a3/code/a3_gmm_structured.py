@@ -155,11 +155,9 @@ def train(speaker, X, M=8, epsilon=0.0, maxIter=20):
     """ Train a model for the given speaker. Returns the theta (omega, mu, sigma)"""
     myTheta = theta(speaker, M, X.shape[1])
     # set omega
-    np.random.seed(2)
     omega = np.exp(np.random.rand(M, 1))
     myTheta.reset_omega(omega / omega.sum())
     # set mu
-    np.random.seed(2)
     myTheta.reset_mu(X[np.random.randint(0, X.shape[0], M)])  # pick random points
     # set sigma
     sig_shape = (M, X.shape[1])
@@ -204,7 +202,7 @@ def test(mfcc, correctID, models, k=5):
         log_bs = compute_logs(mfcc, M, model, just_bs=True)
         l = logLik(log_bs, model)
         loglikes.append(l)
-    print(loglikes)
+    # print(loglikes)
     best_indices = np.argsort(-np.array(loglikes))  # -'ves to reverse order
     bestModel = best_indices[0]
     if k > 0:
