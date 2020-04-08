@@ -154,7 +154,7 @@ def train(speaker, X, M=8, epsilon=0.0, maxIter=20):
     # set sigma
     sig_shape = (M, X.shape[1])
     sig = np.reciprocal(np.arange(1, M+1))
-    myTheta.reset_Sigma(np.broadcast_to(np.expand_dims(sig, 0), sig_shape))
+    myTheta.reset_Sigma(np.broadcast_to(np.expand_dims(sig, 1), sig_shape))
 
 
     b = np.zeros([M, T])
