@@ -3,7 +3,8 @@ import numpy as np
 import os, fnmatch
 import random
 
-dataDir = "/u/cs401/A3/data/"
+# dataDir = "/u/cs401/A3/data/"
+dataDir = "/scratch/ssd001/home/cchoquet/csc401/a3/code/data/"
 
 
 def logexp(a, b):
