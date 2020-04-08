@@ -1,0 +1,2940 @@
+S-29A
+<__main__.theta object at 0x7fcbe5206490> -46.92917547934141
+<__main__.theta object at 0x7fcbe5002610> -47.813813834029936
+<__main__.theta object at 0x7fcbe4ff9610> -48.01483214805339
+<__main__.theta object at 0x7fcbe4ff9b50> -48.063187290966006
+<__main__.theta object at 0x7fcbe5072910> -48.147936067723435
+
+S-5A
+<__main__.theta object at 0x7fcbe5072710> -48.08261267333836
+<__main__.theta object at 0x7fcbe5206490> -49.40038785334493
+<__main__.theta object at 0x7fcbe5002610> -49.44563199856393
+<__main__.theta object at 0x7fcbe5002650> -49.48861677968494
+<__main__.theta object at 0x7fcbe5072910> -49.63486685873307
+
+S-21A
+<__main__.theta object at 0x7fcbe508a3d0> -47.15152789169782
+<__main__.theta object at 0x7fcbe5002650> -48.67920517334684
+<__main__.theta object at 0x7fcbe5072910> -48.77665239494708
+<__main__.theta object at 0x7fcbe4ff9290> -48.80090555380419
+<__main__.theta object at 0x7fcbe4ff9b50> -48.98780419212261
+
+S-32D
+<__main__.theta object at 0x7fcbe508a850> -47.01249471389433
+<__main__.theta object at 0x7fcbe4ff9210> -48.256462991186034
+<__main__.theta object at 0x7fcbe5001890> -48.59821092272525
+<__main__.theta object at 0x7fcbe508a1d0> -48.67379532984186
+<__main__.theta object at 0x7fcbe5001550> -48.71673564579318
+
+S-30B
+<__main__.theta object at 0x7fcbe4ff9190> -47.75456177185959
+<__main__.theta object at 0x7fcbe508a1d0> -48.817030749385346
+<__main__.theta object at 0x7fcbe5001890> -49.12797598720137
+<__main__.theta object at 0x7fcbe5001d50> -49.182659479290194
+<__main__.theta object at 0x7fcbe5002e10> -49.25241906758208
+
+S-17A
+<__main__.theta object at 0x7fcbe4ff9290> -48.87504209900801
+<__main__.theta object at 0x7fcbe508a3d0> -50.33916193190362
+<__main__.theta object at 0x7fcbe5001850> -50.92083271540783
+<__main__.theta object at 0x7fcbe5001f10> -50.987127677930665
+<__main__.theta object at 0x7fcbe5001890> -51.407534151937575
+
+S-8D
+<__main__.theta object at 0x7fcbe5001650> -47.903103391327846
+<__main__.theta object at 0x7fcbe508ab50> -49.10279018266281
+<__main__.theta object at 0x7fcbe4ff9190> -49.1569073820444
+<__main__.theta object at 0x7fcbe508a1d0> -49.15776241466558
+<__main__.theta object at 0x7fcbe5072b10> -49.24497536705996
+
+S-10B
+<__main__.theta object at 0x7fcbe5001d50> -48.80593639027974
+<__main__.theta object at 0x7fcbe5001e50> -50.49685351730215
+<__main__.theta object at 0x7fcbe5001890> -50.61901984469501
+<__main__.theta object at 0x7fcbe508a1d0> -50.78482557983688
+<__main__.theta object at 0x7fcbe4ff9190> -50.785554437099385
+
+S-24D
+<__main__.theta object at 0x7fcbe5001850> -47.1494493916527
+<__main__.theta object at 0x7fcbe4ff9290> -49.69055205514616
+<__main__.theta object at 0x7fcbe4ff9610> -49.90392545880881
+<__main__.theta object at 0x7fcbe508a3d0> -50.21281511168435
+<__main__.theta object at 0x7fcbe5001f10> -50.216987093419704
+
+S-23C
+<__main__.theta object at 0x7fcbe5001fd0> -45.73097691203289
+<__main__.theta object at 0x7fcbe4ff9410> -47.98781666144897
+<__main__.theta object at 0x7fcbe5072b10> -48.13920802071015
+<__main__.theta object at 0x7fcbe508a850> -48.18169888238558
+<__main__.theta object at 0x7fcbe5001550> -48.18705356712651
+
+S-7C
+<__main__.theta object at 0x7fcbe5001890> -47.95276401215893
+<__main__.theta object at 0x7fcbe5072b10> -49.68268922201184
+<__main__.theta object at 0x7fcbe5001550> -49.97646525055828
+<__main__.theta object at 0x7fcbe4ff9410> -49.999370804498504
+<__main__.theta object at 0x7fcbe4ff9210> -50.01578392270553
+
+S-18B
+<__main__.theta object at 0x7fcbe4ff9b50> -46.50640664949516
+<__main__.theta object at 0x7fcbe4ff9610> -47.90146631416988
+<__main__.theta object at 0x7fcbe5002910> -48.10122757264542
+<__main__.theta object at 0x7fcbe5072910> -48.260831011363464
+<__main__.theta object at 0x7fcbe5002650> -48.28474895367393
+
+S-15C
+<__main__.theta object at 0x7fcbe4ff9210> -48.02145744334704
+<__main__.theta object at 0x7fcbe508a850> -48.80196869781615
+<__main__.theta object at 0x7fcbe5001550> -49.1346027320664
+<__main__.theta object at 0x7fcbe5001890> -49.31298534457073
+<__main__.theta object at 0x7fcbe5002e10> -49.486611597920145
+
+S-12D
+<__main__.theta object at 0x7fcbe508ac50> -47.25925011508478
+<__main__.theta object at 0x7fcbe4ff9b50> -48.1314567999647
+<__main__.theta object at 0x7fcbe5002910> -48.5050708883198
+<__main__.theta object at 0x7fcbe4ff9610> -48.55505459925961
+<__main__.theta object at 0x7fcbe5001750> -48.647924163431725
+
+S-26B
+<__main__.theta object at 0x7fcbe508a1d0> -47.95591764009029
+<__main__.theta object at 0x7fcbe4ff9190> -48.739143187061735
+<__main__.theta object at 0x7fcbe508a850> -49.555624060343376
+<__main__.theta object at 0x7fcbe5001d50> -49.7310739890804
+<__main__.theta object at 0x7fcbe4ff9e10> -49.792386452651826
+
+S-2B
+<__main__.theta object at 0x7fcbe5072b10> -46.43238999832934
+<__main__.theta object at 0x7fcbe508ae90> -47.30392666322457
+<__main__.theta object at 0x7fcbe4ff9410> -47.786994983747256
+<__main__.theta object at 0x7fcbe5001890> -48.00198350033912
+<__main__.theta object at 0x7fcbe4ff9190> -48.384867211888356
+
+S-14B
+<__main__.theta object at 0x7fcbe5002610> -46.760554369412624
+<__main__.theta object at 0x7fcbe5206490> -48.477582059100854
+<__main__.theta object at 0x7fcbe5002650> -48.65310924187173
+<__main__.theta object at 0x7fcbe4ff9b50> -48.76489318906256
+<__main__.theta object at 0x7fcbe5002910> -48.80697344897674
+
+S-27C
+<__main__.theta object at 0x7fcbe5002650> -47.95756710295386
+<__main__.theta object at 0x7fcbe508a3d0> -49.4281825666872
+<__main__.theta object at 0x7fcbe4ff9b50> -49.57327627906604
+<__main__.theta object at 0x7fcbe5002610> -49.623496821711505
+<__main__.theta object at 0x7fcbe5072910> -49.70779347682347
+
+S-20D
+<__main__.theta object at 0x7fcbe5002e10> -47.02494922063658
+<__main__.theta object at 0x7fcbe508a1d0> -48.811676731751156
+<__main__.theta object at 0x7fcbe4ff9190> -48.93669748901633
+<__main__.theta object at 0x7fcbe4ff9210> -48.98313164502122
+<__main__.theta object at 0x7fcbe4ff9e10> -49.0129741917203
+
+S-3C
+<__main__.theta object at 0x7fcbe5002910> -46.58764103120197
+<__main__.theta object at 0x7fcbe4ff9b50> -47.95317075642983
+<__main__.theta object at 0x7fcbe4ff9610> -48.01123598196732
+<__main__.theta object at 0x7fcbe5072910> -48.1851498059202
+<__main__.theta object at 0x7fcbe5002610> -48.384746025703556
+
+S-4D
+<__main__.theta object at 0x7fcbe5072910> -47.7351242790518
+<__main__.theta object at 0x7fcbe508a3d0> -49.38614569768219
+<__main__.theta object at 0x7fcbe5002650> -49.489205166115894
+<__main__.theta object at 0x7fcbe5001f10> -49.605893577700556
+<__main__.theta object at 0x7fcbe4ff9b50> -49.76729996565618
+
+S-28D
+<__main__.theta object at 0x7fcbe5072a10> -46.9046491295125
+<__main__.theta object at 0x7fcbe5001f10> -48.750357848508585
+<__main__.theta object at 0x7fcbe4ff9b50> -48.79909848616736
+<__main__.theta object at 0x7fcbe5072910> -48.83519701783329
+<__main__.theta object at 0x7fcbe4ff9290> -49.0295124100534
+
+S-16D
+<__main__.theta object at 0x7fcbe508ab50> -47.35817143335489
+<__main__.theta object at 0x7fcbe5002e10> -49.26030732094913
+<__main__.theta object at 0x7fcbe4ff9410> -49.405705137457154
+<__main__.theta object at 0x7fcbe5001890> -49.42377522460451
+<__main__.theta object at 0x7fcbe4ff9210> -49.49489765311335
+
+S-11C
+<__main__.theta object at 0x7fcbe508ae90> -46.80021658749003
+<__main__.theta object at 0x7fcbe5072b10> -47.99946976669186
+<__main__.theta object at 0x7fcbe5001890> -48.56573326278696
+<__main__.theta object at 0x7fcbe4ff9410> -48.58914320197176
+<__main__.theta object at 0x7fcbe5001550> -48.86878980665317
+
+S-22B
+<__main__.theta object at 0x7fcbe4ff9410> -46.831607949840134
+<__main__.theta object at 0x7fcbe5072b10> -48.014900717358714
+<__main__.theta object at 0x7fcbe508a850> -48.39671334526105
+<__main__.theta object at 0x7fcbe5001890> -48.44609917799524
+<__main__.theta object at 0x7fcbe5001550> -48.5054033894903
+
+S-19C
+<__main__.theta object at 0x7fcbe4ff9050> -46.040153349129476
+<__main__.theta object at 0x7fcbe4ff9b50> -47.46152339178749
+<__main__.theta object at 0x7fcbe4ff9610> -47.55349936512116
+<__main__.theta object at 0x7fcbe5001750> -47.62373871295862
+<__main__.theta object at 0x7fcbe5072910> -47.77489851427117
+
+S-6B
+<__main__.theta object at 0x7fcbe5001550> -47.31941946830562
+<809423156
+<__main__.theta object at 0x7f5e62a3c690> -48.40907908397173
+<__main__.theta object at 0x7f5e629b3b50> -48.733156437754566
+<__main__.theta object at 0x7f5e629ab6d0> -49.0392120848597
+<__main__.theta object at 0x7f5e629b3d50> -49.24328420800172
+
+S-1A
+<__main__.theta object at 0x7f5e629b3c50> -46.19318573931704
+<__main__.theta object at 0x7f5e629abe50> -47.11386162121248
+<__main__.theta object at 0x7f5e629abe10> -47.63285550498615
+<__main__.theta object at 0x7f5e629b4f10> -48.21553529842151
+<__main__.theta object at 0x7f5e62a3c690> -48.240681659716266
+
+S-25A
+<__main__.theta object at 0x7f5e629b3690> -47.65501090051229
+<__main__.theta object at 0x7f5e629b3d50> -48.546075005980065
+<__main__.theta object at 0x7f5e62a3c590> -49.00713981452174
+<__main__.theta object at 0x7f5e62a3c690> -49.0785371430011
+<__main__.theta object at 0x7f5e629ab6d0> -49.50137837015739
+
+S-9A
+<__main__.theta object at 0x7f5e629abe50> -47.68782005505704
+<__main__.theta object at 0x7f5e629b3d10> -47.767191653852805
+<__main__.theta object at 0x7f5e62a3c690> -49.161962772146346
+<__main__.theta object at 0x7f5e629abd50> -49.19071483073208
+<__main__.theta object at 0x7f5e629abb50> -49.379155104230804
+
+S-31C
+<__main__.theta object at 0x7f5e629abd90> -48.29178459455865
+<__main__.theta object at 0x7f5e62a3c690> -48.94086984504592
+<__main__.theta object at 0x7f5e629b3d50> -49.42350342604755
+<__main__.theta object at 0x7f5e629ab450> -49.7987131393032
+<__main__.theta object at 0x7f5e62a3cc50> -49.86912286575443
+
+S-13A
+<__main__.theta object at 0x7f5e629abe10> -44.43014317688679
+<__main__.theta object at 0x7f5e629abe50> -44.967083956838486
+<__main__.theta object at 0x7f5e629b3c50> -46.22356846629534
+<__main__.theta object at 0x7f5e629abb50> -46.241390001361225
+<__main__.theta object at 0x7f5e62a3c690> -46.3586217iteration 1 done with l: -1659.686 and delta: 999998340.314
+iteration 2 done with l: -49.454 and delta: 1610.232
+iteration 3 done with l: -49.211 and delta: 0.243
+iteration 4 done with l: -48.992 and delta: 0.22
+iteration 5 done with l: -48.79 and delta: 0.201
+iteration 6 done with l: -48.633 and delta: 0.158
+iteration 7 done with l: -48.504 and delta: 0.129
+iteration 8 done with l: -48.363 and delta: 0.141
+iteration 9 done with l: -48.15 and delta: 0.212
+iteration 10 done with l: -47.946 and delta: 0.205
+iteration 11 done with l: -47.832 and delta: 0.114
+iteration 12 done with l: -47.739 and delta: 0.093
+iteration 13 done with l: -47.648 and delta: 0.091
+iteration 14 done with l: -47.564 and delta: 0.085
+iteration 15 done with l: -47.491 and delta: 0.073
+iteration 16 done with l: -47.438 and delta: 0.053
+iteration 17 done with l: -47.405 and delta: 0.032
+iteration 18 done with l: -47.386 and delta: 0.019
+iteration 19 done with l: -47.375 and delta: 0.012
+iteration 20 done with l: -47.367 and delta: 0.008
+iteration 21 done with l: -47.361 and delta: 0.006
+iteration 22 done with l: -47.356 and delta: 0.005
+iteration 23 done with l: -47.352 and delta: 0.004
+iteration 24 done with l: -47.348 and delta: 0.004
+iteration 25 done with l: -47.344 and delta: 0.004
+iteration 26 done with l: -47.34 and delta: 0.004
+iteration 27 done with l: -47.336 and delta: 0.004
+iteration 28 done with l: -47.332 and delta: 0.004
+iteration 29 done with l: -47.329 and delta: 0.004
+iteration 30 done with l: -47.326 and delta: 0.003
+iteration 31 done with l: -47.323 and delta: 0.003
+iteration 32 done with l: -47.319 and delta: 0.003
+iteration 33 done with l: -47.316 and delta: 0.003
+iteration 34 done with l: -47.312 and delta: 0.004
+iteration 35 done with l: -47.306 and delta: 0.006
+iteration 36 done with l: -47.296 and delta: 0.01
+iteration 37 done with l: -47.282 and delta: 0.014
+iteration 38 done with l: -47.266 and delta: 0.016
+iteration 39 done with l: -47.252 and delta: 0.015
+iteration 40 done with l: -47.24 and delta: 0.012
+iteration 41 done with l: -47.231 and delta: 0.009
+iteration 42 done with l: -47.224 and delta: 0.007
+iteration 43 done with l: -47.217 and delta: 0.006
+iteration 44 done with l: -47.212 and delta: 0.005
+iteration 45 done with l: -47.207 and delta: 0.005
+iteration 46 done with l: -47.203 and delta: 0.004
+iteration 47 done with l: -47.2 and delta: 0.003
+iteration 48 done with l: -47.197 and delta: 0.003
+iteration 49 done with l: -47.195 and delta: 0.002
+iteration 50 done with l: -47.193 and delta: 0.002
+iteration 51 done with l: -47.191 and delta: 0.002
+iteration 52 done with l: -47.188 and delta: 0.002
+iteration 53 done with l: -47.186 and delta: 0.003
+iteration 54 done with l: -47.183 and delta: 0.003
+iteration 55 done with l: -47.179 and delta: 0.004
+iteration 56 done with l: -47.173 and delta: 0.006
+iteration 57 done with l: -47.163 and delta: 0.009
+iteration 58 done with l: -47.148 and delta: 0.015
+iteration 59 done with l: -47.126 and delta: 0.022
+iteration 60 done with l: -47.109 and delta: 0.017
+iteration 61 done with l: -47.104 and delta: 0.006
+iteration 62 done with l: -47.102 and delta: 0.002
+iteration 63 done with l: -47.102 and delta: 0.001
+iteration 64 done with l: -47.101 and delta: 0.0
+iteration 65 done with l: -47.101 and delta: 0.0
+iteration 66 done with l: -47.101 and delta: 0.0
+iteration 67 done with l: -47.101 and delta: 0.0
+iteration 68 done with l: -47.101 and delta: 0.0
+iteration 69 done with l: -47.101 and delta: 0.0
+iteration 70 done with l: -47.1 and delta: 0.0
+iteration 71 done with l: -47.1 and delta: 0.0
+iteration 72 done with l: -47.1 and delta: 0.0
+iteration 73 done with l: -47.1 and delta: 0.0
+iteration 74 done with l: -47.1 and delta: 0.0
+iteration 75 done with l: -47.1 and delta: 0.0
+iteration 76 done with l: -47.1 and delta: 0.0
+iteration 77 done with l: -47.1 and delta: 0.0
+iteration 78 done with l: -47.1 and delta: 0.0
+iteration 79 done with l: -47.1 and delta: 0.0
+iteration 80 done with l: -47.1 and delta: 0.0
+iteration 1 done with l: -1675.231 and delta: 999998324.769
+iteration 2 done with l: -49.019 and delta: 1626.213
+iteration 3 done with l: -48.344 and delta: 0.674
+iteration 4 done with l: -47.993 and delta: 0.351
+iteration 5 done with l: -47.907 and delta: 0.086
+iteration 6 done with l: -47.877 and delta: 0.029
+iteration 7 done with l: -47.861 and delta: 0.016
+iteration 8 done with l: -47.851 and delta: 0.01
+iteration 9 done with l: -47.844 and delta: 0.007
+iteration 10 done with l: -47.838 and delta: 0.005
+iteration 11 done with l: -47.834 and delta: 0.005
+iteration 12 done with l: -47.829 and delta: 0.005
+iteration 13 done with l: -47.824 and delta: 0.006
+iteration 14 done with l: -47.816 and delta: 0.008
+iteration 15 done with l: -47.804 and delta: 0.011
+iteration 16 done with l: -47.788 and delta: 0.016
+iteration 17 done with l: -47.768 and delta: 0.02
+iteration 18 done with l: -47.743 and delta: 0.026
+iteration 19 done with l: -47.71 and delta: 0.033
+iteration 20 done with l: -47.67 and delta: 0.04
+iteration 21 done with l: -47.632 and delta: 0.038
+iteration 22 done with l: -47.603 and delta: 0.028
+iteration 23 done with l: -47.584 and delta: 0.019
+iteration 24 done with l: -47.571 and delta: 0.014
+iteration 25 done with l: -47.56 and delta: 0.01
+iteration 26 done with l: -47.553 and delta: 0.007
+iteration 27 done with l: -47.548 and delta: 0.005
+iteration 28 done with l: -47.545 and delta: 0.003
+iteration 29 done with l: -47.542 and delta: 0.003
+iteration 30 done with l: -47.54 and delta: 0.002
+iteration 31 done with l: -47.539 and delta: 0.002
+iteration 32 done with l: -47.537 and delta: 0.001
+iteration 33 done with l: -47.536 and delta: 0.001
+iteration 34 done with l: -47.535 and delta: 0.001
+iteration 35 done with l: -47.533 and delta: 0.001
+iteration 36 done with l: -47.532 and delta: 0.001
+iteration 37 done with l: -47.531 and delta: 0.001
+iteration 38 done with l: -47.53 and delta: 0.001
+iteration 39 done with l: -47.529 and delta: 0.001
+iteration 40 done with l: -47.529 and delta: 0.001
+iteration 41 done with l: -47.528 and delta: 0.001
+iteration 42 done with l: -47.527 and delta: 0.001
+iteration 43 done with l: -47.526 and delta: 0.001
+iteration 44 done with l: -47.526 and delta: 0.001
+iteration 45 done with l: -47.525 and delta: 0.0
+iteration 46 done with l: -47.525 and delta: 0.0
+iteration 47 done with l: -47.525 and delta: 0.0
+iteration 48 done with l: -47.524 and delta: 0.0
+iteration 49 done with l: -47.524 and delta: 0.0
+iteration 50 done with l: -47.524 and delta: 0.0
+iteration 51 done with l: -47.524 and delta: 0.0
+iteration 52 done with l: -47.523 and delta: 0.0
+iteration 53 done with l: -47.523 and delta: 0.0
+iteration 54 done with l: -47.523 and delta: 0.0
+iteration 55 done with l: -47.523 and delta: 0.0
+iteration 56 done with l: -47.523 and delta: 0.0
+iteration 57 done with l: -47.523 and delta: 0.0
+iteration 58 done with l: -47.523 and delta: 0.0
+iteration 59 done with l: -47.523 and delta: 0.0
+iteration 60 done with l: -47.522 and delta: 0.0
+iteration 61 done with l: -47.522 and delta: 0.0
+iteration 62 done with l: -47.522 and delta: 0.0
+iteration 63 done with l: -47.522 and delta: 0.0
+iteration 64 done with l: -47.522 and delta: 0.0
+iteration 65 done with l: -47.522 and delta: 0.0
+iteration 66 done with l: -47.522 and delta: 0.0
+iteration 67 done with l: -47.522 and delta: 0.0
+iteration 68 done with l: -47.522 and delta: 0.0
+iteration 69 done with l: -47.521 and delta: 0.0
+iteration 70 done with l: -47.521 and delta: 0.0
+iteration 71 done with l: -47.521 and delta: 0.0
+iteration 72 done with l: -47.521 and delta: 0.0
+iteration 73 done with l: -47.521 and delta: 0.0
+iteration 74 done with l: -47.521 and delta: 0.0
+iteration 75 done with l: -47.521 and delta: 0.0
+iteration 76 done with l: -47.521 and delta: 0.0
+iteration 77 done with l: -47.52 and delta: 0.0
+iteration 78 done with l: -47.52 and delta: 0.0
+iteration 79 done with l: -47.52 and delta: 0.0
+iteration 80 done with l: -47.52 and delta: 0.0
+iteration 1 done with l: -1771.85 and delta: 999998228.15
+iteration 2 done with l: -49.46 and delta: 1722.39
+iteration 3 done with l: -48.596 and delta: 0.864
+iteration 4 done with l: -48.3 and delta: 0.296
+iteration 5 done with l: -48.177 and delta: 0.123
+iteration 6 done with l: -48.092 and delta: 0.085
+iteration 7 done with l: -48.018 and delta: 0.074
+iteration 8 done with l: -47.96 and delta: 0.058
+iteration 9 done with l: -47.922 and delta: 0.038
+iteration 10 done with l: -47.897 and delta: 0.025
+iteration 11 done with l: -47.882 and delta: 0.015
+iteration 12 done with l: -47.872 and delta: 0.01
+iteration 13 done with l: -47.864 and delta: 0.007
+iteration 14 done with l: -47.858 and delta: 0.007
+iteration 15 done with l: -47.85 and delta: 0.007
+iteration 16 done with l: -47.841 and delta: 0.009
+iteration 17 done with l: -47.829 and delta: 0.012
+iteration 18 done with l: -47.814 and delta: 0.015
+iteration 19 done with l: -47.796 and delta: 0.017
+iteration 20 done with l: -47.779 and delta: 0.018
+iteration 21 done with l: -47.762 and delta: 0.016
+iteration 22 done with l: -47.749 and delta: 0.013
+iteration 23 done with l: -47.74 and delta: 0.01
+iteration 24 done with l: -47.733 and delta: 0.007
+iteration 25 done with l: -47.727 and delta: 0.005
+iteration 26 done with l: -47.723 and delta: 0.004
+iteration 27 done with l: -47.72 and delta: 0.003
+iteration 28 done with l: -47.717 and delta: 0.003
+iteration 29 done with l: -47.714 and delta: 0.002
+iteration 30 done with l: -47.712 and delta: 0.002
+iteration 31 done with l: -47.71 and delta: 0.002
+iteration 32 done with l: -47.709 and delta: 0.001
+iteration 33 done with l: -47.708 and delta: 0.001
+iteration 34 done with l: -47.707 and delta: 0.001
+iteration 35 done with l: -47.706 and delta: 0.001
+iteration 36 done with l: -47.705 and delta: 0.001
+iteration 37 done with l: -47.704 and delta: 0.001
+iteration 38 done with l: -47.704 and delta: 0.001
+iteration 39 done with l: -47.703 and delta: 0.001
+iteration 40 done with l: -47.703 and delta: 0.001
+iteration 41 done with l: -47.702 and delta: 0.0
+iteration 42 done with l: -47.702 and delta: 0.0
+iteration 43 done with l: -47.701 and delta: 0.0
+iteration 44 done with l: -47.701 and delta: 0.0
+iteration 45 done with l: -47.701 and delta: 0.0
+iteration 46 done with l: -47.701 and delta: 0.0
+iteration 47 done with l: -47.7 and delta: 0.0
+iteration 48 done with l: -47.7 and delta: 0.0
+iteration 49 done with l: -47.7 and delta: 0.0
+iteration 50 done with l: -47.7 and delta: 0.0
+iteration 51 done with l: -47.7 and delta: 0.0
+iteration 52 done with l: -47.699 and delta: 0.0
+iteration 53 done with l: -47.699 and delta: 0.0
+iteration 54 done with l: -47.699 and delta: 0.0
+iteration 55 done with l: -47.699 and delta: 0.0
+iteration 56 done with l: -47.699 and delta: 0.0
+iteration 57 done with l: -47.699 and delta: 0.0
+iteration 58 done with l: -47.699 and delta: 0.0
+iteration 59 done with l: -47.699 and delta: 0.0
+iteration 60 done with l: -47.699 and delta: 0.0
+iteration 61 done with l: -47.699 and delta: 0.0
+iteration 62 done with l: -47.698 and delta: 0.0
+iteration 63 done with l: -47.698 and delta: 0.0
+iteration 64 done with l: -47.698 and delta: 0.0
+iteration 65 done with l: -47.698 and delta: 0.0
+iteration 66 done with l: -47.698 and delta: 0.0
+iteration 67 done with l: -47.698 and delta: 0.0
+iteration 68 done with l: -47.698 and delta: 0.0
+iteration 69 done with l: -47.698 and delta: 0.0
+iteration 70 done with l: -47.698 and delta: 0.0
+iteration 71 done with l: -47.698 and delta: 0.0
+iteration 72 done with l: -47.698 and delta: 0.0
+iteration 73 done with l: -47.698 and delta: 0.0
+iteration 74 done with l: -47.698 and delta: 0.0
+iteration 75 done with l: -47.698 and delta: 0.0
+iteration 76 done with l: -47.698 and delta: 0.0
+iteration 77 done with l: -47.698 and delta: 0.0
+iteration 78 done with l: -47.698 and delta: 0.0
+iteration 79 done with l: -47.698 and delta: 0.0
+iteration 80 done with l: -47.698 and delta: 0.0
+iteration 1 done with l: -1885.026 and delta: 999998114.974
+iteration 2 done with l: -49.98 and delta: 1835.046
+iteration 3 done with l: -49.695 and delta: 0.285
+iteration 4 done with l: -49.225 and delta: 0.47
+iteration 5 done with l: -48.615 and delta: 0.61
+iteration 6 done with l: -48.177 and delta: 0.438
+iteration 7 done with l: -48.021 and delta: 0.156
+iteration 8 done with l: -47.912 and delta: 0.109
+iteration 9 done with l: -47.803 and delta: 0.109
+iteration 10 done with l: -47.726 and delta: 0.077
+iteration 11 done with l: -47.668 and delta: 0.058
+iteration 12 done with l: -47.619 and delta: 0.049
+iteration 13 done with l: -47.575 and delta: 0.044
+iteration 14 done with l: -47.535 and delta: 0.04
+iteration 15 done with l: -47.5 and delta: 0.036
+iteration 16 done with l: -47.469 and delta: 0.031
+iteration 17 done with l: -47.44 and delta: 0.028
+iteration 18 done with l: -47.412 and delta: 0.028
+iteration 19 done with l: -47.385 and delta: 0.028
+iteration 20 done with l: -47.359 and delta: 0.026
+iteration 21 done with l: -47.335 and delta: 0.023
+iteration 22 done with l: -47.314 and delta: 0.021
+iteration 23 done with l: -47.296 and delta: 0.018
+iteration 24 done with l: -47.28 and delta: 0.016
+iteration 25 done with l: -47.266 and delta: 0.014
+iteration 26 done with l: -47.253 and delta: 0.013
+iteration 27 done with l: -47.24 and delta: 0.013
+iteration 28 done with l: -47.223 and delta: 0.017
+iteration 29 done with l: -47.2 and delta: 0.024
+iteration 30 done with l: -47.164 and delta: 0.036
+iteration 31 done with l: -47.124 and delta: 0.04
+iteration 32 done with l: -47.104 and delta: 0.02
+iteration 33 done with l: -47.099 and delta: 0.006
+iteration 34 done with l: -47.096 and delta: 0.002
+iteration 35 done with l: -47.095 and delta: 0.001
+iteration 36 done with l: -47.095 and delta: 0.001
+iteration 37 done with l: -47.094 and delta: 0.001
+iteration 38 done with l: -47.094 and delta: 0.0
+iteration 39 done with l: -47.093 and delta: 0.0
+iteration 40 done with l: -47.093 and delta: 0.0
+iteration 41 done with l: -47.093 and delta: 0.0
+iteration 42 done with l: -47.093 and delta: 0.0
+iteration 43 done with l: -47.093 and delta: 0.0
+iteration 44 done with l: -47.093 and delta: 0.0
+iteration 45 done with l: -47.093 and delta: 0.0
+iteration 46 done with l: -47.093 and delta: 0.0
+iteration 47 done with l: -47.093 and delta: 0.0
+iteration 48 done with l: -47.093 and delta: 0.0
+iteration 49 done with l: -47.093 and delta: 0.0
+iteration 50 done with l: -47.093 and delta: 0.0
+iteration 51 done with l: -47.093 and delta: 0.0
+iteration 52 done with l: -47.093 and delta: 0.0
+iteration 53 done with l: -47.093 and delta: 0.0
+iteration 54 done with l: -47.093 and delta: 0.0
+iteration 55 done with l: -47.093 and delta: 0.0
+iteration 56 done with l: -47.093 and delta: 0.0
+iteration 57 done with l: -47.093 and delta: 0.0
+iteration 58 done with l: -47.093 and delta: 0.0
+iteration 59 done with l: -47.093 and delta: 0.0
+iteration 60 done with l: -47.093 and delta: 0.0
+iteration 61 done with l: -47.093 and delta: 0.0
+iteration 62 done with l: -47.093 and delta: 0.0
+iteration 63 done with l: -47.093 and delta: 0.0
+iteration 64 done with l: -47.093 and delta: 0.0
+iteration 65 done with l: -47.093 and delta: 0.0
+iteration 66 done with l: -47.093 and delta: 0.0
+iteration 67 done with l: -47.093 and delta: 0.0
+iteration 68 done with l: -47.093 and delta: 0.0
+iteration 69 done with l: -47.093 and delta: 0.0
+iteration 70 done with l: -47.093 and delta: 0.0
+iteration 71 done with l: -47.093 and delta: 0.0
+iteration 72 done with l: -47.093 and delta: 0.0
+iteration 73 done with l: -47.093 and delta: 0.0
+iteration 74 done with l: -47.093 and delta: 0.0
+iteration 75 done with l: -47.093 and delta: 0.0
+iteration 76 done with l: -47.093 and delta: 0.0
+iteration 77 done with l: -47.093 and delta: 0.0
+iteration 78 done with l: -47.093 and delta: 0.0
+iteration 79 done with l: -47.093 and delta: 0.0
+iteration 80 done with l: -47.093 and delta: 0.0
+iteration 1 done with l: -2039.336 and delta: 999997960.664
+iteration 2 done with l: -48.702 and delta: 1990.635
+iteration 3 done with l: -48.314 and delta: 0.387
+iteration 4 done with l: -48.163 and delta: 0.152
+iteration 5 done with l: -48.047 and delta: 0.115
+iteration 6 done with l: -47.953 and delta: 0.095
+iteration 7 done with l: -47.878 and delta: 0.075
+iteration 8 done with l: -47.811 and delta: 0.067
+iteration 9 done with l: -47.756 and delta: 0.055
+iteration 10 done with l: -47.716 and delta: 0.04
+iteration 11 done with l: -47.687 and delta: 0.029
+iteration 12 done with l: -47.666 and delta: 0.022
+iteration 13 done with l: -47.648 and delta: 0.018
+iteration 14 done with l: -47.633 and delta: 0.015
+iteration 15 done with l: -47.62 and delta: 0.013
+iteration 16 done with l: -47.609 and delta: 0.011
+iteration 17 done with l: -47.6 and delta: 0.009
+iteration 18 done with l: -47.592 and delta: 0.008
+iteration 19 done with l: -47.586 and delta: 0.006
+iteration 20 done with l: -47.581 and delta: 0.005
+iteration 21 done with l: -47.577 and delta: 0.004
+iteration 22 done with l: -47.573 and delta: 0.003
+iteration 23 done with l: -47.571 and delta: 0.003
+iteration 24 done with l: -47.568 and delta: 0.002
+iteration 25 done with l: -47.566 and delta: 0.002
+iteration 26 done with l: -47.565 and delta: 0.002
+iteration 27 done with l: -47.563 and delta: 0.002
+iteration 28 done with l: -47.561 and delta: 0.002
+iteration 29 done with l: -47.56 and delta: 0.001
+iteration 30 done with l: -47.559 and delta: 0.001
+iteration 31 done with l: -47.557 and delta: 0.001
+iteration 32 done with l: -47.556 and delta: 0.001
+iteration 33 done with l: -47.555 and delta: 0.001
+iteration 34 done with l: -47.554 and delta: 0.001
+iteration 35 done with l: -47.554 and delta: 0.001
+iteration 36 done with l: -47.553 and delta: 0.001
+iteration 37 done with l: -47.553 and delta: 0.0
+iteration 38 done with l: -47.552 and delta: 0.0
+iteration 39 done with l: -47.552 and delta: 0.0
+iteration 40 done with l: -47.552 and delta: 0.0
+iteration 41 done with l: -47.552 and delta: 0.0
+iteration 42 done with l: -47.552 and delta: 0.0
+iteration 43 done with l: -47.552 and delta: 0.0
+iteration 44 done with l: -47.552 and delta: 0.0
+iteration 45 done with l: -47.552 and delta: 0.0
+iteration 46 done with l: -47.552 and delta: 0.0
+iteration 47 done with l: -47.552 and delta: 0.0
+iteration 48 done with l: -47.552 and delta: 0.0
+iteration 49 done with l: -47.552 and delta: 0.0
+iteration 50 done with l: -47.552 and delta: 0.0
+iteration 51 done with l: -47.552 and delta: 0.0
+iteration 52 done with l: -47.552 and delta: 0.0
+iteration 53 done with l: -47.552 and delta: 0.0
+iteration 54 done with l: -47.552 and delta: 0.0
+iteration 55 done with l: -47.552 and delta: 0.0
+iteration 56 done with l: -47.552 and delta: 0.0
+iteration 57 done with l: -47.552 and delta: 0.0
+iteration 58 done with l: -47.552 and delta: -0.0
+iteration 1 done with l: -2558.04 and delta: 999997441.96
+iteration 2 done with l: -49.525 and delta: 2508.515
+iteration 3 done with l: -49.334 and delta: 0.191
+iteration 4 done with l: -49.189 and delta: 0.144
+iteration 5 done with l: -49.06 and delta: 0.129
+iteration 6 done with l: -48.955 and delta: 0.105
+iteration 7 done with l: -48.88 and delta: 0.075
+iteration 8 done with l: -48.834 and delta: 0.046
+iteration 9 done with l: -48.794 and delta: 0.04
+iteration 10 done with l: -48.736 and delta: 0.058
+iteration 11 done with l: -48.65 and delta: 0.086
+iteration 12 done with l: -48.568 and delta: 0.082
+iteration 13 done with l: -48.517 and delta: 0.051
+iteration 14 done with l: -48.489 and delta: 0.029
+iteration 15 done with l: -48.472 and delta: 0.017
+iteration 16 done with l: -48.461 and delta: 0.01
+iteration 17 done with l: -48.455 and delta: 0.007
+iteration 18 done with l: -48.45 and delta: 0.004
+iteration 19 done with l: -48.447 and delta: 0.003
+iteration 20 done with l: -48.445 and delta: 0.002
+iteration 21 done with l: -48.443 and delta: 0.002
+iteration 22 done with l: -48.441 and delta: 0.002
+iteration 23 done with l: -48.44 and delta: 0.001
+iteration 24 done with l: -48.438 and delta: 0.001
+iteration 25 done with l: -48.437 and delta: 0.001
+iteration 26 done with l: -48.435 and delta: 0.001
+iteration 27 done with l: -48.434 and delta: 0.001
+iteration 28 done with l: -48.432 and delta: 0.002
+iteration 29 done with l: -48.431 and delta: 0.002
+iteration 30 done with l: -48.429 and delta: 0.002
+iteration 31 done with l: -48.427 and delta: 0.002
+iteration 32 done with l: -48.425 and delta: 0.002
+iteration 33 done with l: -48.423 and delta: 0.002
+iteration 34 done with l: -48.421 and delta: 0.002
+iteration 35 done with l: -48.418 and delta: 0.002
+iteration 36 done with l: -48.416 and delta: 0.003
+iteration 37 done with l: -48.413 and delta: 0.003
+iteration 38 done with l: -48.41 and delta: 0.003
+iteration 39 done with l: -48.407 and delta: 0.003
+iteration 40 done with l: -48.404 and delta: 0.003
+iteration 41 done with l: -48.401 and delta: 0.003
+iteration 42 done with l: -48.398 and delta: 0.003
+iteration 43 done with l: -48.395 and delta: 0.003
+iteration 44 done with l: -48.393 and delta: 0.002
+iteration 45 done with l: -48.391 and delta: 0.002
+iteration 46 done with l: -48.389 and delta: 0.002
+iteration 47 done with l: -48.387 and delta: 0.002
+iteration 48 done with l: -48.386 and delta: 0.001
+iteration 49 done with l: -48.384 and delta: 0.001
+iteration 50 done with l: -48.383 and delta: 0.001
+iteration 51 done with l: -48.383 and delta: 0.001
+iteration 52 done with l: -48.382 and delta: 0.001
+iteration 53 done with l: -48.381 and delta: 0.001
+iteration 54 done with l: -48.381 and delta: 0.001
+iteration 55 done with l: -48.38 and delta: 0.0
+iteration 56 done with l: -48.38 and delta: 0.0
+iteration 57 done with l: -48.38 and delta: 0.0
+iteration 58 done with l: -48.379 and delta: 0.0
+iteration 59 done with l: -48.379 and delta: 0.0
+iteration 60 done with l: -48.379 and delta: 0.0
+iteration 61 done with l: -48.379 and delta: 0.0
+iteration 62 done with l: -48.378 and delta: 0.0
+iteration 63 done with l: -48.378 and delta: 0.0
+iteration 64 done with l: -48.378 and delta: 0.0
+iteration 65 done with l: -48.378 and delta: 0.0
+iteration 66 done with l: -48.378 and delta: 0.0
+iteration 67 done with l: -48.377 and delta: 0.0
+iteration 68 done with l: -48.377 and delta: 0.0
+iteration 69 done with l: -48.377 and delta: 0.0
+iteration 70 done with l: -48.377 and delta: 0.0
+iteration 71 done with l: -48.377 and delta: 0.0
+iteration 72 done with l: -48.377 and delta: 0.0
+iteration 73 done with l: -48.377 and delta: 0.0
+iteration 74 done with l: -48.377 and delta: 0.0
+iteration 75 done with l: -48.377 and delta: 0.0
+iteration 76 done with l: -48.377 and delta: 0.0
+iteration 77 done with l: -48.377 and delta: 0.0
+iteration 78 done with l: -48.376 and delta: 0.0
+iteration 79 done with l: -48.376 and delta: 0.0
+iteration 80 done with l: -48.376 and delta: 0.0
+iteration 1 done with l: -1696.042 and delta: 999998303.958
+iteration 2 done with l: -48.781 and delta: 1647.261
+iteration 3 done with l: -48.441 and delta: 0.34
+iteration 4 done with l: -48.082 and delta: 0.359
+iteration 5 done with l: -47.863 and delta: 0.219
+iteration 6 done with l: -47.764 and delta: 0.099
+iteration 7 done with l: -47.715 and delta: 0.049
+iteration 8 done with l: -47.683 and delta: 0.032
+iteration 9 done with l: -47.655 and delta: 0.028
+iteration 10 done with l: -47.626 and delta: 0.03
+iteration 11 done with l: -47.595 and delta: 0.031
+iteration 12 done with l: -47.56 and delta: 0.035
+iteration 13 done with l: -47.521 and delta: 0.039
+iteration 14 done with l: -47.482 and delta: 0.039
+iteration 15 done with l: -47.449 and delta: 0.033
+iteration 16 done with l: -47.429 and delta: 0.021
+iteration 17 done with l: -47.415 and delta: 0.014
+iteration 18 done with l: -47.403 and delta: 0.012
+iteration 19 done with l: -47.392 and delta: 0.012
+iteration 20 done with l: -47.379 and delta: 0.012
+iteration 21 done with l: -47.367 and delta: 0.012
+iteration 22 done with l: -47.356 and delta: 0.012
+iteration 23 done with l: -47.346 and delta: 0.01
+iteration 24 done with l: -47.338 and delta: 0.008
+iteration 25 done with l: -47.332 and delta: 0.006
+iteration 26 done with l: -47.327 and delta: 0.005
+iteration 27 done with l: -47.324 and delta: 0.003
+iteration 28 done with l: -47.321 and delta: 0.002
+iteration 29 done with l: -47.32 and delta: 0.002
+iteration 30 done with l: -47.318 and delta: 0.001
+iteration 31 done with l: -47.317 and delta: 0.001
+iteration 32 done with l: -47.317 and delta: 0.001
+iteration 33 done with l: -47.316 and delta: 0.001
+iteration 34 done with l: -47.315 and delta: 0.001
+iteration 35 done with l: -47.315 and delta: 0.001
+iteration 36 done with l: -47.314 and delta: 0.001
+iteration 37 done with l: -47.314 and delta: 0.001
+iteration 38 done with l: -47.313 and delta: 0.001
+iteration 39 done with l: -47.312 and delta: 0.001
+iteration 40 done with l: -47.312 and delta: 0.001
+iteration 41 done with l: -47.311 and delta: 0.001
+iteration 42 done with l: -47.31 and delta: 0.001
+iteration 43 done with l: -47.31 and delta: 0.001
+iteration 44 done with l: -47.309 and delta: 0.001
+iteration 45 done with l: -47.308 and delta: 0.001
+iteration 46 done with l: -47.308 and delta: 0.001
+iteration 47 done with l: -47.307 and delta: 0.001
+iteration 48 done with l: -47.307 and delta: 0.0
+iteration 49 done with l: -47.306 and delta: 0.0
+iteration 50 done with l: -47.306 and delta: 0.0
+iteration 51 done with l: -47.306 and delta: 0.0
+iteration 52 done with l: -47.305 and delta: 0.0
+iteration 53 done with l: -47.305 and delta: 0.0
+iteration 54 done with l: -47.305 and delta: 0.0
+iteration 55 done with l: -47.304 and delta: 0.0
+iteration 56 done with l: -47.304 and delta: 0.0
+iteration 57 done with l: -47.304 and delta: 0.0
+iteration 58 done with l: -47.304 and delta: 0.0
+iteration 59 done with l: -47.303 and delta: 0.0
+iteration 60 done with l: -47.303 and delta: 0.0
+iteration 61 done with l: -47.303 and delta: 0.0
+iteration 62 done with l: -47.303 and delta: 0.0
+iteration 63 done with l: -47.303 and delta: 0.0
+iteration 64 done with l: -47.302 and delta: 0.0
+iteration 65 done with l: -47.302 and delta: 0.0
+iteration 66 done with l: -47.302 and delta: 0.0
+iteration 67 done with l: -47.302 and delta: 0.0
+iteration 68 done with l: -47.302 and delta: 0.0
+iteration 69 done with l: -47.302 and delta: 0.0
+iteration 70 done with l: -47.302 and delta: 0.0
+iteration 71 done with l: -47.301 and delta: 0.0
+iteration 72 done with l: -47.301 and delta: 0.0
+iteration 73 done with l: -47.301 and delta: 0.0
+iteration 74 done with l: -47.301 and delta: 0.0
+iteration 75 done with l: -47.301 and delta: 0.0
+iteration 76 done with l: -47.301 and delta: 0.0
+iteration 77 done with l: -47.301 and delta: 0.0
+iteration 78 done with l: -47.3 and delta: 0.0
+iteration 79 done with l: -47.3 and delta: 0.0
+iteration 80 done with l: -47.3 and delta: 0.0
+iteration 1 done with l: -2263.453 and delta: 999997736.547
+iteration 2 done with l: -50.981 and delta: 2212.471
+iteration 3 done with l: -50.437 and delta: 0.544
+iteration 4 done with l: -49.86 and delta: 0.577
+iteration 5 done with l: -49.698 and delta: 0.162
+iteration 6 done with l: -49.661 and delta: 0.037
+iteration 7 done with l: -49.627 and delta: 0.034
+iteration 8 done with l: -49.59 and delta: 0.038
+iteration 9 done with l: -49.553 and delta: 0.036
+iteration 10 done with l: -49.522 and delta: 0.031
+iteration 11 done with l: -49.493 and delta: 0.029
+iteration 12 done with l: -49.463 and delta: 0.029
+iteration 13 done with l: -49.432 and delta: 0.032
+iteration 14 done with l: -49.396 and delta: 0.036
+iteration 15 done with l: -49.352 and delta: 0.043
+iteration 16 done with l: -49.301 and delta: 0.051
+iteration 17 done with l: -49.248 and delta: 0.052
+iteration 18 done with l: -49.204 and delta: 0.045
+iteration 19 done with l: -49.167 and delta: 0.037
+iteration 20 done with l: -49.136 and delta: 0.031
+iteration 21 done with l: -49.111 and delta: 0.024
+iteration 22 done with l: -49.094 and delta: 0.017
+iteration 23 done with l: -49.083 and delta: 0.012
+iteration 24 done with l: -49.075 and delta: 0.008
+iteration 25 done with l: -49.07 and delta: 0.005
+iteration 26 done with l: -49.066 and delta: 0.003
+iteration 27 done with l: -49.064 and delta: 0.002
+iteration 28 done with l: -49.062 and delta: 0.002
+iteration 29 done with l: -49.061 and delta: 0.001
+iteration 30 done with l: -49.06 and delta: 0.001
+iteration 31 done with l: -49.059 and delta: 0.001
+iteration 32 done with l: -49.058 and delta: 0.001
+iteration 33 done with l: -49.057 and delta: 0.001
+iteration 34 done with l: -49.056 and delta: 0.001
+iteration 35 done with l: -49.055 and delta: 0.001
+iteration 36 done with l: -49.055 and delta: 0.001
+iteration 37 done with l: -49.054 and delta: 0.001
+iteration 38 done with l: -49.053 and delta: 0.001
+iteration 39 done with l: -49.052 and delta: 0.001
+iteration 40 done with l: -49.051 and delta: 0.001
+iteration 41 done with l: -49.05 and delta: 0.001
+iteration 42 done with l: -49.049 and delta: 0.001
+iteration 43 done with l: -49.047 and delta: 0.002
+iteration 44 done with l: -49.045 and delta: 0.002
+iteration 45 done with l: -49.043 and delta: 0.002
+iteration 46 done with l: -49.04 and delta: 0.003
+iteration 47 done with l: -49.037 and delta: 0.003
+iteration 48 done with l: -49.033 and delta: 0.004
+iteration 49 done with l: -49.027 and delta: 0.005
+iteration 50 done with l: -49.02 and delta: 0.007
+iteration 51 done with l: -49.011 and delta: 0.009
+iteration 52 done with l: -49.0 and delta: 0.011
+iteration 53 done with l: -48.987 and delta: 0.012
+iteration 54 done with l: -48.975 and delta: 0.013
+iteration 55 done with l: -48.962 and delta: 0.013
+iteration 56 done with l: -48.95 and delta: 0.012
+iteration 57 done with l: -48.939 and delta: 0.011
+iteration 58 done with l: -48.93 and delta: 0.009
+iteration 59 done with l: -48.922 and delta: 0.008
+iteration 60 done with l: -48.916 and delta: 0.006
+iteration 61 done with l: -48.911 and delta: 0.005
+iteration 62 done with l: -48.907 and delta: 0.004
+iteration 63 done with l: -48.904 and delta: 0.003
+iteration 64 done with l: -48.901 and delta: 0.003
+iteration 65 done with l: -48.899 and delta: 0.002
+iteration 66 done with l: -48.897 and delta: 0.002
+iteration 67 done with l: -48.895 and delta: 0.002
+iteration 68 done with l: -48.894 and delta: 0.001
+iteration 69 done with l: -48.893 and delta: 0.001
+iteration 70 done with l: -48.892 and delta: 0.001
+iteration 71 done with l: -48.892 and delta: 0.001
+iteration 72 done with l: -48.891 and delta: 0.001
+iteration 73 done with l: -48.891 and delta: 0.0
+iteration 74 done with l: -48.89 and delta: 0.0
+iteration 75 done with l: -48.89 and delta: 0.0
+iteration 76 done with l: -48.89 and delta: 0.0
+iteration 77 done with l: -48.89 and delta: 0.0
+iteration 78 done with l: -48.89 and delta: 0.0
+iteration 79 done with l: -48.89 and delta: 0.0
+iteration 80 done with l: -48.89 and delta: 0.0
+iteration 1 done with l: -1503.503 and delta: 999998496.497
+iteration 2 done with l: -49.288 and delta: 1454.214
+iteration 3 done with l: -48.935 and delta: 0.354
+iteration 4 done with l: -48.479 and delta: 0.456
+iteration 5 done with l: -47.908 and delta: 0.571
+iteration 6 done with l: -47.66 and delta: 0.248
+iteration 7 done with l: -47.56 and delta: 0.1
+iteration 8 done with l: -47.5 and delta: 0.06
+iteration 9 done with l: -47.457 and delta: 0.043
+iteration 10 done with l: -47.422 and delta: 0.035
+iteration 11 done with l: -47.391 and delta: 0.031
+iteration 12 done with l: -47.361 and delta: 0.03
+iteration 13 done with l: -47.333 and delta: 0.029
+iteration 14 done with l: -47.308 and delta: 0.024
+iteration 15 done with l: -47.29 and delta: 0.019
+iteration 16 done with l: -47.275 and delta: 0.014
+iteration 17 done with l: -47.263 and delta: 0.012
+iteration 18 done with l: -47.253 and delta: 0.01
+iteration 19 done with l: -47.244 and delta: 0.009
+iteration 20 done with l: -47.235 and delta: 0.009
+iteration 21 done with l: -47.228 and delta: 0.008
+iteration 22 done with l: -47.221 and delta: 0.007
+iteration 23 done with l: -47.215 and delta: 0.006
+iteration 24 done with l: -47.21 and delta: 0.005
+iteration 25 done with l: -47.206 and delta: 0.004
+iteration 26 done with l: -47.202 and delta: 0.003
+iteration 27 done with l: -47.199 and delta: 0.003
+iteration 28 done with l: -47.196 and delta: 0.003
+iteration 29 done with l: -47.193 and delta: 0.003
+iteration 30 done with l: -47.19 and delta: 0.003
+iteration 31 done with l: -47.185 and delta: 0.005
+iteration 32 done with l: -47.175 and delta: 0.01
+iteration 33 done with l: -47.153 and delta: 0.022
+iteration 34 done with l: -47.129 and delta: 0.024
+iteration 35 done with l: -47.106 and delta: 0.023
+iteration 36 done with l: -47.081 and delta: 0.025
+iteration 37 done with l: -47.053 and delta: 0.028
+iteration 38 done with l: -47.02 and delta: 0.033
+iteration 39 done with l: -46.989 and delta: 0.031
+iteration 40 done with l: -46.969 and delta: 0.02
+iteration 41 done with l: -46.956 and delta: 0.013
+iteration 42 done with l: -46.947 and delta: 0.009
+iteration 43 done with l: -46.939 and delta: 0.008
+iteration 44 done with l: -46.931 and delta: 0.007
+iteration 45 done with l: -46.924 and delta: 0.007
+iteration 46 done with l: -46.917 and delta: 0.007
+iteration 47 done with l: -46.909 and delta: 0.008
+iteration 48 done with l: -46.901 and delta: 0.008
+iteration 49 done with l: -46.894 and delta: 0.007
+iteration 50 done with l: -46.887 and delta: 0.007
+iteration 51 done with l: -46.88 and delta: 0.007
+iteration 52 done with l: -46.872 and delta: 0.007
+iteration 53 done with l: -46.865 and delta: 0.008
+iteration 54 done with l: -46.856 and delta: 0.009
+iteration 55 done with l: -46.847 and delta: 0.009
+iteration 56 done with l: -46.838 and delta: 0.009
+iteration 57 done with l: -46.829 and delta: 0.009
+iteration 58 done with l: -46.821 and delta: 0.007
+iteration 59 done with l: -46.816 and delta: 0.006
+iteration 60 done with l: -46.811 and delta: 0.005
+iteration 61 done with l: -46.807 and delta: 0.004
+iteration 62 done with l: -46.804 and delta: 0.003
+iteration 63 done with l: -46.802 and delta: 0.002
+iteration 64 done with l: -46.801 and delta: 0.002
+iteration 65 done with l: -46.799 and delta: 0.001
+iteration 66 done with l: -46.798 and delta: 0.001
+iteration 67 done with l: -46.797 and delta: 0.001
+iteration 68 done with l: -46.797 and delta: 0.001
+iteration 69 done with l: -46.796 and delta: 0.001
+iteration 70 done with l: -46.795 and delta: 0.001
+iteration 71 done with l: -46.795 and delta: 0.0
+iteration 72 done with l: -46.794 and delta: 0.0
+iteration 73 done with l: -46.794 and delta: 0.0
+iteration 74 done with l: -46.794 and delta: 0.0
+iteration 75 done with l: -46.793 and delta: 0.0
+iteration 76 done with l: -46.793 and delta: 0.0
+iteration 77 done with l: -46.792 and delta: 0.001
+iteration 78 done with l: -46.791 and delta: 0.001
+iteration 79 done with l: -46.79 and delta: 0.001
+iteration 80 done with l: -46.789 and delta: 0.002
+iteration 1 done with l: -2313.09 and delta: 999997686.91
+iteration 2 done with l: -48.403 and delta: 2264.687
+iteration 3 done with l: -47.267 and delta: 1.136
+iteration 4 done with l: -46.761 and delta: 0.506
+iteration 5 done with l: -46.494 and delta: 0.267
+iteration 6 done with l: -46.302 and delta: 0.192
+iteration 7 done with l: -46.218 and delta: 0.084
+iteration 8 done with l: -46.173 and delta: 0.045
+iteration 9 done with l: -46.12 and delta: 0.053
+iteration 10 done with l: -46.033 and delta: 0.087
+iteration 11 done with l: -45.907 and delta: 0.126
+iteration 12 done with l: -45.801 and delta: 0.106
+iteration 13 done with l: -45.749 and delta: 0.052
+iteration 14 done with l: -45.725 and delta: 0.024
+iteration 15 done with l: -45.709 and delta: 0.016
+iteration 16 done with l: -45.695 and delta: 0.014
+iteration 17 done with l: -45.68 and delta: 0.015
+iteration 18 done with l: -45.659 and delta: 0.02
+iteration 19 done with l: -45.631 and delta: 0.029
+iteration 20 done with l: -45.605 and delta: 0.026
+iteration 21 done with l: -45.59 and delta: 0.015
+iteration 22 done with l: -45.581 and delta: 0.008
+iteration 23 done with l: -45.576 and delta: 0.005
+iteration 24 done with l: -45.572 and delta: 0.004
+iteration 25 done with l: -45.569 and delta: 0.003
+iteration 26 done with l: -45.566 and delta: 0.003
+iteration 27 done with l: -45.563 and delta: 0.003
+iteration 28 done with l: -45.56 and delta: 0.003
+iteration 29 done with l: -45.557 and delta: 0.003
+iteration 30 done with l: -45.553 and delta: 0.003
+iteration 31 done with l: -45.549 and delta: 0.004
+iteration 32 done with l: -45.544 and delta: 0.005
+iteration 33 done with l: -45.538 and delta: 0.006
+iteration 34 done with l: -45.53 and delta: 0.008
+iteration 35 done with l: -45.524 and delta: 0.006
+iteration 36 done with l: -45.52 and delta: 0.004
+iteration 37 done with l: -45.518 and delta: 0.002
+iteration 38 done with l: -45.517 and delta: 0.001
+iteration 39 done with l: -45.516 and delta: 0.001
+iteration 40 done with l: -45.516 and delta: 0.0
+iteration 41 done with l: -45.516 and delta: 0.0
+iteration 42 done with l: -45.516 and delta: 0.0
+iteration 43 done with l: -45.516 and delta: 0.0
+iteration 44 done with l: -45.516 and delta: 0.0
+iteration 45 done with l: -45.516 and delta: 0.0
+iteration 46 done with l: -45.516 and delta: 0.0
+iteration 47 done with l: -45.516 and delta: 0.0
+iteration 48 done with l: -45.516 and delta: 0.0
+iteration 49 done with l: -45.516 and delta: 0.0
+iteration 50 done with l: -45.516 and delta: 0.0
+iteration 51 done with l: -45.516 and delta: 0.0
+iteration 52 done with l: -45.516 and delta: 0.0
+iteration 53 done with l: -45.516 and delta: 0.0
+iteration 54 done with l: -45.516 and delta: 0.0
+iteration 55 done with l: -45.516 and delta: 0.0
+iteration 56 done with l: -45.516 and delta: 0.0
+iteration 57 done with l: -45.516 and delta: 0.0
+iteration 58 done with l: -45.516 and delta: 0.0
+iteration 59 done with l: -45.516 and delta: 0.0
+iteration 60 done with l: -45.516 and delta: 0.0
+iteration 61 done with l: -45.516 and delta: 0.0
+iteration 62 done with l: -45.516 and delta: 0.0
+iteration 63 done with l: -45.516 and delta: 0.0
+iteration 64 done with l: -45.516 and delta: 0.0
+iteration 65 done with l: -45.516 and delta: 0.0
+iteration 66 done with l: -45.516 and delta: 0.0
+iteration 67 done with l: -45.516 and delta: 0.0
+iteration 68 done with l: -45.516 and delta: 0.0
+iteration 69 done with l: -45.516 and delta: 0.0
+iteration 70 done with l: -45.516 and delta: 0.0
+iteration 71 done with l: -45.516 and delta: 0.0
+iteration 72 done with l: -45.516 and delta: 0.0
+iteration 73 done with l: -45.516 and delta: 0.0
+iteration 74 done with l: -45.516 and delta: 0.0
+iteration 75 done with l: -45.516 and delta: 0.0
+iteration 76 done with l: -45.516 and delta: -0.0
+iteration 1 done with l: -2044.32 and delta: 999997955.68
+iteration 2 done with l: -49.009 and delta: 1995.312
+iteration 3 done with l: -48.745 and delta: 0.264
+iteration 4 done with l: -48.635 and delta: 0.11
+iteration 5 done with l: -48.55 and delta: 0.085
+iteration 6 done with l: -48.467 and delta: 0.083
+iteration 7 done with l: -48.406 and delta: 0.061
+iteration 8 done with l: -48.371 and delta: 0.035
+iteration 9 done with l: -48.347 and delta: 0.024
+iteration 10 done with l: -48.324 and delta: 0.022
+iteration 11 done with l: -48.302 and delta: 0.023
+iteration 12 done with l: -48.278 and delta: 0.024
+iteration 13 done with l: -48.253 and delta: 0.025
+iteration 14 done with l: -48.228 and delta: 0.025
+iteration 15 done with l: -48.204 and delta: 0.023
+iteration 16 done with l: -48.185 and delta: 0.019
+iteration 17 done with l: -48.169 and delta: 0.016
+iteration 18 done with l: -48.153 and delta: 0.015
+iteration 19 done with l: -48.139 and delta: 0.015
+iteration 20 done with l: -48.125 and delta: 0.014
+iteration 21 done with l: -48.111 and delta: 0.014
+iteration 22 done with l: -48.097 and delta: 0.014
+iteration 23 done with l: -48.084 and delta: 0.014
+iteration 24 done with l: -48.07 and delta: 0.013
+iteration 25 done with l: -48.059 and delta: 0.011
+iteration 26 done with l: -48.051 and delta: 0.008
+iteration 27 done with l: -48.046 and delta: 0.005
+iteration 28 done with l: -48.042 and delta: 0.004
+iteration 29 done with l: -48.039 and delta: 0.003
+iteration 30 done with l: -48.037 and delta: 0.002
+iteration 31 done with l: -48.035 and delta: 0.002
+iteration 32 done with l: -48.032 and delta: 0.002
+iteration 33 done with l: -48.03 and delta: 0.002
+iteration 34 done with l: -48.028 and delta: 0.002
+iteration 35 done with l: -48.026 and delta: 0.002
+iteration 36 done with l: -48.024 and delta: 0.002
+iteration 37 done with l: -48.023 and delta: 0.001
+iteration 38 done with l: -48.022 and delta: 0.001
+iteration 39 done with l: -48.022 and delta: 0.001
+iteration 40 done with l: -48.021 and delta: 0.0
+iteration 41 done with l: -48.021 and delta: 0.0
+iteration 42 done with l: -48.021 and delta: 0.0
+iteration 43 done with l: -48.021 and delta: 0.0
+iteration 44 done with l: -48.02 and delta: 0.0
+iteration 45 done with l: -48.02 and delta: 0.0
+iteration 46 done with l: -48.02 and delta: 0.0
+iteration 47 done with l: -48.02 and delta: 0.0
+iteration 48 done with l: -48.02 and delta: 0.0
+iteration 49 done with l: -48.02 and delta: 0.0
+iteration 50 done with l: -48.02 and delta: 0.0
+iteration 51 done with l: -48.02 and delta: 0.0
+iteration 52 done with l: -48.02 and delta: 0.0
+iteration 53 done with l: -48.02 and delta: 0.0
+iteration 54 done with l: -48.02 and delta: 0.0
+iteration 55 done with l: -48.02 and delta: 0.0
+iteration 56 done with l: -48.02 and delta: 0.0
+iteration 57 done with l: -48.02 and delta: 0.0
+iteration 58 done with l: -48.02 and delta: 0.0
+iteration 59 done with l: -48.02 and delta: 0.0
+iteration 60 done with l: -48.02 and delta: 0.0
+iteration 61 done with l: -48.02 and delta: 0.0
+iteration 62 done with l: -48.02 and delta: 0.0
+iteration 63 done with l: -48.02 and delta: 0.0
+iteration 64 done with l: -48.02 and delta: 0.0
+iteration 65 done with l: -48.02 and delta: 0.0
+iteration 66 done with l: -48.02 and delta: 0.0
+iteration 67 done with l: -48.02 and delta: 0.0
+iteration 68 done with l: -48.02 and delta: 0.0
+iteration 69 done with l: -48.02 and delta: 0.0
+iteration 70 done with l: -48.02 and delta: 0.0
+iteration 71 done with l: -48.02 and delta: 0.0
+iteration 72 done with l: -48.02 and delta: 0.0
+iteration 73 done with l: -48.02 and delta: 0.0
+iteration 74 done with l: -48.02 and delta: 0.0
+iteration 75 done with l: -48.02 and delta: 0.0
+iteration 76 done with l: -48.02 and delta: 0.0
+iteration 77 done with l: -48.02 and delta: 0.0
+iteration 78 done with l: -48.02 and delta: 0.0
+iteration 79 done with l: -48.02 and delta: 0.0
+iteration 80 done with l: -48.02 and delta: 0.0
+iteration 1 done with l: -1927.204 and delta: 999998072.796
+iteration 2 done with l: -48.6 and delta: 1878.605
+iteration 3 done with l: -48.105 and delta: 0.495
+iteration 4 done with l: -47.778 and delta: 0.327
+iteration 5 done with l: -47.619 and delta: 0.158
+iteration 6 done with l: -47.5 and delta: 0.12
+iteration 7 done with l: -47.384 and delta: 0.115
+iteration 8 done with l: -47.311 and delta: 0.073
+iteration 9 done with l: -47.267 and delta: 0.044
+iteration 10 done with l: -47.236 and delta: 0.031
+iteration 11 done with l: -47.213 and delta: 0.023
+iteration 12 done with l: -47.196 and delta: 0.017
+iteration 13 done with l: -47.183 and delta: 0.013
+iteration 14 done with l: -47.174 and delta: 0.01
+iteration 15 done with l: -47.166 and delta: 0.007
+iteration 16 done with l: -47.16 and delta: 0.006
+iteration 17 done with l: -47.155 and delta: 0.005
+iteration 18 done with l: -47.151 and delta: 0.005
+iteration 19 done with l: -47.146 and delta: 0.004
+iteration 20 done with l: -47.142 and delta: 0.004
+iteration 21 done with l: -47.138 and delta: 0.004
+iteration 22 done with l: -47.133 and delta: 0.004
+iteration 23 done with l: -47.129 and delta: 0.004
+iteration 24 done with l: -47.125 and delta: 0.004
+iteration 25 done with l: -47.121 and delta: 0.004
+iteration 26 done with l: -47.117 and delta: 0.004
+iteration 27 done with l: -47.114 and delta: 0.004
+iteration 28 done with l: -47.11 and delta: 0.003
+iteration 29 done with l: -47.107 and delta: 0.003
+iteration 30 done with l: -47.103 and delta: 0.004
+iteration 31 done with l: -47.099 and delta: 0.004
+iteration 32 done with l: -47.096 and delta: 0.004
+iteration 33 done with l: -47.092 and delta: 0.004
+iteration 34 done with l: -47.088 and delta: 0.004
+iteration 35 done with l: -47.085 and delta: 0.004
+iteration 36 done with l: -47.081 and delta: 0.004
+iteration 37 done with l: -47.077 and delta: 0.004
+iteration 38 done with l: -47.073 and delta: 0.004
+iteration 39 done with l: -47.068 and delta: 0.004
+iteration 40 done with l: -47.065 and delta: 0.004
+iteration 41 done with l: -47.061 and delta: 0.003
+iteration 42 done with l: -47.058 and delta: 0.003
+iteration 43 done with l: -47.056 and delta: 0.002
+iteration 44 done with l: -47.054 and delta: 0.002
+iteration 45 done with l: -47.053 and delta: 0.001
+iteration 46 done with l: -47.052 and delta: 0.001
+iteration 47 done with l: -47.05 and delta: 0.001
+iteration 48 done with l: -47.049 and delta: 0.001
+iteration 49 done with l: -47.047 and delta: 0.002
+iteration 50 done with l: -47.046 and delta: 0.002
+iteration 51 done with l: -47.043 and delta: 0.002
+iteration 52 done with l: -47.04 and delta: 0.003
+iteration 53 done with l: -47.036 and delta: 0.004
+iteration 54 done with l: -47.031 and delta: 0.005
+iteration 55 done with l: -47.024 and delta: 0.007
+iteration 56 done with l: -47.015 and delta: 0.009
+iteration 57 done with l: -47.005 and delta: 0.01
+iteration 58 done with l: -46.994 and delta: 0.011
+iteration 59 done with l: -46.982 and delta: 0.012
+iteration 60 done with l: -46.971 and delta: 0.011
+iteration 61 done with l: -46.961 and delta: 0.01
+iteration 62 done with l: -46.952 and delta: 0.009
+iteration 63 done with l: -46.945 and delta: 0.007
+iteration 64 done with l: -46.939 and delta: 0.006
+iteration 65 done with l: -46.934 and delta: 0.005
+iteration 66 done with l: -46.929 and delta: 0.005
+iteration 67 done with l: -46.925 and delta: 0.004
+iteration 68 done with l: -46.921 and delta: 0.004
+iteration 69 done with l: -46.918 and delta: 0.003
+iteration 70 done with l: -46.916 and delta: 0.003
+iteration 71 done with l: -46.914 and delta: 0.002
+iteration 72 done with l: -46.912 and delta: 0.001
+iteration 73 done with l: -46.912 and delta: 0.001
+iteration 74 done with l: -46.911 and delta: 0.001
+iteration 75 done with l: -46.911 and delta: 0.0
+iteration 76 done with l: -46.911 and delta: 0.0
+iteration 77 done with l: -46.91 and delta: 0.0
+iteration 78 done with l: -46.91 and delta: 0.0
+iteration 79 done with l: -46.91 and delta: 0.0
+iteration 80 done with l: -46.91 and delta: 0.0
+iteration 1 done with l: -2276.774 and delta: 999997723.226
+iteration 2 done with l: -50.65 and delta: 2226.124
+iteration 3 done with l: -50.073 and delta: 0.576
+iteration 4 done with l: -49.538 and delta: 0.535
+iteration 5 done with l: -49.205 and delta: 0.333
+iteration 6 done with l: -48.96 and delta: 0.245
+iteration 7 done with l: -48.821 and delta: 0.139
+iteration 8 done with l: -48.743 and delta: 0.078
+iteration 9 done with l: -48.689 and delta: 0.054
+iteration 10 done with l: -48.641 and delta: 0.048
+iteration 11 done with l: -48.599 and delta: 0.043
+iteration 12 done with l: -48.561 and delta: 0.038
+iteration 13 done with l: -48.526 and delta: 0.035
+iteration 14 done with l: -48.494 and delta: 0.032
+iteration 15 done with l: -48.463 and delta: 0.03
+iteration 16 done with l: -48.436 and delta: 0.028
+iteration 17 done with l: -48.412 and delta: 0.024
+iteration 18 done with l: -48.392 and delta: 0.02
+iteration 19 done with l: -48.375 and delta: 0.016
+iteration 20 done with l: -48.362 and delta: 0.014
+iteration 21 done with l: -48.35 and delta: 0.012
+iteration 22 done with l: -48.34 and delta: 0.01
+iteration 23 done with l: -48.331 and delta: 0.009
+iteration 24 done with l: -48.322 and delta: 0.008
+iteration 25 done with l: -48.314 and delta: 0.008
+iteration 26 done with l: -48.307 and delta: 0.008
+iteration 27 done with l: -48.299 and delta: 0.008
+iteration 28 done with l: -48.29 and delta: 0.009
+iteration 29 done with l: -48.28 and delta: 0.01
+iteration 30 done with l: -48.268 and delta: 0.012
+iteration 31 done with l: -48.253 and delta: 0.015
+iteration 32 done with l: -48.234 and delta: 0.019
+iteration 33 done with l: -48.21 and delta: 0.024
+iteration 34 done with l: -48.181 and delta: 0.029
+iteration 35 done with l: -48.149 and delta: 0.033
+iteration 36 done with l: -48.115 and delta: 0.033
+iteration 37 done with l: -48.084 and delta: 0.031
+iteration 38 done with l: -48.056 and delta: 0.028
+iteration 39 done with l: -48.033 and delta: 0.024
+iteration 40 done with l: -48.013 and delta: 0.02
+iteration 41 done with l: -47.998 and delta: 0.016
+iteration 42 done with l: -47.985 and delta: 0.012
+iteration 43 done with l: -47.976 and delta: 0.009
+iteration 44 done with l: -47.969 and delta: 0.007
+iteration 45 done with l: -47.964 and delta: 0.005
+iteration 46 done with l: -47.96 and delta: 0.004
+iteration 47 done with l: -47.958 and delta: 0.002
+iteration 48 done with l: -47.956 and delta: 0.002
+iteration 49 done with l: -47.954 and delta: 0.001
+iteration 50 done with l: -47.953 and delta: 0.001
+iteration 51 done with l: -47.952 and delta: 0.001
+iteration 52 done with l: -47.952 and delta: 0.001
+iteration 53 done with l: -47.951 and delta: 0.001
+iteration 54 done with l: -47.95 and delta: 0.001
+iteration 55 done with l: -47.95 and delta: 0.001
+iteration 56 done with l: -47.949 and delta: 0.001
+iteration 57 done with l: -47.948 and delta: 0.001
+iteration 58 done with l: -47.947 and delta: 0.001
+iteration 59 done with l: -47.946 and delta: 0.001
+iteration 60 done with l: -47.946 and delta: 0.001
+iteration 61 done with l: -47.945 and delta: 0.001
+iteration 62 done with l: -47.943 and delta: 0.001
+iteration 63 done with l: -47.942 and delta: 0.001
+iteration 64 done with l: -47.94 and delta: 0.002
+iteration 65 done with l: -47.938 and delta: 0.002
+iteration 66 done with l: -47.935 and delta: 0.003
+iteration 67 done with l: -47.931 and delta: 0.004
+iteration 68 done with l: -47.926 and delta: 0.006
+iteration 69 done with l: -47.917 and delta: 0.008
+iteration 70 done with l: -47.905 and delta: 0.013
+iteration 71 done with l: -47.887 and delta: 0.018
+iteration 72 done with l: -47.865 and delta: 0.021
+iteration 73 done with l: -47.845 and delta: 0.021
+iteration 74 done with l: -47.828 and delta: 0.016
+iteration 75 done with l: -47.817 and delta: 0.011
+iteration 76 done with l: -47.81 and delta: 0.007
+iteration 77 done with l: -47.806 and delta: 0.004
+iteration 78 done with l: -47.804 and delta: 0.002
+iteration 79 done with l: -47.803 and delta: 0.001
+iteration 80 done with l: -47.803 and delta: 0.0
+iteration 1 done with l: -1878.875 and delta: 999998121.125
+iteration 2 done with l: -48.095 and delta: 1830.78
+iteration 3 done with l: -47.723 and delta: 0.372
+iteration 4 done with l: -47.316 and delta: 0.407
+iteration 5 done with l: -47.085 and delta: 0.231
+iteration 6 done with l: -46.959 and delta: 0.125
+iteration 7 done with l: -46.857 and delta: 0.102
+iteration 8 done with l: -46.757 and delta: 0.1
+iteration 9 done with l: -46.675 and delta: 0.082
+iteration 10 done with l: -46.634 and delta: 0.041
+iteration 11 done with l: -46.589 and delta: 0.045
+iteration 12 done with l: -46.517 and delta: 0.071
+iteration 13 done with l: -46.449 and delta: 0.068
+iteration 14 done with l: -46.407 and delta: 0.042
+iteration 15 done with l: -46.378 and delta: 0.03
+iteration 16 done with l: -46.348 and delta: 0.03
+iteration 17 done with l: -46.307 and delta: 0.041
+iteration 18 done with l: -46.244 and delta: 0.063
+iteration 19 done with l: -46.166 and delta: 0.077
+iteration 20 done with l: -46.101 and delta: 0.065
+iteration 21 done with l: -46.058 and delta: 0.043
+iteration 22 done with l: -46.033 and delta: 0.025
+iteration 23 done with l: -46.019 and delta: 0.014
+iteration 24 done with l: -46.01 and delta: 0.009
+iteration 25 done with l: -46.001 and delta: 0.009
+iteration 26 done with l: -45.989 and delta: 0.012
+iteration 27 done with l: -45.972 and delta: 0.017
+iteration 28 done with l: -45.955 and delta: 0.017
+iteration 29 done with l: -45.941 and delta: 0.013
+iteration 30 done with l: -45.931 and delta: 0.01
+iteration 31 done with l: -45.923 and delta: 0.008
+iteration 32 done with l: -45.917 and delta: 0.007
+iteration 33 done with l: -45.911 and delta: 0.005
+iteration 34 done with l: -45.907 and delta: 0.004
+iteration 35 done with l: -45.903 and delta: 0.004
+iteration 36 done with l: -45.9 and delta: 0.003
+iteration 37 done with l: -45.898 and delta: 0.002
+iteration 38 done with l: -45.897 and delta: 0.002
+iteration 39 done with l: -45.895 and delta: 0.001
+iteration 40 done with l: -45.894 and delta: 0.001
+iteration 41 done with l: -45.893 and delta: 0.001
+iteration 42 done with l: -45.893 and delta: 0.001
+iteration 43 done with l: -45.892 and delta: 0.001
+iteration 44 done with l: -45.892 and delta: 0.0
+iteration 45 done with l: -45.891 and delta: 0.0
+iteration 46 done with l: -45.891 and delta: 0.0
+iteration 47 done with l: -45.891 and delta: 0.0
+iteration 48 done with l: -45.891 and delta: 0.0
+iteration 49 done with l: -45.891 and delta: 0.0
+iteration 50 done with l: -45.891 and delta: 0.0
+iteration 51 done with l: -45.89 and delta: 0.0
+iteration 52 done with l: -45.89 and delta: 0.0
+iteration 53 done with l: -45.89 and delta: 0.0
+iteration 54 done with l: -45.89 and delta: 0.0
+iteration 55 done with l: -45.89 and delta: 0.0
+iteration 56 done with l: -45.89 and delta: 0.0
+iteration 57 done with l: -45.89 and delta: 0.0
+iteration 58 done with l: -45.89 and delta: 0.0
+iteration 59 done with l: -45.89 and delta: 0.0
+iteration 60 done with l: -45.89 and delta: 0.0
+iteration 61 done with l: -45.89 and delta: 0.0
+iteration 62 done with l: -45.89 and delta: 0.0
+iteration 63 done with l: -45.89 and delta: 0.0
+iteration 64 done with l: -45.89 and delta: 0.0
+iteration 65 done with l: -45.89 and delta: 0.0
+iteration 66 done with l: -45.89 and delta: 0.0
+iteration 67 done with l: -45.89 and delta: 0.0
+iteration 68 done with l: -45.89 and delta: 0.0
+iteration 69 done with l: -45.89 and delta: 0.0
+iteration 70 done with l: -45.89 and delta: 0.0
+iteration 71 done with l: -45.89 and delta: 0.0
+iteration 72 done with l: -45.89 and delta: 0.0
+iteration 73 done with l: -45.89 and delta: 0.0
+iteration 74 done with l: -45.89 and delta: 0.0
+iteration 75 done with l: -45.89 and delta: 0.0
+iteration 76 done with l: -45.89 and delta: 0.0
+iteration 77 done with l: -45.89 and delta: 0.0
+iteration 78 done with l: -45.89 and delta: 0.0
+iteration 79 done with l: -45.89 and delta: 0.0
+iteration 80 done with l: -45.89 and delta: 0.0
+iteration 1 done with l: -2349.841 and delta: 999997650.159
+iteration 2 done with l: -49.232 and delta: 2300.609
+iteration 3 done with l: -48.927 and delta: 0.305
+iteration 4 done with l: -48.725 and delta: 0.202
+iteration 5 done with l: -48.547 and delta: 0.178
+iteration 6 done with l: -48.359 and delta: 0.188
+iteration 7 done with l: -48.173 and delta: 0.186
+iteration 8 done with l: -48.037 and delta: 0.136
+iteration 9 done with l: -47.947 and delta: 0.09
+iteration 10 done with l: -47.889 and delta: 0.058
+iteration 11 done with l: -47.855 and delta: 0.034
+iteration 12 done with l: -47.835 and delta: 0.02
+iteration 13 done with l: -47.822 and delta: 0.013
+iteration 14 done with l: -47.813 and delta: 0.009
+iteration 15 done with l: -47.805 and delta: 0.007
+iteration 16 done with l: -47.799 and delta: 0.006
+iteration 17 done with l: -47.794 and delta: 0.005
+iteration 18 done with l: -47.791 and delta: 0.004
+iteration 19 done with l: -47.787 and delta: 0.003
+iteration 20 done with l: -47.785 and delta: 0.002
+iteration 21 done with l: -47.783 and delta: 0.002
+iteration 22 done with l: -47.782 and delta: 0.001
+iteration 23 done with l: -47.781 and delta: 0.001
+iteration 24 done with l: -47.781 and delta: 0.001
+iteration 25 done with l: -47.781 and delta: 0.0
+iteration 26 done with l: -47.78 and delta: 0.0
+iteration 27 done with l: -47.78 and delta: 0.0
+iteration 28 done with l: -47.78 and delta: 0.0
+iteration 29 done with l: -47.78 and delta: 0.0
+iteration 30 done with l: -47.78 and delta: 0.0
+iteration 31 done with l: -47.78 and delta: 0.0
+iteration 32 done with l: -47.78 and delta: 0.0
+iteration 33 done with l: -47.78 and delta: 0.0
+iteration 34 done with l: -47.78 and delta: 0.0
+iteration 35 done with l: -47.78 and delta: 0.0
+iteration 36 done with l: -47.78 and delta: 0.0
+iteration 37 done with l: -47.78 and delta: 0.0
+iteration 38 done with l: -47.78 and delta: 0.0
+iteration 39 done with l: -47.78 and delta: 0.0
+iteration 40 done with l: -47.78 and delta: 0.0
+iteration 41 done with l: -47.78 and delta: 0.0
+iteration 42 done with l: -47.78 and delta: 0.0
+iteration 43 done with l: -47.78 and delta: 0.0
+iteration 44 done with l: -47.78 and delta: 0.0
+iteration 45 done with l: -47.78 and delta: 0.0
+iteration 46 done with l: -47.78 and delta: 0.0
+iteration 47 done with l: -47.78 and delta: 0.0
+iteration 48 done with l: -47.78 and delta: 0.0
+iteration 49 done with l: -47.78 and delta: 0.0
+iteration 50 done with l: -47.78 and delta: 0.0
+iteration 51 done with l: -47.78 and delta: 0.0
+iteration 52 done with l: -47.779 and delta: 0.0
+iteration 53 done with l: -47.779 and delta: 0.0
+iteration 54 done with l: -47.779 and delta: 0.0
+iteration 55 done with l: -47.779 and delta: 0.0
+iteration 56 done with l: -47.779 and delta: 0.0
+iteration 57 done with l: -47.779 and delta: 0.0
+iteration 58 done with l: -47.779 and delta: 0.0
+iteration 59 done with l: -47.779 and delta: 0.0
+iteration 60 done with l: -47.779 and delta: 0.0
+iteration 61 done with l: -47.779 and delta: 0.0
+iteration 62 done with l: -47.779 and delta: 0.0
+iteration 63 done with l: -47.779 and delta: 0.0
+iteration 64 done with l: -47.779 and delta: 0.0
+iteration 65 done with l: -47.779 and delta: 0.0
+iteration 66 done with l: -47.779 and delta: 0.0
+iteration 67 done with l: -47.779 and delta: 0.0
+iteration 68 done with l: -47.779 and delta: 0.0
+iteration 69 done with l: -47.779 and delta: 0.0
+iteration 70 done with l: -47.779 and delta: 0.0
+iteration 71 done with l: -47.779 and delta: 0.0
+iteration 72 done with l: -47.779 and delta: 0.0
+iteration 73 done with l: -47.779 and delta: 0.0
+iteration 74 done with l: -47.779 and delta: 0.0
+iteration 75 done with l: -47.779 and delta: 0.0
+iteration 76 done with l: -47.779 and delta: 0.0
+iteration 77 done with l: -47.779 and delta: 0.0
+iteration 78 done with l: -47.779 and delta: 0.0
+iteration 79 done with l: -47.779 and delta: 0.0
+iteration 80 done with l: -47.779 and delta: 0.0
+iteration 1 done with l: -1846.466 and delta: 999998153.534
+iteration 2 done with l: -48.014 and delta: 1798.453
+iteration 3 done with l: -47.568 and delta: 0.445
+iteration 4 done with l: -47.307 and delta: 0.262
+iteration 5 done with l: -47.133 and delta: 0.174
+iteration 6 done with l: -46.993 and delta: 0.14
+iteration 7 done with l: -46.892 and delta: 0.1
+iteration 8 done with l: -46.823 and delta: 0.069
+iteration 9 done with l: -46.781 and delta: 0.042
+iteration 10 done with l: -46.757 and delta: 0.024
+iteration 11 done with l: -46.742 and delta: 0.015
+iteration 12 done with l: -46.731 and delta: 0.011
+iteration 13 done with l: -46.717 and delta: 0.014
+iteration 14 done with l: -46.695 and delta: 0.022
+iteration 15 done with l: -46.668 and delta: 0.027
+iteration 16 done with l: -46.646 and delta: 0.022
+iteration 17 done with l: -46.63 and delta: 0.016
+iteration 18 done with l: -46.617 and delta: 0.013
+iteration 19 done with l: -46.604 and delta: 0.013
+iteration 20 done with l: -46.591 and delta: 0.013
+iteration 21 done with l: -46.58 and delta: 0.011
+iteration 22 done with l: -46.572 and delta: 0.008
+iteration 23 done with l: -46.566 and delta: 0.005
+iteration 24 done with l: -46.563 and delta: 0.004
+iteration 25 done with l: -46.561 and delta: 0.002
+iteration 26 done with l: -46.559 and delta: 0.002
+iteration 27 done with l: -46.558 and delta: 0.001
+iteration 28 done with l: -46.557 and delta: 0.001
+iteration 29 done with l: -46.557 and delta: 0.001
+iteration 30 done with l: -46.556 and delta: 0.0
+iteration 31 done with l: -46.556 and delta: 0.0
+iteration 32 done with l: -46.555 and delta: 0.0
+iteration 33 done with l: -46.555 and delta: 0.0
+iteration 34 done with l: -46.555 and delta: 0.0
+iteration 35 done with l: -46.555 and delta: 0.0
+iteration 36 done with l: -46.555 and delta: 0.0
+iteration 37 done with l: -46.555 and delta: 0.0
+iteration 38 done with l: -46.554 and delta: 0.0
+iteration 39 done with l: -46.554 and delta: 0.0
+iteration 40 done with l: -46.554 and delta: 0.0
+iteration 41 done with l: -46.554 and delta: 0.0
+iteration 42 done with l: -46.554 and delta: 0.0
+iteration 43 done with l: -46.554 and delta: 0.0
+iteration 44 done with l: -46.554 and delta: 0.0
+iteration 45 done with l: -46.554 and delta: 0.0
+iteration 46 done with l: -46.554 and delta: 0.0
+iteration 47 done with l: -46.554 and delta: 0.0
+iteration 48 done with l: -46.554 and delta: 0.0
+iteration 49 done with l: -46.554 and delta: 0.0
+iteration 50 done with l: -46.554 and delta: 0.0
+iteration 51 done with l: -46.554 and delta: 0.0
+iteration 52 done with l: -46.554 and delta: 0.0
+iteration 53 done with l: -46.554 and delta: 0.0
+iteration 54 done with l: -46.553 and delta: 0.0
+iteration 55 done with l: -46.553 and delta: 0.0
+iteration 56 done with l: -46.553 and delta: 0.0
+iteration 57 done with l: -46.553 and delta: 0.0
+iteration 58 done with l: -46.553 and delta: 0.0
+iteration 59 done with l: -46.553 and delta: 0.0
+iteration 60 done with l: -46.553 and delta: 0.0
+iteration 61 done with l: -46.553 and delta: 0.0
+iteration 62 done with l: -46.552 and delta: 0.0
+iteration 63 done with l: -46.552 and delta: 0.001
+iteration 64 done with l: -46.551 and delta: 0.001
+iteration 65 done with l: -46.549 and delta: 0.002
+iteration 66 done with l: -46.546 and delta: 0.003
+iteration 67 done with l: -46.539 and delta: 0.006
+iteration 68 done with l: -46.528 and delta: 0.011
+iteration 69 done with l: -46.514 and delta: 0.014
+iteration 70 done with l: -46.503 and delta: 0.012
+iteration 71 done with l: -46.496 and delta: 0.007
+iteration 72 done with l: -46.492 and delta: 0.004
+iteration 73 done with l: -46.49 and delta: 0.002
+iteration 74 done with l: -46.489 and delta: 0.001
+iteration 75 done with l: -46.489 and delta: 0.001
+iteration 76 done with l: -46.488 and delta: 0.0
+iteration 77 done with l: -46.488 and delta: 0.0
+iteration 78 done with l: -46.488 and delta: 0.0
+iteration 79 done with l: -46.488 and delta: 0.0
+iteration 80 done with l: -46.488 and delta: 0.0
+iteration 1 done with l: -1637.582 and delta: 999998362.418
+iteration 2 done with l: -48.67 and delta: 1588.912
+iteration 3 done with l: -48.295 and delta: 0.375
+iteration 4 done with l: -48.183 and delta: 0.112
+iteration 5 done with l: -48.132 and delta: 0.051
+iteration 6 done with l: -48.092 and delta: 0.039
+iteration 7 done with l: -48.05 and delta: 0.042
+iteration 8 done with l: -48.017 and delta: 0.033
+iteration 9 done with l: -47.988 and delta: 0.029
+iteration 10 done with l: -47.962 and delta: 0.026
+iteration 11 done with l: -47.939 and delta: 0.022
+iteration 12 done with l: -47.919 and delta: 0.02
+iteration 13 done with l: -47.899 and delta: 0.02
+iteration 14 done with l: -47.876 and delta: 0.023
+iteration 15 done with l: -47.846 and delta: 0.03
+iteration 16 done with l: -47.798 and delta: 0.048
+iteration 17 done with l: -47.722 and delta: 0.076
+iteration 18 done with l: -47.647 and delta: 0.075
+iteration 19 done with l: -47.585 and delta: 0.062
+iteration 20 done with l: -47.534 and delta: 0.051
+iteration 21 done with l: -47.494 and delta: 0.04
+iteration 22 done with l: -47.464 and delta: 0.03
+iteration 23 done with l: -47.439 and delta: 0.025
+iteration 24 done with l: -47.415 and delta: 0.024
+iteration 25 done with l: -47.39 and delta: 0.026
+iteration 26 done with l: -47.363 and delta: 0.027
+iteration 27 done with l: -47.336 and delta: 0.027
+iteration 28 done with l: -47.309 and delta: 0.027
+iteration 29 done with l: -47.28 and delta: 0.029
+iteration 30 done with l: -47.251 and delta: 0.029
+iteration 31 done with l: -47.224 and delta: 0.027
+iteration 32 done with l: -47.199 and delta: 0.025
+iteration 33 done with l: -47.176 and delta: 0.023
+iteration 34 done with l: -47.16 and delta: 0.015
+iteration 35 done with l: -47.152 and delta: 0.008
+iteration 36 done with l: -47.147 and delta: 0.005
+iteration 37 done with l: -47.144 and delta: 0.003
+iteration 38 done with l: -47.142 and delta: 0.002
+iteration 39 done with l: -47.141 and delta: 0.001
+iteration 40 done with l: -47.14 and delta: 0.001
+iteration 41 done with l: -47.139 and delta: 0.001
+iteration 42 done with l: -47.138 and delta: 0.001
+iteration 43 done with l: -47.138 and delta: 0.0
+iteration 44 done with l: -47.137 and delta: 0.0
+iteration 45 done with l: -47.137 and delta: 0.0
+iteration 46 done with l: -47.137 and delta: 0.0
+iteration 47 done with l: -47.137 and delta: 0.0
+iteration 48 done with l: -47.137 and delta: 0.0
+iteration 49 done with l: -47.137 and delta: 0.0
+iteration 50 done with l: -47.136 and delta: 0.0
+iteration 51 done with l: -47.136 and delta: 0.0
+iteration 52 done with l: -47.136 and delta: 0.0
+iteration 53 done with l: -47.136 and delta: 0.0
+iteration 54 done with l: -47.136 and delta: 0.0
+iteration 55 done with l: -47.136 and delta: 0.0
+iteration 56 done with l: -47.136 and delta: 0.0
+iteration 57 done with l: -47.136 and delta: 0.0
+iteration 58 done with l: -47.136 and delta: 0.0
+iteration 59 done with l: -47.136 and delta: 0.0
+iteration 60 done with l: -47.136 and delta: 0.0
+iteration 61 done with l: -47.136 and delta: 0.0
+iteration 62 done with l: -47.136 and delta: 0.0
+iteration 63 done with l: -47.136 and delta: 0.0
+iteration 64 done with l: -47.136 and delta: 0.0
+iteration 65 done with l: -47.136 and delta: 0.0
+iteration 66 done with l: -47.136 and delta: 0.0
+iteration 67 done with l: -47.136 and delta: 0.0
+iteration 68 done with l: -47.136 and delta: 0.0
+iteration 69 done with l: -47.136 and delta: 0.0
+iteration 70 done with l: -47.136 and delta: 0.0
+iteration 71 done with l: -47.136 and delta: 0.0
+iteration 72 done with l: -47.136 and delta: 0.0
+iteration 73 done with l: -47.136 and delta: 0.0
+iteration 74 done with l: -47.136 and delta: 0.0
+iteration 75 done with l: -47.136 and delta: 0.0
+iteration 76 done with l: -47.136 and delta: 0.0
+iteration 77 done with l: -47.136 and delta: 0.0
+iteration 78 done with l: -47.136 and delta: 0.0
+iteration 79 done with l: -47.136 and delta: 0.0
+iteration 80 done with l: -47.136 and delta: 0.0
+iteration 1 done with l: -1711.508 and delta: 999998288.492
+iteration 2 done with l: -50.448 and delta: 1661.06
+iteration 3 done with l: -50.295 and delta: 0.153
+iteration 4 done with l: -49.848 and delta: 0.448
+iteration 5 done with l: -49.393 and delta: 0.454
+iteration 6 done with l: -49.167 and delta: 0.227
+iteration 7 done with l: -48.924 and delta: 0.243
+iteration 8 done with l: -48.694 and delta: 0.231
+iteration 9 done with l: -48.527 and delta: 0.167
+iteration 10 done with l: -48.415 and delta: 0.112
+iteration 11 done with l: -48.296 and delta: 0.119
+iteration 12 done with l: -48.232 and delta: 0.064
+iteration 13 done with l: -48.206 and delta: 0.026
+iteration 14 done with l: -48.187 and delta: 0.019
+iteration 15 done with l: -48.17 and delta: 0.018
+iteration 16 done with l: -48.154 and delta: 0.016
+iteration 17 done with l: -48.141 and delta: 0.013
+iteration 18 done with l: -48.131 and delta: 0.009
+iteration 19 done with l: -48.125 and delta: 0.006
+iteration 20 done with l: -48.121 and delta: 0.004
+iteration 21 done with l: -48.118 and delta: 0.003
+iteration 22 done with l: -48.116 and delta: 0.002
+iteration 23 done with l: -48.114 and delta: 0.001
+iteration 24 done with l: -48.113 and delta: 0.001
+iteration 25 done with l: -48.112 and delta: 0.001
+iteration 26 done with l: -48.112 and delta: 0.001
+iteration 27 done with l: -48.111 and delta: 0.0
+iteration 28 done with l: -48.111 and delta: 0.0
+iteration 29 done with l: -48.111 and delta: 0.0
+iteration 30 done with l: -48.11 and delta: 0.0
+iteration 31 done with l: -48.11 and delta: 0.0
+iteration 32 done with l: -48.11 and delta: 0.0
+iteration 33 done with l: -48.11 and delta: 0.0
+iteration 34 done with l: -48.11 and delta: 0.0
+iteration 35 done with l: -48.11 and delta: 0.0
+iteration 36 done with l: -48.11 and delta: 0.0
+iteration 37 done with l: -48.11 and delta: 0.0
+iteration 38 done with l: -48.11 and delta: 0.0
+iteration 39 done with l: -48.11 and delta: 0.0
+iteration 40 done with l: -48.11 and delta: 0.0
+iteration 41 done with l: -48.11 and delta: 0.0
+iteration 42 done with l: -48.11 and delta: 0.0
+iteration 43 done with l: -48.11 and delta: 0.0
+iteration 44 done with l: -48.11 and delta: 0.0
+iteration 45 done with l: -48.11 and delta: 0.0
+iteration 46 done with l: -48.11 and delta: 0.0
+iteration 47 done with l: -48.11 and delta: 0.0
+iteration 48 done with l: -48.11 and delta: 0.0
+iteration 49 done with l: -48.11 and delta: 0.0
+iteration 50 done with l: -48.11 and delta: 0.0
+iteration 51 done with l: -48.11 and delta: 0.0
+iteration 52 done with l: -48.11 and delta: 0.0
+iteration 53 done with l: -48.11 and delta: 0.0
+iteration 54 done with l: -48.11 and delta: 0.0
+iteration 55 done with l: -48.11 and delta: 0.0
+iteration 56 done with l: -48.11 and delta: 0.0
+iteration 57 done with l: -48.11 and delta: 0.0
+iteration 58 done with l: -48.11 and delta: 0.0
+iteration 59 done with l: -48.11 and delta: 0.0
+iteration 60 done with l: -48.11 and delta: 0.0
+iteration 61 done with l: -48.11 and delta: 0.0
+iteration 62 done with l: -48.11 and delta: 0.0
+iteration 63 done with l: -48.11 and delta: 0.0
+iteration 64 done with l: -48.11 and delta: 0.0
+iteration 65 done with l: -48.11 and delta: 0.0
+iteration 66 done with l: -48.11 and delta: 0.0
+iteration 67 done with l: -48.11 and delta: 0.0
+iteration 68 done with l: -48.11 and delta: 0.0
+iteration 69 done with l: -48.11 and delta: 0.0
+iteration 70 done with l: -48.11 and delta: 0.0
+iteration 71 done with l: -48.11 and delta: 0.0
+iteration 72 done with l: -48.11 and delta: 0.0
+iteration 73 done with l: -48.11 and delta: 0.0
+iteration 74 done with l: -48.11 and delta: 0.0
+iteration 75 done with l: -48.11 and delta: 0.0
+iteration 76 done with l: -48.11 and delta: 0.0
+iteration 77 done with l: -48.11 and delta: 0.0
+iteration 78 done with l: -48.11 and delta: 0.0
+iteration 79 done with l: -48.11 and delta: 0.0
+iteration 80 done with l: -48.11 and delta: 0.0
+iteration 1 done with l: -1433.801 and delta: 999998566.199
+iteration 2 done with l: -48.617 and delta: 1385.184
+iteration 3 done with l: -48.283 and delta: 0.334
+iteration 4 done with l: -48.135 and delta: 0.148
+iteration 5 done with l: -48.014 and delta: 0.121
+iteration 6 done with l: -47.879 and delta: 0.135
+iteration 7 done with l: -47.723 and delta: 0.157
+iteration 8 done with l: -47.617 and delta: 0.106
+iteration 9 done with l: -47.561 and delta: 0.056
+iteration 10 done with l: -47.527 and delta: 0.034
+iteration 11 done with l: -47.503 and delta: 0.023
+iteration 12 done with l: -47.485 and delta: 0.019
+iteration 13 done with l: -47.469 and delta: 0.016
+iteration 14 done with l: -47.453 and delta: 0.016
+iteration 15 done with l: -47.435 and delta: 0.017
+iteration 16 done with l: -47.415 and delta: 0.021
+iteration 17 done with l: -47.386 and delta: 0.028
+iteration 18 done with l: -47.345 and delta: 0.041
+iteration 19 done with l: -47.298 and delta: 0.047
+iteration 20 done with l: -47.248 and delta: 0.051
+iteration 21 done with l: -47.188 and delta: 0.059
+iteration 22 done with l: -47.11 and delta: 0.078
+iteration 23 done with l: -47.02 and delta: 0.09
+iteration 24 done with l: -46.947 and delta: 0.073
+iteration 25 done with l: -46.905 and delta: 0.042
+iteration 26 done with l: -46.884 and delta: 0.021
+iteration 27 done with l: -46.872 and delta: 0.012
+iteration 28 done with l: -46.864 and delta: 0.008
+iteration 29 done with l: -46.858 and delta: 0.006
+iteration 30 done with l: -46.854 and delta: 0.004
+iteration 31 done with l: -46.851 and delta: 0.003
+iteration 32 done with l: -46.849 and delta: 0.002
+iteration 33 done with l: -46.848 and delta: 0.001
+iteration 34 done with l: -46.847 and delta: 0.001
+iteration 35 done with l: -46.846 and delta: 0.002
+iteration 36 done with l: -46.842 and delta: 0.004
+iteration 37 done with l: -46.836 and delta: 0.006
+iteration 38 done with l: -46.83 and delta: 0.006
+iteration 39 done with l: -46.825 and delta: 0.005
+iteration 40 done with l: -46.82 and delta: 0.004
+iteration 41 done with l: -46.817 and delta: 0.004
+iteration 42 done with l: -46.814 and delta: 0.003
+iteration 43 done with l: -46.81 and delta: 0.003
+iteration 44 done with l: -46.807 and delta: 0.003
+iteration 45 done with l: -46.804 and delta: 0.003
+iteration 46 done with l: -46.801 and delta: 0.003
+iteration 47 done with l: -46.799 and delta: 0.003
+iteration 48 done with l: -46.796 and delta: 0.002
+iteration 49 done with l: -46.794 and delta: 0.002
+iteration 50 done with l: -46.792 and delta: 0.002
+iteration 51 done with l: -46.79 and delta: 0.002
+iteration 52 done with l: -46.789 and delta: 0.002
+iteration 53 done with l: -46.787 and delta: 0.002
+iteration 54 done with l: -46.786 and delta: 0.001
+iteration 55 done with l: -46.784 and delta: 0.001
+iteration 56 done with l: -46.783 and delta: 0.001
+iteration 57 done with l: -46.782 and delta: 0.001
+iteration 58 done with l: -46.781 and delta: 0.001
+iteration 59 done with l: -46.78 and delta: 0.001
+iteration 60 done with l: -46.779 and delta: 0.001
+iteration 61 done with l: -46.778 and delta: 0.001
+iteration 62 done with l: -46.777 and delta: 0.001
+iteration 63 done with l: -46.777 and delta: 0.001
+iteration 64 done with l: -46.776 and delta: 0.001
+iteration 65 done with l: -46.776 and delta: 0.001
+iteration 66 done with l: -46.775 and delta: 0.0
+iteration 67 done with l: -46.775 and delta: 0.0
+iteration 68 done with l: -46.774 and delta: 0.0
+iteration 69 done with l: -46.774 and delta: 0.0
+iteration 70 done with l: -46.774 and delta: 0.0
+iteration 71 done with l: -46.773 and delta: 0.0
+iteration 72 done with l: -46.773 and delta: 0.0
+iteration 73 done with l: -46.773 and delta: 0.0
+iteration 74 done with l: -46.773 and delta: 0.0
+iteration 75 done with l: -46.773 and delta: 0.0
+iteration 76 done with l: -46.772 and delta: 0.0
+iteration 77 done with l: -46.772 and delta: 0.0
+iteration 78 done with l: -46.772 and delta: 0.0
+iteration 79 done with l: -46.772 and delta: 0.0
+iteration 80 done with l: -46.772 and delta: 0.0
+iteration 1 done with l: -1602.9 and delta: 999998397.1
+iteration 2 done with l: -48.708 and delta: 1554.192
+iteration 3 done with l: -48.309 and delta: 0.399
+iteration 4 done with l: -47.868 and delta: 0.442
+iteration 5 done with l: -47.633 and delta: 0.234
+iteration 6 done with l: -47.562 and delta: 0.071
+iteration 7 done with l: -47.524 and delta: 0.039
+iteration 8 done with l: -47.496 and delta: 0.028
+iteration 9 done with l: -47.464 and delta: 0.032
+iteration 10 done with l: -47.426 and delta: 0.038
+iteration 11 done with l: -47.382 and delta: 0.044
+iteration 12 done with l: -47.342 and delta: 0.04
+iteration 13 done with l: -47.311 and delta: 0.031
+iteration 14 done with l: -47.287 and delta: 0.025
+iteration 15 done with l: -47.264 and delta: 0.022
+iteration 16 done with l: -47.24 and delta: 0.024
+iteration 17 done with l: -47.209 and delta: 0.031
+iteration 18 done with l: -47.171 and delta: 0.039
+iteration 19 done with l: -47.125 and delta: 0.045
+iteration 20 done with l: -47.076 and delta: 0.049
+iteration 21 done with l: -47.026 and delta: 0.051
+iteration 22 done with l: -46.981 and delta: 0.044
+iteration 23 done with l: -46.95 and delta: 0.031
+iteration 24 done with l: -46.929 and delta: 0.022
+iteration 25 done with l: -46.911 and delta: 0.018
+iteration 26 done with l: -46.893 and delta: 0.017
+iteration 27 done with l: -46.875 and delta: 0.018
+iteration 28 done with l: -46.854 and delta: 0.021
+iteration 29 done with l: -46.83 and delta: 0.025
+iteration 30 done with l: -46.801 and delta: 0.029
+iteration 31 done with l: -46.769 and delta: 0.032
+iteration 32 done with l: -46.734 and delta: 0.035
+iteration 33 done with l: -46.697 and delta: 0.037
+iteration 34 done with l: -46.659 and delta: 0.038
+iteration 35 done with l: -46.622 and delta: 0.037
+iteration 36 done with l: -46.589 and delta: 0.033
+iteration 37 done with l: -46.563 and delta: 0.026
+iteration 38 done with l: -46.543 and delta: 0.02
+iteration 39 done with l: -46.527 and delta: 0.016
+iteration 40 done with l: -46.515 and delta: 0.012
+iteration 41 done with l: -46.506 and delta: 0.009
+iteration 42 done with l: -46.5 and delta: 0.006
+iteration 43 done with l: -46.495 and delta: 0.005
+iteration 44 done with l: -46.492 and delta: 0.003
+iteration 45 done with l: -46.489 and delta: 0.002
+iteration 46 done with l: -46.488 and delta: 0.002
+iteration 47 done with l: -46.487 and delta: 0.001
+iteration 48 done with l: -46.486 and delta: 0.001
+iteration 49 done with l: -46.485 and delta: 0.001
+iteration 50 done with l: -46.484 and delta: 0.001
+iteration 51 done with l: -46.484 and delta: 0.001
+iteration 52 done with l: -46.483 and delta: 0.001
+iteration 53 done with l: -46.482 and delta: 0.001
+iteration 54 done with l: -46.482 and delta: 0.001
+iteration 55 done with l: -46.481 and delta: 0.001
+iteration 56 done with l: -46.48 and delta: 0.001
+iteration 57 done with l: -46.479 and delta: 0.001
+iteration 58 done with l: -46.478 and delta: 0.001
+iteration 59 done with l: -46.477 and delta: 0.001
+iteration 60 done with l: -46.477 and delta: 0.001
+iteration 61 done with l: -46.476 and delta: 0.001
+iteration 62 done with l: -46.475 and delta: 0.001
+iteration 63 done with l: -46.474 and delta: 0.001
+iteration 64 done with l: -46.474 and delta: 0.001
+iteration 65 done with l: -46.474 and delta: 0.0
+iteration 66 done with l: -46.473 and delta: 0.0
+iteration 67 done with l: -46.473 and delta: 0.0
+iteration 68 done with l: -46.473 and delta: 0.0
+iteration 69 done with l: -46.472 and delta: 0.0
+iteration 70 done with l: -46.472 and delta: 0.0
+iteration 71 done with l: -46.472 and delta: 0.0
+iteration 72 done with l: -46.472 and delta: 0.0
+iteration 73 done with l: -46.472 and delta: 0.0
+iteration 74 done with l: -46.472 and delta: 0.0
+iteration 75 done with l: -46.472 and delta: 0.0
+iteration 76 done with l: -46.472 and delta: 0.0
+iteration 77 done with l: -46.472 and delta: 0.0
+iteration 78 done with l: -46.472 and delta: 0.0
+iteration 79 done with l: -46.472 and delta: 0.0
+iteration 80 done with l: -46.472 and delta: 0.0
+iteration 1 done with l: -2226.369 and delta: 999997773.631
+iteration 2 done with l: -49.714 and delta: 2176.655
+iteration 3 done with l: -49.4 and delta: 0.314
+iteration 4 done with l: -49.078 and delta: 0.322
+iteration 5 done with l: -48.67 and delta: 0.409
+iteration 6 done with l: -48.354 and delta: 0.316
+iteration 7 done with l: -48.212 and delta: 0.142
+iteration 8 done with l: -48.162 and delta: 0.051
+iteration 9 done with l: -48.128 and delta: 0.033
+iteration 10 done with l: -48.078 and delta: 0.05
+iteration 11 done with l: -48.003 and delta: 0.076
+iteration 12 done with l: -47.932 and delta: 0.071
+iteration 13 done with l: -47.886 and delta: 0.046
+iteration 14 done with l: -47.857 and delta: 0.029
+iteration 15 done with l: -47.839 and delta: 0.018
+iteration 16 done with l: -47.827 and delta: 0.012
+iteration 17 done with l: -47.817 and delta: 0.009
+iteration 18 done with l: -47.809 and delta: 0.008
+iteration 19 done with l: -47.802 and delta: 0.007
+iteration 20 done with l: -47.795 and delta: 0.007
+iteration 21 done with l: -47.786 and delta: 0.008
+iteration 22 done with l: -47.776 and delta: 0.01
+iteration 23 done with l: -47.763 and delta: 0.013
+iteration 24 done with l: -47.747 and delta: 0.016
+iteration 25 done with l: -47.73 and delta: 0.017
+iteration 26 done with l: -47.716 and delta: 0.013
+iteration 27 done with l: -47.708 and delta: 0.009
+iteration 28 done with l: -47.701 and delta: 0.006
+iteration 29 done with l: -47.696 and delta: 0.005
+iteration 30 done with l: -47.69 and delta: 0.006
+iteration 31 done with l: -47.684 and delta: 0.007
+iteration 32 done with l: -47.677 and delta: 0.007
+iteration 33 done with l: -47.671 and delta: 0.006
+iteration 34 done with l: -47.665 and delta: 0.006
+iteration 35 done with l: -47.659 and delta: 0.006
+iteration 36 done with l: -47.653 and delta: 0.006
+iteration 37 done with l: -47.647 and delta: 0.006
+iteration 38 done with l: -47.641 and delta: 0.006
+iteration 39 done with l: -47.636 and delta: 0.005
+iteration 40 done with l: -47.632 and delta: 0.004
+iteration 41 done with l: -47.628 and delta: 0.004
+iteration 42 done with l: -47.625 and delta: 0.003
+iteration 43 done with l: -47.623 and delta: 0.002
+iteration 44 done with l: -47.621 and delta: 0.002
+iteration 45 done with l: -47.62 and delta: 0.002
+iteration 46 done with l: -47.618 and delta: 0.001
+iteration 47 done with l: -47.617 and delta: 0.001
+iteration 48 done with l: -47.616 and delta: 0.001
+iteration 49 done with l: -47.615 and delta: 0.001
+iteration 50 done with l: -47.614 and delta: 0.001
+iteration 51 done with l: -47.614 and delta: 0.001
+iteration 52 done with l: -47.613 and delta: 0.001
+iteration 53 done with l: -47.612 and delta: 0.001
+iteration 54 done with l: -47.611 and delta: 0.001
+iteration 55 done with l: -47.61 and delta: 0.001
+iteration 56 done with l: -47.608 and delta: 0.002
+iteration 57 done with l: -47.604 and delta: 0.004
+iteration 58 done with l: -47.599 and delta: 0.005
+iteration 59 done with l: -47.595 and delta: 0.005
+iteration 60 done with l: -47.591 and delta: 0.004
+iteration 61 done with l: -47.588 and delta: 0.003
+iteration 62 done with l: -47.586 and delta: 0.002
+iteration 63 done with l: -47.584 and delta: 0.002
+iteration 64 done with l: -47.583 and delta: 0.001
+iteration 65 done with l: -47.581 and delta: 0.001
+iteration 66 done with l: -47.58 and delta: 0.001
+iteration 67 done with l: -47.579 and delta: 0.001
+iteration 68 done with l: -47.578 and delta: 0.001
+iteration 69 done with l: -47.577 and delta: 0.001
+iteration 70 done with l: -47.576 and delta: 0.001
+iteration 71 done with l: -47.575 and delta: 0.001
+iteration 72 done with l: -47.573 and delta: 0.001
+iteration 73 done with l: -47.572 and delta: 0.002
+iteration 74 done with l: -47.569 and delta: 0.002
+iteration 75 done with l: -47.567 and delta: 0.003
+iteration 76 done with l: -47.563 and delta: 0.004
+iteration 77 done with l: -47.557 and delta: 0.006
+iteration 78 done with l: -47.549 and delta: 0.008
+iteration 79 done with l: -47.539 and delta: 0.01
+iteration 80 done with l: -47.527 and delta: 0.012
+iteration 1 done with l: -2016.416 and delta: 999997983.584
+iteration 2 done with l: -49.017 and delta: 1967.399
+iteration 3 done with l: -48.181 and delta: 0.836
+iteration 4 done with l: -47.698 and delta: 0.483
+iteration 5 done with l: -47.514 and delta: 0.184
+iteration 6 done with l: -47.435 and delta: 0.079
+iteration 7 done with l: -47.397 and delta: 0.038
+iteration 8 done with l: -47.367 and delta: 0.031
+iteration 9 done with l: -47.337 and delta: 0.03
+iteration 10 done with l: -47.304 and delta: 0.033
+iteration 11 done with l: -47.263 and delta: 0.041
+iteration 12 done with l: -47.223 and delta: 0.04
+iteration 13 done with l: -47.198 and delta: 0.025
+iteration 14 done with l: -47.185 and delta: 0.013
+iteration 15 done with l: -47.178 and delta: 0.007
+iteration 16 done with l: -47.173 and delta: 0.004
+iteration 17 done with l: -47.17 and delta: 0.003
+iteration 18 done with l: -47.168 and delta: 0.002
+iteration 19 done with l: -47.166 and delta: 0.002
+iteration 20 done with l: -47.165 and delta: 0.001
+iteration 21 done with l: -47.164 and delta: 0.001
+iteration 22 done with l: -47.163 and delta: 0.001
+iteration 23 done with l: -47.163 and delta: 0.001
+iteration 24 done with l: -47.162 and delta: 0.0
+iteration 25 done with l: -47.162 and delta: 0.0
+iteration 26 done with l: -47.162 and delta: 0.0
+iteration 27 done with l: -47.161 and delta: 0.0
+iteration 28 done with l: -47.161 and delta: 0.0
+iteration 29 done with l: -47.161 and delta: 0.0
+iteration 30 done with l: -47.161 and delta: 0.0
+iteration 31 done with l: -47.161 and delta: 0.0
+iteration 32 done with l: -47.161 and delta: 0.0
+iteration 33 done with l: -47.161 and delta: 0.0
+iteration 34 done with l: -47.161 and delta: 0.0
+iteration 35 done with l: -47.161 and delta: 0.0
+iteration 36 done with l: -47.16 and delta: 0.0
+iteration 37 done with l: -47.16 and delta: 0.0
+iteration 38 done with l: -47.16 and delta: 0.0
+iteration 39 done with l: -47.16 and delta: 0.0
+iteration 40 done with l: -47.16 and delta: 0.0
+iteration 41 done with l: -47.16 and delta: 0.0
+iteration 42 done with l: -47.16 and delta: 0.0
+iteration 43 done with l: -47.16 and delta: 0.0
+iteration 44 done with l: -47.16 and delta: 0.0
+iteration 45 done with l: -47.16 and delta: 0.0
+iteration 46 done with l: -47.16 and delta: 0.0
+iteration 47 done with l: -47.16 and delta: 0.0
+iteration 48 done with l: -47.16 and delta: 0.0
+iteration 49 done with l: -47.16 and delta: 0.0
+iteration 50 done with l: -47.16 and delta: 0.0
+iteration 51 done with l: -47.16 and delta: 0.0
+iteration 52 done with l: -47.16 and delta: 0.0
+iteration 53 done with l: -47.16 and delta: 0.0
+iteration 54 done with l: -47.16 and delta: 0.0
+iteration 55 done with l: -47.16 and delta: 0.0
+iteration 56 done with l: -47.16 and delta: 0.0
+iteration 57 done with l: -47.16 and delta: 0.0
+iteration 58 done with l: -47.16 and delta: 0.0
+iteration 59 done with l: -47.16 and delta: 0.0
+iteration 60 done with l: -47.16 and delta: 0.0
+iteration 61 done with l: -47.16 and delta: 0.0
+iteration 62 done with l: -47.16 and delta: 0.0
+iteration 63 done with l: -47.16 and delta: 0.0
+iteration 64 done with l: -47.16 and delta: 0.0
+iteration 65 done with l: -47.16 and delta: 0.0
+iteration 66 done with l: -47.16 and delta: 0.0
+iteration 67 done with l: -47.16 and delta: 0.0
+iteration 68 done with l: -47.16 and delta: 0.0
+iteration 69 done with l: -47.16 and delta: -0.0
+iteration 1 done with l: -2829.221 and delta: 999997170.779
+iteration 2 done with l: -49.112 and delta: 2780.109
+iteration 3 done with l: -48.75 and delta: 0.362
+iteration 4 done with l: -48.465 and delta: 0.285
+iteration 5 done with l: -48.228 and delta: 0.237
+iteration 6 done with l: -47.989 and delta: 0.239
+iteration 7 done with l: -47.808 and delta: 0.181
+iteration 8 done with l: -47.709 and delta: 0.099
+iteration 9 done with l: -47.668 and delta: 0.04
+iteration 10 done with l: -47.649 and delta: 0.02
+iteration 11 done with l: -47.637 and delta: 0.011
+iteration 12 done with l: -47.631 and delta: 0.007
+iteration 13 done with l: -47.627 and delta: 0.004
+iteration 14 done with l: -47.624 and delta: 0.002
+iteration 15 done with l: -47.623 and delta: 0.002
+iteration 16 done with l: -47.621 and delta: 0.001
+iteration 17 done with l: -47.621 and delta: 0.001
+iteration 18 done with l: -47.62 and delta: 0.001
+iteration 19 done with l: -47.62 and delta: 0.0
+iteration 20 done with l: -47.619 and delta: 0.0
+iteration 21 done with l: -47.619 and delta: 0.0
+iteration 22 done with l: -47.618 and delta: 0.0
+iteration 23 done with l: -47.618 and delta: 0.0
+iteration 24 done with l: -47.618 and delta: 0.0
+iteration 25 done with l: -47.617 and delta: 0.0
+iteration 26 done with l: -47.617 and delta: 0.0
+iteration 27 done with l: -47.616 and delta: 0.0
+iteration 28 done with l: -47.616 and delta: 0.001
+iteration 29 done with l: -47.615 and delta: 0.001
+iteration 30 done with l: -47.615 and delta: 0.001
+iteration 31 done with l: -47.614 and delta: 0.001
+iteration 32 done with l: -47.613 and delta: 0.001
+iteration 33 done with l: -47.612 and delta: 0.001
+iteration 34 done with l: -47.611 and delta: 0.001
+iteration 35 done with l: -47.61 and delta: 0.001
+iteration 36 done with l: -47.608 and delta: 0.002
+iteration 37 done with l: -47.606 and delta: 0.002
+iteration 38 done with l: -47.604 and delta: 0.002
+iteration 39 done with l: -47.601 and delta: 0.003
+iteration 40 done with l: -47.598 and delta: 0.003
+iteration 41 done with l: -47.595 and delta: 0.003
+iteration 42 done with l: -47.592 and delta: 0.003
+iteration 43 done with l: -47.589 and delta: 0.003
+iteration 44 done with l: -47.585 and delta: 0.003
+iteration 45 done with l: -47.582 and delta: 0.003
+iteration 46 done with l: -47.578 and delta: 0.004
+iteration 47 done with l: -47.574 and delta: 0.004
+iteration 48 done with l: -47.569 and delta: 0.005
+iteration 49 done with l: -47.564 and delta: 0.005
+iteration 50 done with l: -47.557 and delta: 0.007
+iteration 51 done with l: -47.549 and delta: 0.008
+iteration 52 done with l: -47.541 and delta: 0.009
+iteration 53 done with l: -47.532 and delta: 0.008
+iteration 54 done with l: -47.526 and delta: 0.006
+iteration 55 done with l: -47.522 and delta: 0.004
+iteration 56 done with l: -47.52 and delta: 0.002
+iteration 57 done with l: -47.519 and delta: 0.001
+iteration 58 done with l: -47.518 and delta: 0.001
+iteration 59 done with l: -47.518 and delta: 0.0
+iteration 60 done with l: -47.518 and delta: 0.0
+iteration 61 done with l: -47.517 and delta: 0.0
+iteration 62 done with l: -47.517 and delta: 0.0
+iteration 63 done with l: -47.517 and delta: 0.0
+iteration 64 done with l: -47.517 and delta: 0.0
+iteration 65 done with l: -47.517 and delta: 0.0
+iteration 66 done with l: -47.517 and delta: 0.0
+iteration 67 done with l: -47.517 and delta: 0.0
+iteration 68 done with l: -47.517 and delta: 0.0
+iteration 69 done with l: -47.517 and delta: 0.0
+iteration 70 done with l: -47.517 and delta: 0.0
+iteration 71 done with l: -47.517 and delta: 0.0
+iteration 72 done with l: -47.517 and delta: 0.0
+iteration 73 done with l: -47.517 and delta: 0.0
+iteration 74 done with l: -47.517 and delta: 0.0
+iteration 75 done with l: -47.517 and delta: 0.0
+iteration 76 done with l: -47.517 and delta: 0.0
+iteration 77 done with l: -47.517 and delta: 0.0
+iteration 78 done with l: -47.517 and delta: 0.0
+iteration 79 done with l: -47.517 and delta: 0.0
+iteration 80 done with l: -47.517 and delta: 0.0
+iteration 1 done with l: -1685.937 and delta: 999998314.063
+iteration 2 done with l: -48.563 and delta: 1637.375
+iteration 3 done with l: -48.166 and delta: 0.397
+iteration 4 done with l: -47.973 and delta: 0.193
+iteration 5 done with l: -47.782 and delta: 0.191
+iteration 6 done with l: -47.644 and delta: 0.138
+iteration 7 done with l: -47.57 and delta: 0.074
+iteration 8 done with l: -47.535 and delta: 0.035
+iteration 9 done with l: -47.516 and delta: 0.019
+iteration 10 done with l: -47.504 and delta: 0.012
+iteration 11 done with l: -47.495 and delta: 0.009
+iteration 12 done with l: -47.488 and delta: 0.007
+iteration 13 done with l: -47.483 and delta: 0.005
+iteration 14 done with l: -47.479 and delta: 0.004
+iteration 15 done with l: -47.475 and delta: 0.003
+iteration 16 done with l: -47.473 and delta: 0.003
+iteration 17 done with l: -47.47 and delta: 0.002
+iteration 18 done with l: -47.469 and delta: 0.002
+iteration 19 done with l: -47.467 and delta: 0.001
+iteration 20 done with l: -47.466 and delta: 0.001
+iteration 21 done with l: -47.465 and delta: 0.001
+iteration 22 done with l: -47.465 and delta: 0.001
+iteration 23 done with l: -47.464 and delta: 0.001
+iteration 24 done with l: -47.464 and delta: 0.0
+iteration 25 done with l: -47.463 and delta: 0.0
+iteration 26 done with l: -47.463 and delta: 0.0
+iteration 27 done with l: -47.463 and delta: 0.0
+iteration 28 done with l: -47.463 and delta: 0.0
+iteration 29 done with l: -47.463 and delta: 0.0
+iteration 30 done with l: -47.462 and delta: 0.0
+iteration 31 done with l: -47.462 and delta: 0.0
+iteration 32 done with l: -47.462 and delta: 0.0
+iteration 33 done with l: -47.462 and delta: 0.0
+iteration 34 done with l: -47.462 and delta: 0.0
+iteration 35 done with l: -47.462 and delta: 0.0
+iteration 36 done with l: -47.462 and delta: 0.0
+iteration 37 done with l: -47.462 and delta: 0.0
+iteration 38 done with l: -47.462 and delta: 0.0
+iteration 39 done with l: -47.462 and delta: 0.0
+iteration 40 done with l: -47.462 and delta: 0.0
+iteration 41 done with l: -47.462 and delta: 0.0
+iteration 42 done with l: -47.462 and delta: 0.0
+iteration 43 done with l: -47.462 and delta: 0.0
+iteration 44 done with l: -47.462 and delta: 0.0
+iteration 45 done with l: -47.462 and delta: 0.0
+iteration 46 done with l: -47.462 and delta: 0.0
+iteration 47 done with l: -47.462 and delta: 0.0
+iteration 48 done with l: -47.462 and delta: 0.0
+iteration 49 done with l: -47.462 and delta: 0.0
+iteration 50 done with l: -47.462 and delta: 0.0
+iteration 51 done with l: -47.462 and delta: 0.0
+iteration 52 done with l: -47.462 and delta: 0.0
+iteration 53 done with l: -47.462 and delta: 0.0
+iteration 54 done with l: -47.462 and delta: 0.0
+iteration 55 done with l: -47.462 and delta: 0.0
+iteration 56 done with l: -47.462 and delta: 0.0
+iteration 57 done with l: -47.462 and delta: 0.0
+iteration 58 done with l: -47.462 and delta: 0.0
+iteration 59 done with l: -47.462 and delta: 0.0
+iteration 60 done with l: -47.462 and delta: 0.0
+iteration 61 done with l: -47.462 and delta: 0.0
+iteration 62 done with l: -47.462 and delta: 0.0
+iteration 63 done with l: -47.462 and delta: 0.0
+iteration 64 done with l: -47.462 and delta: 0.0
+iteration 65 done with l: -47.462 and delta: 0.0
+iteration 66 done with l: -47.462 and delta: 0.0
+iteration 67 done with l: -47.462 and delta: 0.0
+iteration 68 done with l: -47.462 and delta: 0.0
+iteration 69 done with l: -47.462 and delta: 0.0
+iteration 70 done with l: -47.462 and delta: 0.0
+iteration 71 done with l: -47.462 and delta: 0.0
+iteration 72 done with l: -47.462 and delta: 0.0
+iteration 73 done with l: -47.462 and delta: 0.0
+iteration 74 done with l: -47.462 and delta: 0.0
+iteration 75 done with l: -47.462 and delta: 0.0
+iteration 76 done with l: -47.462 and delta: 0.0
+iteration 77 done with l: -47.462 and delta: 0.0
+iteration 78 done with l: -47.462 and delta: 0.0
+iteration 79 done with l: -47.462 and delta: 0.0
+iteration 80 done with l: -47.462 and delta: 0.0
+iteration 1 done with l: -2082.767 and delta: 999997917.233
+iteration 2 done with l: -49.854 and delta: 2032.913
+iteration 3 done with l: -49.266 and delta: 0.588
+iteration 4 done with l: -47.902 and delta: 1.364
+iteration 5 done with l: -47.231 and delta: 0.671
+iteration 6 done with l: -47.005 and delta: 0.227
+iteration 7 done with l: -46.894 and delta: 0.111
+iteration 8 done with l: -46.806 and delta: 0.087
+iteration 9 done with l: -46.723 and delta: 0.083
+iteration 10 done with l: -46.642 and delta: 0.082
+iteration 11 done with l: -46.563 and delta: 0.079
+iteration 12 done with l: -46.491 and delta: 0.072
+iteration 13 done with l: -46.428 and delta: 0.063
+iteration 14 done with l: -46.381 and delta: 0.047
+iteration 15 done with l: -46.354 and delta: 0.027
+iteration 16 done with l: -46.34 and delta: 0.013
+iteration 17 done with l: -46.334 and delta: 0.006
+iteration 18 done with l: -46.331 and delta: 0.003
+iteration 19 done with l: -46.329 and delta: 0.002
+iteration 20 done with l: -46.328 and delta: 0.001
+iteration 21 done with l: -46.327 and delta: 0.001
+iteration 22 done with l: -46.327 and delta: 0.0
+iteration 23 done with l: -46.326 and delta: 0.0
+iteration 24 done with l: -46.326 and delta: 0.0
+iteration 25 done with l: -46.326 and delta: 0.0
+iteration 26 done with l: -46.326 and delta: 0.0
+iteration 27 done with l: -46.326 and delta: 0.0
+iteration 28 done with l: -46.326 and delta: 0.0
+iteration 29 done with l: -46.326 and delta: 0.0
+iteration 30 done with l: -46.326 and delta: 0.0
+iteration 31 done with l: -46.326 and delta: 0.0
+iteration 32 done with l: -46.326 and delta: 0.0
+iteration 33 done with l: -46.326 and delta: 0.0
+iteration 34 done with l: -46.326 and delta: 0.0
+iteration 35 done with l: -46.326 and delta: 0.0
+iteration 36 done with l: -46.326 and delta: 0.0
+iteration 37 done with l: -46.326 and delta: 0.0
+iteration 38 done with l: -46.326 and delta: 0.0
+iteration 39 done with l: -46.326 and delta: 0.0
+iteration 40 done with l: -46.326 and delta: 0.0
+iteration 41 done with l: -46.326 and delta: 0.0
+iteration 42 done with l: -46.326 and delta: 0.0
+iteration 43 done with l: -46.325 and delta: 0.0
+iteration 44 done with l: -46.325 and delta: 0.0
+iteration 45 done with l: -46.325 and delta: 0.0
+iteration 46 done with l: -46.325 and delta: 0.0
+iteration 47 done with l: -46.325 and delta: 0.0
+iteration 48 done with l: -46.325 and delta: 0.0
+iteration 49 done with l: -46.325 and delta: 0.0
+iteration 50 done with l: -46.325 and delta: 0.0
+iteration 51 done with l: -46.325 and delta: 0.0
+iteration 52 done with l: -46.325 and delta: 0.0
+iteration 53 done with l: -46.325 and delta: 0.0
+iteration 54 done with l: -46.325 and delta: 0.0
+iteration 55 done with l: -46.325 and delta: 0.0
+iteration 56 done with l: -46.325 and delta: 0.0
+iteration 57 done with l: -46.325 and delta: 0.0
+iteration 58 done with l: -46.325 and delta: 0.0
+iteration 59 done with l: -46.325 and delta: 0.0
+iteration 60 done with l: -46.325 and delta: 0.0
+iteration 61 done with l: -46.325 and delta: 0.0
+iteration 62 done with l: -46.325 and delta: 0.0
+iteration 63 done with l: -46.325 and delta: 0.0
+iteration 64 done with l: -46.325 and delta: 0.0
+iteration 65 done with l: -46.325 and delta: 0.0
+iteration 66 done with l: -46.325 and delta: 0.0
+iteration 67 done with l: -46.325 and delta: 0.0
+iteration 68 done with l: -46.325 and delta: 0.0
+iteration 69 done with l: -46.325 and delta: 0.0
+iteration 70 done with l: -46.325 and delta: 0.0
+iteration 71 done with l: -46.325 and delta: 0.0
+iteration 72 done with l: -46.325 and delta: 0.0
+iteration 73 done with l: -46.325 and delta: 0.0
+iteration 74 done with l: -46.325 and delta: 0.0
+iteration 75 done with l: -46.325 and delta: 0.0
+iteration 76 done with l: -46.325 and delta: 0.0
+iteration 77 done with l: -46.325 and delta: 0.0
+iteration 78 done with l: -46.325 and delta: 0.0
+iteration 79 done with l: -46.325 and delta: 0.0
+iteration 80 done with l: -46.325 and delta: 0.0
+iteration 1 done with l: -1466.188 and delta: 999998533.812
+iteration 2 done with l: -46.953 and delta: 1419.235
+iteration 3 done with l: -46.53 and delta: 0.423
+iteration 4 done with l: -46.254 and delta: 0.275
+iteration 5 done with l: -46.027 and delta: 0.227
+iteration 6 done with l: -45.872 and delta: 0.156
+iteration 7 done with l: -45.774 and delta: 0.097
+iteration 8 done with l: -45.708 and delta: 0.067
+iteration 9 done with l: -45.662 and delta: 0.046
+iteration 10 done with l: -45.632 and delta: 0.031
+iteration 11 done with l: -45.611 and delta: 0.021
+iteration 12 done with l: -45.595 and delta: 0.015
+iteration 13 done with l: -45.584 and delta: 0.011
+iteration 14 done with l: -45.575 and delta: 0.009
+iteration 15 done with l: -45.566 and delta: 0.009
+iteration 16 done with l: -45.555 and delta: 0.011
+iteration 17 done with l: -45.54 and delta: 0.015
+iteration 18 done with l: -45.515 and delta: 0.025
+iteration 19 done with l: -45.475 and delta: 0.039
+iteration 20 done with l: -45.43 and delta: 0.045
+iteration 21 done with l: -45.394 and delta: 0.036
+iteration 22 done with l: -45.369 and delta: 0.025
+iteration 23 done with l: -45.35 and delta: 0.019
+iteration 24 done with l: -45.336 and delta: 0.015
+iteration 25 done with l: -45.325 and delta: 0.011
+iteration 26 done with l: -45.318 and delta: 0.007
+iteration 27 done with l: -45.314 and delta: 0.004
+iteration 28 done with l: -45.311 and delta: 0.003
+iteration 29 done with l: -45.309 and delta: 0.002
+iteration 30 done with l: -45.308 and delta: 0.001
+iteration 31 done with l: -45.308 and delta: 0.001
+iteration 32 done with l: -45.307 and delta: 0.0
+iteration 33 done with l: -45.307 and delta: 0.0
+iteration 34 done with l: -45.307 and delta: 0.0
+iteration 35 done with l: -45.306 and delta: 0.0
+iteration 36 done with l: -45.306 and delta: 0.0
+iteration 37 done with l: -45.306 and delta: 0.0
+iteration 38 done with l: -45.306 and delta: 0.0
+iteration 39 done with l: -45.306 and delta: 0.0
+iteration 40 done with l: -45.306 and delta: 0.0
+iteration 41 done with l: -45.306 and delta: 0.0
+iteration 42 done with l: -45.306 and delta: 0.0
+iteration 43 done with l: -45.306 and delta: 0.0
+iteration 44 done with l: -45.306 and delta: 0.0
+iteration 45 done with l: -45.306 and delta: 0.0
+iteration 46 done with l: -45.306 and delta: 0.0
+iteration 47 done with l: -45.306 and delta: 0.0
+iteration 48 done with l: -45.306 and delta: 0.0
+iteration 49 done with l: -45.306 and delta: 0.0
+iteration 50 done with l: -45.306 and delta: 0.0
+iteration 51 done with l: -45.306 and delta: 0.0
+iteration 52 done with l: -45.306 and delta: 0.0
+iteration 53 done with l: -45.306 and delta: 0.0
+iteration 54 done with l: -45.306 and delta: 0.0
+iteration 55 done with l: -45.306 and delta: 0.0
+iteration 56 done with l: -45.306 and delta: 0.0
+iteration 57 done with l: -45.306 and delta: 0.0
+iteration 58 done with l: -45.306 and delta: 0.0
+iteration 59 done with l: -45.306 and delta: 0.0
+iteration 60 done with l: -45.306 and delta: 0.0
+iteration 61 done with l: -45.306 and delta: 0.0
+iteration 62 done with l: -45.306 and delta: 0.0
+iteration 63 done with l: -45.306 and delta: 0.0
+iteration 64 done with l: -45.306 and delta: 0.0
+iteration 65 done with l: -45.306 and delta: 0.0
+iteration 66 done with l: -45.306 and delta: 0.0
+iteration 67 done with l: -45.306 and delta: 0.0
+iteration 68 done with l: -45.306 and delta: 0.0
+iteration 69 done with l: -45.306 and delta: 0.0
+iteration 70 done with l: -45.306 and delta: 0.0
+iteration 71 done with l: -45.306 and delta: 0.0
+iteration 72 done with l: -45.306 and delta: 0.0
+iteration 73 done with l: -45.306 and delta: 0.0
+iteration 74 done with l: -45.306 and delta: 0.0
+iteration 75 done with l: -45.306 and delta: 0.0
+iteration 76 done with l: -45.306 and delta: 0.0
+iteration 77 done with l: -45.306 and delta: 0.0
+iteration 78 done with l: -45.306 and delta: 0.0
+iteration 79 done with l: -45.306 and delta: 0.0
+iteration 80 done with l: -45.306 and delta: 0.0
+iteration 1 done with l: -1913.91 and delta: 999998086.09
+iteration 2 done with l: -50.038 and delta: 1863.873
+iteration 3 done with l: -49.62 and delta: 0.418
+iteration 4 done with l: -49.207 and delta: 0.412
+iteration 5 done with l: -48.845 and delta: 0.363
+iteration 6 done with l: -48.512 and delta: 0.333
+iteration 7 done with l: -48.228 and delta: 0.284
+iteration 8 done with l: -48.111 and delta: 0.117
+iteration 9 done with l: -48.041 and delta: 0.07
+iteration 10 done with l: -47.974 and delta: 0.067
+iteration 11 done with l: -47.916 and delta: 0.058
+iteration 12 done with l: -47.863 and delta: 0.052
+iteration 13 done with l: -47.814 and delta: 0.049
+iteration 14 done with l: -47.774 and delta: 0.04
+iteration 15 done with l: -47.74 and delta: 0.033
+iteration 16 done with l: -47.707 and delta: 0.033
+iteration 17 done with l: -47.664 and delta: 0.043
+iteration 18 done with l: -47.624 and delta: 0.04
+iteration 19 done with l: -47.592 and delta: 0.032
+iteration 20 done with l: -47.565 and delta: 0.027
+iteration 21 done with l: -47.544 and delta: 0.021
+iteration 22 done with l: -47.53 and delta: 0.014
+iteration 23 done with l: -47.52 and delta: 0.01
+iteration 24 done with l: -47.514 and delta: 0.007
+iteration 25 done with l: -47.509 and delta: 0.005
+iteration 26 done with l: -47.505 and delta: 0.004
+iteration 27 done with l: -47.502 and delta: 0.003
+iteration 28 done with l: -47.5 and delta: 0.002
+iteration 29 done with l: -47.498 and delta: 0.002
+iteration 30 done with l: -47.496 and delta: 0.002
+iteration 31 done with l: -47.494 and delta: 0.002
+iteration 32 done with l: -47.493 and delta: 0.001
+iteration 33 done with l: -47.492 and delta: 0.001
+iteration 34 done with l: -47.491 and delta: 0.001
+iteration 35 done with l: -47.49 and delta: 0.001
+iteration 36 done with l: -47.489 and delta: 0.001
+iteration 37 done with l: -47.488 and delta: 0.001
+iteration 38 done with l: -47.488 and delta: 0.001
+iteration 39 done with l: -47.487 and delta: 0.001
+iteration 40 done with l: -47.486 and delta: 0.001
+iteration 41 done with l: -47.485 and delta: 0.001
+iteration 42 done with l: -47.485 and delta: 0.001
+iteration 43 done with l: -47.484 and delta: 0.001
+iteration 44 done with l: -47.483 and delta: 0.001
+iteration 45 done with l: -47.482 and delta: 0.001
+iteration 46 done with l: -47.481 and delta: 0.001
+iteration 47 done with l: -47.48 and delta: 0.001
+iteration 48 done with l: -47.48 and delta: 0.001
+iteration 49 done with l: -47.479 and delta: 0.001
+iteration 50 done with l: -47.478 and delta: 0.001
+iteration 51 done with l: -47.476 and delta: 0.001
+iteration 52 done with l: -47.475 and delta: 0.001
+iteration 53 done with l: -47.475 and delta: 0.001
+iteration 54 done with l: -47.474 and delta: 0.001
+iteration 55 done with l: -47.473 and delta: 0.001
+iteration 56 done with l: -47.472 and delta: 0.001
+iteration 57 done with l: -47.472 and delta: 0.0
+iteration 58 done with l: -47.472 and delta: 0.0
+iteration 59 done with l: -47.471 and delta: 0.0
+iteration 60 done with l: -47.471 and delta: 0.0
+iteration 61 done with l: -47.471 and delta: 0.0
+iteration 62 done with l: -47.471 and delta: 0.0
+iteration 63 done with l: -47.471 and delta: 0.0
+iteration 64 done with l: -47.471 and delta: 0.0
+iteration 65 done with l: -47.471 and delta: 0.0
+iteration 66 done with l: -47.471 and delta: 0.0
+iteration 67 done with l: -47.471 and delta: 0.0
+iteration 68 done with l: -47.471 and delta: 0.0
+iteration 69 done with l: -47.471 and delta: 0.0
+iteration 70 done with l: -47.471 and delta: 0.0
+iteration 71 done with l: -47.471 and delta: 0.0
+iteration 72 done with l: -47.471 and delta: 0.0
+iteration 73 done with l: -47.471 and delta: 0.0
+iteration 74 done with l: -47.471 and delta: 0.0
+iteration 75 done with l: -47.471 and delta: 0.0
+iteration 76 done with l: -47.471 and delta: 0.0
+iteration 77 done with l: -47.471 and delta: 0.0
+iteration 78 done with l: -47.471 and delta: 0.0
+iteration 79 done with l: -47.471 and delta: 0.0
+iteration 80 done with l: -47.471 and delta: 0.0
+iteration 1 done with l: -1684.902 and delta: 999998315.098
+iteration 2 done with l: -49.121 and delta: 1635.781
+iteration 3 done with l: -48.2 and delta: 0.922
+iteration 4 done with l: -47.647 and delta: 0.552
+iteration 5 done with l: -47.498 and delta: 0.15
+iteration 6 done with l: -47.415 and delta: 0.083
+iteration 7 done with l: -47.322 and delta: 0.093
+iteration 8 done with l: -47.214 and delta: 0.108
+iteration 9 done with l: -47.135 and delta: 0.079
+iteration 10 done with l: -47.075 and delta: 0.06
+iteration 11 done with l: -47.004 and delta: 0.071
+iteration 12 done with l: -46.942 and delta: 0.062
+iteration 13 done with l: -46.894 and delta: 0.048
+iteration 14 done with l: -46.855 and delta: 0.039
+iteration 15 done with l: -46.822 and delta: 0.034
+iteration 16 done with l: -46.79 and delta: 0.032
+iteration 17 done with l: -46.759 and delta: 0.032
+iteration 18 done with l: -46.73 and delta: 0.029
+iteration 19 done with l: -46.707 and delta: 0.022
+iteration 20 done with l: -46.688 and delta: 0.019
+iteration 21 done with l: -46.668 and delta: 0.02
+iteration 22 done with l: -46.646 and delta: 0.022
+iteration 23 done with l: -46.625 and delta: 0.022
+iteration 24 done with l: -46.611 and delta: 0.014
+iteration 25 done with l: -46.604 and delta: 0.007
+iteration 26 done with l: -46.597 and delta: 0.007
+iteration 27 done with l: -46.584 and delta: 0.013
+iteration 28 done with l: -46.558 and delta: 0.026
+iteration 29 done with l: -46.532 and delta: 0.026
+iteration 30 done with l: -46.518 and delta: 0.014
+iteration 31 done with l: -46.51 and delta: 0.007
+iteration 32 done with l: -46.507 and delta: 0.004
+iteration 33 done with l: -46.505 and delta: 0.002
+iteration 34 done with l: -46.504 and delta: 0.001
+iteration 35 done with l: -46.503 and delta: 0.001
+iteration 36 done with l: -46.502 and delta: 0.001
+iteration 37 done with l: -46.502 and delta: 0.001
+iteration 38 done with l: -46.501 and delta: 0.001
+iteration 39 done with l: -46.501 and delta: 0.001
+iteration 40 done with l: -46.5 and delta: 0.001
+iteration 41 done with l: -46.5 and delta: 0.001
+iteration 42 done with l: -46.499 and delta: 0.001
+iteration 43 done with l: -46.498 and delta: 0.001
+iteration 44 done with l: -46.498 and delta: 0.0
+iteration 45 done with l: -46.498 and delta: 0.0
+iteration 46 done with l: -46.497 and delta: 0.0
+iteration 47 done with l: -46.497 and delta: 0.0
+iteration 48 done with l: -46.497 and delta: 0.0
+iteration 49 done with l: -46.496 and delta: 0.0
+iteration 50 done with l: -46.496 and delta: 0.0
+iteration 51 done with l: -46.496 and delta: 0.0
+iteration 52 done with l: -46.496 and delta: 0.0
+iteration 53 done with l: -46.496 and delta: 0.0
+iteration 54 done with l: -46.496 and delta: 0.0
+iteration 55 done with l: -46.496 and delta: 0.0
+iteration 56 done with l: -46.496 and delta: 0.0
+iteration 57 done with l: -46.496 and delta: 0.0
+iteration 58 done with l: -46.496 and delta: 0.0
+iteration 59 done with l: -46.496 and delta: 0.0
+iteration 60 done with l: -46.496 and delta: 0.0
+iteration 61 done with l: -46.496 and delta: 0.0
+iteration 62 done with l: -46.496 and delta: 0.0
+iteration 63 done with l: -46.496 and delta: 0.0
+iteration 64 done with l: -46.496 and delta: 0.0
+iteration 65 done with l: -46.496 and delta: 0.0
+iteration 66 done with l: -46.496 and delta: 0.0
+iteration 67 done with l: -46.496 and delta: 0.0
+iteration 68 done with l: -46.496 and delta: 0.0
+iteration 69 done with l: -46.496 and delta: 0.0
+iteration 70 done with l: -46.496 and delta: 0.0
+iteration 71 done with l: -46.496 and delta: 0.0
+iteration 72 done with l: -46.496 and delta: 0.0
+iteration 73 done with l: -46.496 and delta: 0.0
+iteration 74 done with l: -46.496 and delta: 0.0
+iteration 75 done with l: -46.496 and delta: 0.0
+iteration 76 done with l: -46.496 and delta: 0.0
+iteration 77 done with l: -46.496 and delta: 0.0
+iteration 78 done with l: -46.496 and delta: 0.0
+iteration 79 done with l: -46.496 and delta: 0.0
+iteration 80 done with l: -46.496 and delta: 0.0
+iteration 1 done with l: -2178.893 and delta: 999997821.107
+iteration 2 done with l: -49.183 and delta: 2129.71
+iteration 3 done with l: -48.984 and delta: 0.2
+iteration 4 done with l: -48.724 and delta: 0.26
+iteration 5 done with l: -48.368 and delta: 0.355
+iteration 6 done with l: -48.114 and delta: 0.255
+iteration 7 done with l: -48.004 and delta: 0.109
+iteration 8 done with l: -47.936 and delta: 0.069
+iteration 9 done with l: -47.877 and delta: 0.059
+iteration 10 done with l: -47.827 and delta: 0.05
+iteration 11 done with l: -47.784 and delta: 0.043
+iteration 12 done with l: -47.746 and delta: 0.037
+iteration 13 done with l: -47.716 and delta: 0.03
+iteration 14 done with l: -47.695 and delta: 0.021
+iteration 15 done with l: -47.684 and delta: 0.011
+iteration 16 done with l: -47.677 and delta: 0.007
+iteration 17 done with l: -47.672 and delta: 0.005
+iteration 18 done with l: -47.667 and delta: 0.005
+iteration 19 done with l: -47.664 and delta: 0.004
+iteration 20 done with l: -47.66 and delta: 0.003
+iteration 21 done with l: -47.658 and delta: 0.003
+iteration 22 done with l: -47.655 and delta: 0.002
+iteration 23 done with l: -47.653 and delta: 0.002
+iteration 24 done with l: -47.651 and delta: 0.002
+iteration 25 done with l: -47.65 and delta: 0.002
+iteration 26 done with l: -47.648 and delta: 0.001
+iteration 27 done with l: -47.647 and delta: 0.001
+iteration 28 done with l: -47.646 and delta: 0.001
+iteration 29 done with l: -47.645 and delta: 0.001
+iteration 30 done with l: -47.644 and delta: 0.001
+iteration 31 done with l: -47.643 and delta: 0.001
+iteration 32 done with l: -47.643 and delta: 0.001
+iteration 33 done with l: -47.642 and delta: 0.001
+iteration 34 done with l: -47.642 and delta: 0.0
+iteration 35 done with l: -47.641 and delta: 0.0
+iteration 36 done with l: -47.641 and delta: 0.0
+iteration 37 done with l: -47.64 and delta: 0.0
+iteration 38 done with l: -47.64 and delta: 0.0
+iteration 39 done with l: -47.64 and delta: 0.0
+iteration 40 done with l: -47.639 and delta: 0.0
+iteration 41 done with l: -47.639 and delta: 0.0
+iteration 42 done with l: -47.639 and delta: 0.0
+iteration 43 done with l: -47.638 and delta: 0.0
+iteration 44 done with l: -47.638 and delta: 0.0
+iteration 45 done with l: -47.637 and delta: 0.0
+iteration 46 done with l: -47.637 and delta: 0.0
+iteration 47 done with l: -47.636 and delta: 0.0
+iteration 48 done with l: -47.636 and delta: 0.0
+iteration 49 done with l: -47.635 and delta: 0.001
+iteration 50 done with l: -47.635 and delta: 0.001
+iteration 51 done with l: -47.634 and delta: 0.001
+iteration 52 done with l: -47.634 and delta: 0.001
+iteration 53 done with l: -47.633 and delta: 0.001
+iteration 54 done with l: -47.633 and delta: 0.001
+iteration 55 done with l: -47.632 and delta: 0.001
+iteration 56 done with l: -47.631 and delta: 0.001
+iteration 57 done with l: -47.631 and delta: 0.001
+iteration 58 done with l: -47.63 and delta: 0.001
+iteration 59 done with l: -47.629 and delta: 0.001
+iteration 60 done with l: -47.628 and delta: 0.001
+iteration 61 done with l: -47.627 and delta: 0.001
+iteration 62 done with l: -47.626 and delta: 0.001
+iteration 63 done with l: -47.625 and delta: 0.001
+iteration 64 done with l: -47.624 and delta: 0.001
+iteration 65 done with l: -47.623 and delta: 0.001
+iteration 66 done with l: -47.622 and delta: 0.001
+iteration 67 done with l: -47.621 and delta: 0.001
+iteration 68 done with l: -47.62 and delta: 0.001
+iteration 69 done with l: -47.619 and delta: 0.001
+iteration 70 done with l: -47.618 and delta: 0.001
+iteration 71 done with l: -47.617 and delta: 0.001
+iteration 72 done with l: -47.616 and delta: 0.001
+iteration 73 done with l: -47.615 and delta: 0.001
+iteration 74 done with l: -47.614 and delta: 0.001
+iteration 75 done with l: -47.613 and delta: 0.001
+iteration 76 done with l: -47.612 and delta: 0.001
+iteration 77 done with l: -47.611 and delta: 0.001
+iteration 78 done with l: -47.61 and delta: 0.001
+iteration 79 done with l: -47.609 and delta: 0.001
+iteration 80 done with l: -47.608 and delta: 0.001
+iteration 1 done with l: -1720.439 and delta: 999998279.561
+iteration 2 done with l: -50.332 and delta: 1670.108
+iteration 3 done with l: -49.547 and delta: 0.785
+iteration 4 done with l: -48.579 and delta: 0.968
+iteration 5 done with l: -48.139 and delta: 0.44
+iteration 6 done with l: -47.962 and delta: 0.177
+iteration 7 done with l: -47.841 and delta: 0.121
+iteration 8 done with l: -47.745 and delta: 0.096
+iteration 9 done with l: -47.684 and delta: 0.062
+iteration 10 done with l: -47.648 and delta: 0.035
+iteration 11 done with l: -47.625 and delta: 0.023
+iteration 12 done with l: -47.605 and delta: 0.02
+iteration 13 done with l: -47.582 and delta: 0.023
+iteration 14 done with l: -47.554 and delta: 0.028
+iteration 15 done with l: -47.526 and delta: 0.028
+iteration 16 done with l: -47.504 and delta: 0.021
+iteration 17 done with l: -47.49 and delta: 0.015
+iteration 18 done with l: -47.481 and delta: 0.009
+iteration 19 done with l: -47.475 and delta: 0.005
+iteration 20 done with l: -47.472 and delta: 0.003
+iteration 21 done with l: -47.47 and delta: 0.002
+iteration 22 done with l: -47.469 and delta: 0.001
+iteration 23 done with l: -47.468 and delta: 0.001
+iteration 24 done with l: -47.467 and delta: 0.001
+iteration 25 done with l: -47.466 and delta: 0.001
+iteration 26 done with l: -47.466 and delta: 0.0
+iteration 27 done with l: -47.466 and delta: 0.0
+iteration 28 done with l: -47.465 and delta: 0.0
+iteration 29 done with l: -47.465 and delta: 0.0
+iteration 30 done with l: -47.465 and delta: 0.0
+iteration 31 done with l: -47.464 and delta: 0.0
+iteration 32 done with l: -47.464 and delta: 0.0
+iteration 33 done with l: -47.464 and delta: 0.0
+iteration 34 done with l: -47.464 and delta: 0.0
+iteration 35 done with l: -47.464 and delta: 0.0
+iteration 36 done with l: -47.464 and delta: 0.0
+iteration 37 done with l: -47.464 and delta: 0.0
+iteration 38 done with l: -47.463 and delta: 0.0
+iteration 39 done with l: -47.463 and delta: 0.0
+iteration 40 done with l: -47.463 and delta: 0.0
+iteration 41 done with l: -47.463 and delta: 0.0
+iteration 42 done with l: -47.463 and delta: 0.0
+iteration 43 done with l: -47.463 and delta: 0.0
+iteration 44 done with l: -47.463 and delta: 0.0
+iteration 45 done with l: -47.463 and delta: 0.0
+iteration 46 done with l: -47.463 and delta: 0.0
+iteration 47 done with l: -47.463 and delta: 0.0
+iteration 48 done with l: -47.463 and delta: 0.0
+iteration 49 done with l: -47.462 and delta: 0.0
+iteration 50 done with l: -47.462 and delta: 0.0
+iteration 51 done with l: -47.462 and delta: 0.0
+iteration 52 done with l: -47.461 and delta: 0.001
+iteration 53 done with l: -47.459 and delta: 0.002
+iteration 54 done with l: -47.456 and delta: 0.003
+iteration 55 done with l: -47.449 and delta: 0.007
+iteration 56 done with l: -47.428 and delta: 0.02
+iteration 57 done with l: -47.402 and delta: 0.027
+iteration 58 done with l: -47.386 and delta: 0.016
+iteration 59 done with l: -47.375 and delta: 0.011
+iteration 60 done with l: -47.366 and delta: 0.009
+iteration 61 done with l: -47.358 and delta: 0.008
+iteration 62 done with l: -47.351 and delta: 0.007
+iteration 63 done with l: -47.344 and delta: 0.007
+iteration 64 done with l: -47.336 and delta: 0.008
+iteration 65 done with l: -47.327 and delta: 0.009
+iteration 66 done with l: -47.315 and delta: 0.011
+iteration 67 done with l: -47.303 and delta: 0.012
+iteration 68 done with l: -47.292 and delta: 0.011
+iteration 69 done with l: -47.282 and delta: 0.009
+iteration 70 done with l: -47.275 and delta: 0.007
+iteration 71 done with l: -47.27 and delta: 0.005
+iteration 72 done with l: -47.266 and delta: 0.004
+iteration 73 done with l: -47.263 and delta: 0.003
+iteration 74 done with l: -47.261 and delta: 0.002
+iteration 75 done with l: -47.26 and delta: 0.001
+iteration 76 done with l: -47.259 and delta: 0.001
+iteration 77 done with l: -47.258 and delta: 0.001
+iteration 78 done with l: -47.258 and delta: 0.001
+iteration 79 done with l: -47.257 and delta: 0.0
+iteration 80 done with l: -47.257 and delta: 0.0
+iteration 1 done with l: -1711.107 and delta: 999998288.893
+iteration 2 done with l: -50.282 and delta: 1660.825
+iteration 3 done with l: -49.306 and delta: 0.975
+iteration 4 done with l: -48.915 and delta: 0.391
+iteration 5 done with l: -48.73 and delta: 0.186
+iteration 6 done with l: -48.605 and delta: 0.125
+iteration 7 done with l: -48.531 and delta: 0.074
+iteration 8 done with l: -48.484 and delta: 0.047
+iteration 9 done with l: -48.448 and delta: 0.036
+iteration 10 done with l: -48.417 and delta: 0.031
+iteration 11 done with l: -48.392 and delta: 0.025
+iteration 12 done with l: -48.373 and delta: 0.019
+iteration 13 done with l: -48.356 and delta: 0.016
+iteration 14 done with l: -48.338 and delta: 0.019
+iteration 15 done with l: -48.317 and delta: 0.02
+iteration 16 done with l: -48.307 and delta: 0.01
+iteration 17 done with l: -48.303 and delta: 0.005
+iteration 18 done with l: -48.299 and delta: 0.003
+iteration 19 done with l: -48.297 and delta: 0.002
+iteration 20 done with l: -48.295 and delta: 0.002
+iteration 21 done with l: -48.293 and delta: 0.002
+iteration 22 done with l: -48.291 and delta: 0.002
+iteration 23 done with l: -48.29 and delta: 0.002
+iteration 24 done with l: -48.288 and delta: 0.002
+iteration 25 done with l: -48.286 and delta: 0.002
+iteration 26 done with l: -48.284 and delta: 0.002
+iteration 27 done with l: -48.282 and delta: 0.002
+iteration 28 done with l: -48.279 and delta: 0.003
+iteration 29 done with l: -48.276 and delta: 0.003
+iteration 30 done with l: -48.272 and delta: 0.004
+iteration 31 done with l: -48.266 and delta: 0.006
+iteration 32 done with l: -48.258 and delta: 0.008
+iteration 33 done with l: -48.247 and delta: 0.011
+iteration 34 done with l: -48.232 and delta: 0.015
+iteration 35 done with l: -48.217 and delta: 0.015
+iteration 36 done with l: -48.205 and delta: 0.012
+iteration 37 done with l: -48.197 and delta: 0.008
+iteration 38 done with l: -48.191 and delta: 0.006
+iteration 39 done with l: -48.186 and delta: 0.005
+iteration 40 done with l: -48.181 and delta: 0.005
+iteration 41 done with l: -48.176 and delta: 0.005
+iteration 42 done with l: -48.17 and delta: 0.006
+iteration 43 done with l: -48.163 and delta: 0.007
+iteration 44 done with l: -48.157 and delta: 0.007
+iteration 45 done with l: -48.152 and delta: 0.005
+iteration 46 done with l: -48.149 and delta: 0.003
+iteration 47 done with l: -48.147 and delta: 0.002
+iteration 48 done with l: -48.146 and delta: 0.001
+iteration 49 done with l: -48.146 and delta: 0.001
+iteration 50 done with l: -48.145 and delta: 0.0
+iteration 51 done with l: -48.145 and delta: 0.0
+iteration 52 done with l: -48.145 and delta: 0.0
+iteration 53 done with l: -48.145 and delta: 0.0
+iteration 54 done with l: -48.145 and delta: 0.0
+iteration 55 done with l: -48.145 and delta: 0.0
+iteration 56 done with l: -48.145 and delta: 0.0
+iteration 57 done with l: -48.145 and delta: 0.0
+iteration 58 done with l: -48.145 and delta: 0.0
+iteration 59 done with l: -48.145 and delta: 0.0
+iteration 60 done with l: -48.145 and delta: 0.0
+iteration 61 done with l: -48.145 and delta: 0.0
+iteration 62 done with l: -48.145 and delta: 0.0
+iteration 63 done with l: -48.145 and delta: 0.0
+iteration 64 done with l: -48.145 and delta: 0.0
+iteration 65 done with l: -48.145 and delta: 0.0
+iteration 66 done with l: -48.145 and delta: 0.0
+iteration 67 done with l: -48.145 and delta: 0.0
+iteration 68 done with l: -48.145 and delta: 0.0
+iteration 69 done with l: -48.145 and delta: 0.0
+iteration 70 done with l: -48.145 and delta: 0.0
+iteration 71 done with l: -48.145 and delta: 0.0
+iteration 72 done with l: -48.145 and delta: 0.0
+iteration 73 done with l: -48.145 and delta: 0.0
+iteration 74 done with l: -48.145 and delta: 0.0
+iteration 75 done with l: -48.144 and delta: 0.0
+iteration 76 done with l: -48.144 and delta: 0.0
+iteration 77 done with l: -48.144 and delta: 0.0
+iteration 78 done with l: -48.144 and delta: 0.0
+iteration 79 done with l: -48.144 and delta: 0.0
+iteration 80 done with l: -48.144 and delta: 0.0
+iteration 1 done with l: -1306.874 and delta: 999998693.126
+iteration 2 done with l: -47.902 and delta: 1258.972
+iteration 3 done with l: -47.466 and delta: 0.437
+iteration 4 done with l: -46.709 and delta: 0.757
+iteration 5 done with l: -46.517 and delta: 0.192
+iteration 6 done with l: -46.434 and delta: 0.083
+iteration 7 done with l: -46.379 and delta: 0.056
+iteration 8 done with l: -46.325 and delta: 0.054
+iteration 9 done with l: -46.273 and delta: 0.052
+iteration 10 done with l: -46.229 and delta: 0.044
+iteration 11 done with l: -46.179 and delta: 0.05
+iteration 12 done with l: -46.114 and delta: 0.065
+iteration 13 done with l: -46.072 and delta: 0.041
+iteration 14 done with l: -46.048 and delta: 0.024
+iteration 15 done with l: -46.03 and delta: 0.017
+iteration 16 done with l: -46.015 and delta: 0.015
+iteration 17 done with l: -46.0 and delta: 0.015
+iteration 18 done with l: -45.986 and delta: 0.014
+iteration 19 done with l: -45.977 and delta: 0.009
+iteration 20 done with l: -45.973 and delta: 0.004
+iteration 21 done with l: -45.971 and delta: 0.002
+iteration 22 done with l: -45.97 and delta: 0.002
+iteration 23 done with l: -45.968 and delta: 0.001
+iteration 24 done with l: -45.967 and delta: 0.001
+iteration 25 done with l: -45.965 and delta: 0.002
+iteration 26 done with l: -45.963 and delta: 0.002
+iteration 27 done with l: -45.961 and delta: 0.002
+iteration 28 done with l: -45.958 and delta: 0.003
+iteration 29 done with l: -45.953 and delta: 0.005
+iteration 30 done with l: -45.947 and delta: 0.006
+iteration 31 done with l: -45.938 and delta: 0.009
+iteration 32 done with l: -45.926 and delta: 0.012
+iteration 33 done with l: -45.914 and delta: 0.012
+iteration 34 done with l: -45.903 and delta: 0.011
+iteration 35 done with l: -45.895 and delta: 0.008
+iteration 36 done with l: -45.889 and delta: 0.006
+iteration 37 done with l: -45.884 and delta: 0.005
+iteration 38 done with l: -45.88 and delta: 0.004
+iteration 39 done with l: -45.876 and delta: 0.004
+iteration 40 done with l: -45.873 and delta: 0.004
+iteration 41 done with l: -45.869 and delta: 0.004
+iteration 42 done with l: -45.866 and delta: 0.004
+iteration 43 done with l: -45.862 and delta: 0.003
+iteration 44 done with l: -45.859 and delta: 0.003
+iteration 45 done with l: -45.856 and delta: 0.003
+iteration 46 done with l: -45.853 and delta: 0.003
+iteration 47 done with l: -45.851 and delta: 0.002
+iteration 48 done with l: -45.849 and delta: 0.002
+iteration 49 done with l: -45.847 and delta: 0.002
+iteration 50 done with l: -45.846 and delta: 0.001
+iteration 51 done with l: -45.845 and delta: 0.001
+iteration 52 done with l: -45.844 and delta: 0.001
+iteration 53 done with l: -45.843 and delta: 0.001
+iteration 54 done with l: -45.842 and delta: 0.001
+iteration 55 done with l: -45.842 and delta: 0.0
+iteration 56 done with l: -45.842 and delta: 0.0
+iteration 57 done with l: -45.841 and delta: 0.0
+iteration 58 done with l: -45.841 and delta: 0.0
+iteration 59 done with l: -45.841 and delta: 0.0
+iteration 60 done with l: -45.841 and delta: 0.0
+iteration 61 done with l: -45.841 and delta: 0.0
+iteration 62 done with l: -45.84 and delta: 0.0
+iteration 63 done with l: -45.84 and delta: 0.0
+iteration 64 done with l: -45.84 and delta: 0.0
+iteration 65 done with l: -45.84 and delta: 0.0
+iteration 66 done with l: -45.84 and delta: 0.0
+iteration 67 done with l: -45.84 and delta: 0.0
+iteration 68 done with l: -45.84 and delta: 0.0
+iteration 69 done with l: -45.84 and delta: 0.0
+iteration 70 done with l: -45.84 and delta: 0.0
+iteration 71 done with l: -45.84 and delta: 0.0
+iteration 72 done with l: -45.84 and delta: 0.0
+iteration 73 done with l: -45.84 and delta: 0.0
+iteration 74 done with l: -45.84 and delta: 0.0
+iteration 75 done with l: -45.84 and delta: 0.0
+iteration 76 done with l: -45.84 and delta: 0.0
+iteration 77 done with l: -45.84 and delta: 0.0
+iteration 78 done with l: -45.84 and delta: 0.0
+iteration 79 done with l: -45.84 and delta: 0.0
+iteration 80 done with l: -45.84 and delta: 0.0
+S-29A
+S-29A -47.26731932311094
+S-5A -48.84581793604392
+S-14B -48.87972430773497
+S-18B -49.199463234458
+S-4D -49.34719791578783
+S-5A
+S-5A -47.59583868785026
+S-29A -49.473565358722105
+S-4D -49.48504998567168
+S-18B -49.77428190904768
+S-14B -49.998693007855046
+S-21A
+S-21A -47.41580443338411
+S-4D -48.9869390023665
+S-17A -49.15528002781592
+S-27C -49.26075096758802
+S-18B -49.49084016042909
+S-32D
+S-32D -46.88623800814147
+S-26B -48.48197129455377
+S-15C -48.60821381973949
+S-6B -48.7486469915512
+S-2B -48.89258938819521
+S-30B
+S-30B -47.264263631934384
+S-26B -48.44183347463531
+S-10B -49.22428883790033
+S-6B -49.46216723683175
+S-32D -49.48018453919649
+S-17A
+S-17A -48.500975555570186
+S-21A -49.609838768415145
+S-9A -50.41721753107247
+S-4D -50.491127996641474
+S-24D -51.225881641246865
+S-8D
+S-8D -47.26276477008788
+S-16D -49.14996281388709
+S-26B -49.22704425747489
+S-2B -49.305984431113274
+S-30B -49.35833434241651
+S-10B
+S-10B -49.04372946622737
+S-7C -50.41043746446515
+S-25A -50.69434534519845
+S-30B -50.741421442396565
+S-15C -50.773211135135924
+S-24D
+S-24D -47.1865653995656
+S-17A -49.53545403197142
+S-21A -49.98399562785992
+S-9A -50.023052699247295
+S-4D -50.191357633804564
+S-23C
+S-23C -45.2836648270432
+S-22B -47.800102093726494
+S-11C -47.930351750724604
+S-2B -48.06607218954591
+S-6B -48.07869530533839
+S-7C
+S-7C -47.95569942124394
+S-6B -49.63012329705404
+S-2B -49.63049617012739
+S-15C -49.681211778035895
+S-26B -49.91978591122482
+S-18B
+S-18B -45.44311917998482
+S-13A -46.17044584442341
+S-12D -46.850017672222975
+S-19C -47.01408355689309
+S-3C -47.26818402618072
+S-15C
+S-15C -48.12537329369743
+S-32D -48.85459785625438
+S-21A -49.16519882184515
+S-6B -49.17465660562446
+S-26B -49.180033679621175
+S-12D
+S-12D -46.41276107457799
+S-18B -48.25048816250924
+S-13A -48.66631242964438
+S-3C -48.784916770395455
+S-9A -48.813019219493725
+S-26B
+S-26B -47.58438455076486
+S-30B -48.60262692164413
+S-8D -49.498492528164704
+S-20D -49.50367268016241
+S-10B -49.511390587913645
+S-2B
+S-2B -46.96518717606
+S-11C -47.919119783444124
+S-22B -48.41514166945125
+S-10B -48.55935724694263
+S-30B -48.59049179169238
+S-14B
+S-14B -46.781774183546766
+S-29A -47.985986588589725
+S-18B -48.43394251077829
+S-3C -48.61115684577612
+S-27C -48.623857698228186
+S-27C
+S-27C -48.32802587794343
+S-21A -48.889202998521945
+S-18B -49.25679115821802
+S-4D -49.43767628866356
+S-14B -49.62152562168601
+S-20D
+S-20D -47.04044033476914
+S-26B -48.721087257924395
+S-30B -48.88228236210175
+S-15C -48.889038907345984
+S-31C -49.04811252935041
+S-3C
+S-3C -45.92465067081536
+S-18B -47.13952115035178
+S-13A -47.29966631259893
+S-12D -47.50230172936026
+S-29A -47.57929234275509
+S-4D
+S-4D -47.56362475907214
+S-18B -48.88688776031971
+S-13A -49.08468976161831
+S-29A -49.215841659797064
+S-9A -49.40335708883502
+S-28D
+S-28D -47.27005980858999
+S-9A -49.04902640515968
+S-18B -49.284707349142494
+S-17A -49.6106461214832
+S-4D -49.81360987761027
+S-16D
+S-16D -46.87683653926492
+S-20D -48.937820880349435
+S-22B -48.97727468628856
+S-8D -49.17217063556716
+S-2B -49.18051708014314
+S-11C
+S-11C -46.948094478619176
+S-2B -48.09298522376969
+S-22B -48.36098527244
+S-6B -48.88905685791752
+S-7C -48.945303969603245
+S-22B
+S-22B -46.44974757141952
+S-2B -47.53637135388517
+S-11C -48.08358711981464
+S-6B -48.215319695799316
+S-23C -48.37176434594665
+S-19C
+S-19C -45.779664393100404
+S-18B -47.577797784046325
+S-13A -47.7064878407445
+S-4D -47.76211900993212
+S-5A -47.79010713393289
+S-6B
+S-6B -47.23790689591932
+S-7C -48.579083231542434
+S-2B -48.65163309090232
+S-15C -48.66801258587939
+S-32D -48.799981414441966
+S-1A
+S-1A -46.54860054726871
+S-13A -47.52033658240209
+S-18B -47.84530835905704
+S-29A -48.06477391431974
+S-4D -48.14566568259087
+S-25A
+S-25A -47.435747681393
+S-32D -49.16186466569111
+S-15C -49.26922117145983
+S-7C -49.38255405270674
+S-6B -49.4914037562072
+S-9A
+S-9A -46.933834954282936
+S-4D -49.02865321630452
+S-6B -49.13940515829802
+S-28D -49.231223393012286
+S-17A -49.339728017498516
+S-31C
+S-31C -48.162189462293036
+S-16D -49.696262494302
+S-7C -49.843582393521444
+S-10B -49.85550610378908
+S-32D -49.8666874376761
+S-13A
+S-13A -46.65147675350387
+S-18B -47.12931489950677
+S-3C -47.59684963072015
+S-4D -47.822461181615864
+S-12D -47.870482928145194
+Hyperparameters: M = 8, maxIter = 80
+Accuracy: 100.0%
