@@ -165,7 +165,7 @@ def train(speaker, X, M=8, epsilon=0.0, maxIter=20):
         l = logLik(log_bs, myTheta)
 
         myTheta = update_theta(myTheta, X, log_ps)
-        delta = prev_l - l
+        delta = l - prev_l
         prev_l = l
         i += 1
         print(f"iteration {i} done with l: {round(l, 3)} and delta: {round(delta, 3)}")
