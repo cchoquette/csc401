@@ -138,8 +138,11 @@ def logLik(log_Bs, myTheta):
 
         See equation 3 of the handout
     """
+    print(myTheta.omega)
     alllog = log_Bs + np.log(myTheta.omega)
+    print(alllog)
     logmax = alllog.max(axis=0, keepdims=True)
+    print(logmax)
     return np.mean(logmax + np.log(sumexp(alllog, logmax)))
 
 
