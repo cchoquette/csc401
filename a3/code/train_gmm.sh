@@ -5,6 +5,7 @@
 #SBATCH --mem=16G                            # memory per node -> use powers of 2
 #SBATCH --qos=normal                         # ICML
 #SBATCH --partition=gpu
+#SBATCH --output=train_gmm.out
 
 eval "$(conda shell.bash hook)"
 conda activate csc401a2
