@@ -163,7 +163,7 @@ def train(speaker, X, M=8, epsilon=0.0, maxIter=20):
         myTheta.reset_precompute()
         log_bs, log_ps = compute_logs(X, M, myTheta)
         l = logLik(log_bs, myTheta)
-
+        print(f"l: {l}, prev_l: {prev_l}")
         myTheta = update_theta(myTheta, X, log_ps)
         delta = l - prev_l
         prev_l = l
