@@ -22,7 +22,7 @@ def update_theta(t, x, log_ps):
     ps = np.exp(log_ps)
     maxp = log_ps.max(1, keepdims=True)
     t.reset_mu((ps @ x) / (maxp + sumexp(log_ps, maxp, 1)))
-    t.reset_omega(np.mean(log_ps, 1))
+    t.reset_omega(np.mean(ps, 1))
 
     sigma = (ps @ np.power(x, 2)) / (maxp + sumexp(log_ps, maxp, 1))
     sigma += 1e-10 - np.power(t.mu, 2)
