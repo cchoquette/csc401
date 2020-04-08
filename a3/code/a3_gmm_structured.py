@@ -12,8 +12,10 @@ def sumexp(a, b, axis=0):
   return np.exp(a-b).sum(axis=axis, keepdims=True)
 
 
-def compute_logs(x, M, theta):
+def compute_logs(x, M, theta, just_bs=False):
     log_bs = np.array([log_b_m_x(m, x, theta) for m in range(M)])
+    if just_bs:
+        return log_bs
     log_ps = np.array(log_p_m_x(log_bs, theta))
     return log_bs, log_ps
 
@@ -26,7 +28,7 @@ def update_theta(t, x, log_ps):
     t.reset_omega(np.mean(ps, 1))
 
     sigma = (ps @ np.power(x, 2)) / (maxp + sumexp(log_ps, maxp, 1))
-    sigma += 1e-10 - np.power(t.mu, 2)
+    sigma += 1e-9 - np.power(t.mu, 2)
     t.reset_Sigma(sigma)
     # print(f"omega: {t.omega}, sigma: {t.Sigma}, mu: {t.mu}")
     return t
@@ -48,7 +50,7 @@ class theta:
 
     def reset_precompute(self):
         precomp = (np.power(self.mu, 2) / (2 * self.Sigma)).sum(axis=1)
-        precomp += (self._d / 2) * np.log(2 * np.pi * np.ones((self._M)))
+        precomp += (self._d / 2) * np.log(2 * np.pi)
         precomp += np.log(self.Sigma).sum(axis=1) / 2
         self.precompute = precomp
 
@@ -153,7 +155,7 @@ def train(speaker, X, M=8, epsilon=0.0, maxIter=20):
     omega = np.exp(np.random.rand(M, 1))
     myTheta.reset_omega(omega / omega.sum())
     # set mu
-    myTheta.reset_mu(X[np.random.randint(0, X.shape[0], M)])
+    myTheta.reset_mu(X[np.random.randint(0, X.shape[0], M)])  # pick random points
     # set sigma
     sig_shape = (M, X.shape[1])
     sig = np.reciprocal(np.arange(1, M+1).astype(np.float))
@@ -191,7 +193,7 @@ def test(mfcc, correctID, models, k=5):
     loglikes = []
     M = len(models[0].omega)
     for i, model in enumerate(models):
-        log_bs, _ = compute_logs(mfcc, M, model)
+        log_bs = compute_logs(mfcc, M, model, just_bs=True)
         l = logLik(log_bs, model)
         loglikes.append(l)
     best_indices = np.argsort(-np.array(loglikes))  # -'ves to reverse order
