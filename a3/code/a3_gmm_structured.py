@@ -109,7 +109,7 @@ def log_b_m_x(m, x, myTheta):
     log_bmx = - np.einsum('ij,ji->i', x / sigma, x.T) / 2
     log_bmx += (x / sigma) @ mu
     log_bmx -= myTheta.precomputedForM(m)
-    print(log_bmx)
+    # print(log_bmx)
     return log_bmx
 
 
@@ -129,7 +129,7 @@ def log_p_m_x(log_Bs, myTheta):
     alllog = log_Bs + np.log(myTheta.omega)
     logmax = alllog.max(axis=0, keepdims=True)
     log_pmx = alllog - logmax - np.log(sumexp(alllog, logmax))
-    print(log_pmx)
+    # print(log_pmx)
     return log_pmx
 
 
@@ -165,9 +165,9 @@ def train(speaker, X, M=8, epsilon=0.0, maxIter=20):
     sig_shape = (M, X.shape[1])
     sig = np.reciprocal(np.arange(1, M+1).astype(np.float))
     myTheta.reset_Sigma(np.broadcast_to(np.expand_dims(sig, 1), sig_shape))
-    print(myTheta.omega)
-    print(myTheta.mu)
-    print(myTheta.Sigma)
+    # print(myTheta.omega)
+    # print(myTheta.mu)
+    # print(myTheta.Sigma)
     i = 0
     prev_l = -np.inf
     delta = np.inf
@@ -203,6 +203,7 @@ def test(mfcc, correctID, models, k=5):
         log_bs = compute_logs(mfcc, M, model, just_bs=True)
         l = logLik(log_bs, model)
         loglikes.append(l)
+    print(loglikes)
     best_indices = np.argsort(-np.array(loglikes))  # -'ves to reverse order
     bestModel = best_indices[0]
     if k > 0:
@@ -211,7 +212,7 @@ def test(mfcc, correctID, models, k=5):
         kmodels = [models[i] for i in top_k]
         klogs = [loglikes[i] for i in top_k]
         for model, loglike in zip(kmodels, klogs):
-            print(f"{model} {loglike}")
+            print(f"{model.name} {loglike}")
         print("")
     return 1 if (bestModel == correctID) else 0
 
