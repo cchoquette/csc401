@@ -4,7 +4,7 @@ import os, fnmatch
 import random
 
 # dataDir = "/u/cs401/A3/data/"
-dataDir = "/scratch/ssd001/home/cchoquet/csc401/a3/code/data/"
+dataDir = "/scratch/ssd001/home/cchoquet/csc401/a3/code/data/data/"
 
 
 def logexp(a, b):
