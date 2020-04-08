@@ -7,8 +7,8 @@ import random
 dataDir = "/scratch/ssd001/home/cchoquet/csc401/a3/code/data/data/"
 
 
-def logexp(a, b):
-  return np.log(np.exp(a-b).sum(axis=0, keepdims=True))
+def sumexp(a, b):
+  return np.exp(a-b).sum(axis=0, keepdims=True)
 
 
 def compute_logs(x, M, theta):
@@ -21,10 +21,10 @@ def update_theta(theta, x, log_ps):
 
     ps = np.exp(log_ps)
     maxp = log_ps.max(1, keepdims=True)
-    theta.reset_mu((ps @ x) / (maxp + logexp(ps, maxp)))
+    theta.reset_mu((ps @ x) / (maxp + sumexp(log_ps, maxp)))
     theta.reset_omega(np.mean(log_ps, 1))
 
-    sigma = (ps @ np.power(x, 2)) / (maxp + logexp(p, maxp))
+    sigma = (ps @ np.power(x, 2)) / (maxp + sumexp(log_ps, maxp))
     sigma += 1e-10 - np.power(theta.mu, 2)
     theta.reset_Sigma(sigma)
     return theta
@@ -123,7 +123,7 @@ def log_p_m_x(log_Bs, myTheta):
     """
     alllog = log_Bs + np.log(myTheta.omega)
     logmax = alllog.max(axis=0, keepdims=True)
-    return alllog - logmax - logexp(alllog, logmax)
+    return alllog - logmax - np.log(sumexp(alllog, logmax))
 
 
 def logLik(log_Bs, myTheta):
@@ -140,7 +140,7 @@ def logLik(log_Bs, myTheta):
     """
     alllog = log_Bs + np.log(myTheta.omega)
     logmax = alllog.max(axis=0, keepdims=True)
-    return np.mean(logmax + logexp(alllog, logmax))
+    return np.mean(logmax + np.log(sumexp(alllog, logmax)))
 
 
 def train(speaker, X, M=8, epsilon=0.0, maxIter=20):
