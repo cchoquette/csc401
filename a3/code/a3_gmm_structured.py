@@ -21,6 +21,7 @@ def update_theta(theta, x, log_ps):
 
     ps = np.exp(log_ps)
     maxp = log_ps.max(1, keepdims=True)
+    print(ps.shape, x.shape, maxp.shape, log_ps.shape)
     theta.reset_mu((ps @ x) / (maxp + sumexp(log_ps, maxp)))
     theta.reset_omega(np.mean(log_ps, 1))
 
@@ -105,7 +106,6 @@ def log_b_m_x(m, x, myTheta):
     log_bmx = - np.einsum('ij,ji->i', x / sigma, x.T) / 2
     log_bmx += (x / sigma) @ mu
     log_bmx -= myTheta.precomputedForM(m)
-    print(log_bmx.shape)
     return log_bmx
 
 
@@ -123,7 +123,6 @@ def log_p_m_x(log_Bs, myTheta):
     NOTE: For a description of `log_Bs`, refer to the docstring of `logLik` below
     """
     alllog = log_Bs + np.log(myTheta.omega)
-    print(log_Bs.shape, alllog.shape)
     logmax = alllog.max(axis=0, keepdims=True)
     return alllog - logmax - np.log(sumexp(alllog, logmax))
 
