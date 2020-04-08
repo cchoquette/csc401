@@ -27,6 +27,7 @@ def update_theta(t, x, log_ps):
     sigma = (ps @ np.power(x, 2)) / (maxp + sumexp(log_ps, maxp, 1))
     sigma += 1e-10 - np.power(t.mu, 2)
     t.reset_Sigma(sigma)
+    print(f"omega: {t.omega}, sigma: {t.sigma}, mu: {t.mu}")
     return t
 
 
@@ -138,11 +139,9 @@ def logLik(log_Bs, myTheta):
 
         See equation 3 of the handout
     """
-    print(myTheta.omega)
     alllog = log_Bs + np.log(myTheta.omega)
-    print(alllog)
     logmax = alllog.max(axis=0, keepdims=True)
-    print(logmax)
+    print(f"alllog: {alllog}, logmax: {logmax}")
     return np.mean(logmax + np.log(sumexp(alllog, logmax)))
 
 
