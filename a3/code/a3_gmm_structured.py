@@ -2,6 +2,7 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 import os, fnmatch
 import random
+import sys
 
 # dataDir = "/u/cs401/A3/data/"
 dataDir = "/scratch/ssd001/home/cchoquet/csc401/a3/code/data/data/"
@@ -241,3 +242,12 @@ if __name__ == "__main__":
     for i in range(0, len(testMFCCs)):
         numCorrect += test(testMFCCs[i], i, trainThetas, k)
     accuracy = 1.0 * numCorrect / len(testMFCCs)
+    stdout = sys.stdout  # steal stdout so that we can redirect to file.
+    sys.stdout = open('gmmLiks.txt', 'w')
+    # evaluate
+    numCorrect = 0
+    for i in range(0, len(testMFCCs)):
+        numCorrect += test(testMFCCs[i], i, trainThetas, k)
+    accuracy = 1.0*numCorrect/len(testMFCCs)
+    sys.stdout = stdout
+    print(f"accuracy: {accuracy}")

@@ -6,6 +6,7 @@
 #SBATCH --qos=normal                         # ICML
 #SBATCH --partition=gpu
 #SBATCH --output=train_gmm.out
+#SBATCH --error=train_gmm.err
 
 eval "$(conda shell.bash hook)"
 conda activate csc401a2
