@@ -210,7 +210,8 @@ def test(mfcc, correctID, models, k=5):
 
 
 if __name__ == "__main__":
-
+    np.random.seed(2)
+    random.seed(2)
     trainThetas = []
     testMFCCs = []
     d = 13
