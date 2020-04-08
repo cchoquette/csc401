@@ -12,8 +12,10 @@ def sumexp(a, b, axis=0):
   return np.exp(a-b).sum(axis=axis, keepdims=True)
 
 
-def compute_logs(x, M, theta):
+def compute_logs(x, M, theta, just_bs=False):
     log_bs = np.array([log_b_m_x(m, x, theta) for m in range(M)])
+    if just_bs:
+        return log_bs
     log_ps = np.array(log_p_m_x(log_bs, theta))
     return log_bs, log_ps
 
@@ -26,7 +28,7 @@ def update_theta(t, x, log_ps):
     t.reset_omega(np.mean(ps, 1))
 
     sigma = (ps @ np.power(x, 2)) / (maxp + sumexp(log_ps, maxp, 1))
-    sigma += 1e-10 - np.power(t.mu, 2)
+    sigma += 1e-9 - np.power(t.mu, 2)
     t.reset_Sigma(sigma)
     # print(f"omega: {t.omega}, sigma: {t.Sigma}, mu: {t.mu}")
     return t
@@ -48,7 +50,7 @@ class theta:
 
     def reset_precompute(self):
         precomp = (np.power(self.mu, 2) / (2 * self.Sigma)).sum(axis=1)
-        precomp += (self._d / 2) * np.log(2 * np.pi * np.ones((self._M)))
+        precomp += (self._d / 2) * np.log(2 * np.pi)
         precomp += np.log(self.Sigma).sum(axis=1) / 2
         self.precompute = precomp
 
@@ -107,6 +109,7 @@ def log_b_m_x(m, x, myTheta):
     log_bmx = - np.einsum('ij,ji->i', x / sigma, x.T) / 2
     log_bmx += (x / sigma) @ mu
     log_bmx -= myTheta.precomputedForM(m)
+    # print(log_bmx)
     return log_bmx
 
 
@@ -125,7 +128,9 @@ def log_p_m_x(log_Bs, myTheta):
     """
     alllog = log_Bs + np.log(myTheta.omega)
     logmax = alllog.max(axis=0, keepdims=True)
-    return alllog - logmax - np.log(sumexp(alllog, logmax))
+    log_pmx = alllog - logmax - np.log(sumexp(alllog, logmax))
+    # print(log_pmx)
+    return log_pmx
 
 
 def logLik(log_Bs, myTheta):
@@ -153,12 +158,14 @@ def train(speaker, X, M=8, epsilon=0.0, maxIter=20):
     omega = np.exp(np.random.rand(M, 1))
     myTheta.reset_omega(omega / omega.sum())
     # set mu
-    myTheta.reset_mu(X[np.random.randint(0, X.shape[0], M)])
+    myTheta.reset_mu(X[np.random.randint(0, X.shape[0], M)])  # pick random points
     # set sigma
     sig_shape = (M, X.shape[1])
     sig = np.reciprocal(np.arange(1, M+1).astype(np.float))
     myTheta.reset_Sigma(np.broadcast_to(np.expand_dims(sig, 1), sig_shape))
-
+    # print(myTheta.omega)
+    # print(myTheta.mu)
+    # print(myTheta.Sigma)
     i = 0
     prev_l = -np.inf
     delta = np.inf
@@ -166,12 +173,13 @@ def train(speaker, X, M=8, epsilon=0.0, maxIter=20):
         myTheta.reset_precompute()
         log_bs, log_ps = compute_logs(X, M, myTheta)
         l = logLik(log_bs, myTheta)
-        print(f"l: {l}, prev_l: {prev_l}")
+        # print(f"l: {l}, prev_l: {prev_l}")
         myTheta = update_theta(myTheta, X, log_ps)
         delta = l - prev_l
         prev_l = l
         i += 1
-        print(f"iteration {i} done with l: {round(l, 3)} and delta: {round(delta, 3)}")
+        # print(f"iteration {i} done with l: {round(l, 3)} and delta: {round(delta, 3)}")
+    myTheta.reset_precompute()  # 1 last one now that we're done.
     return myTheta
 
 
@@ -190,10 +198,11 @@ def test(mfcc, correctID, models, k=5):
     """
     loglikes = []
     M = len(models[0].omega)
-    for i, model in enumerate(models):
-        log_bs, _ = compute_logs(mfcc, M, model)
+    for model in models:
+        log_bs = compute_logs(mfcc, M, model, just_bs=True)
         l = logLik(log_bs, model)
         loglikes.append(l)
+    # print(loglikes)
     best_indices = np.argsort(-np.array(loglikes))  # -'ves to reverse order
     bestModel = best_indices[0]
     if k > 0:
@@ -202,7 +211,7 @@ def test(mfcc, correctID, models, k=5):
         kmodels = [models[i] for i in top_k]
         klogs = [loglikes[i] for i in top_k]
         for model, loglike in zip(kmodels, klogs):
-            print(f"{model} {loglike}")
+            print(f"{model.name} {loglike}")
         print("")
     return 1 if (bestModel == correctID) else 0
 
@@ -211,7 +220,7 @@ def outloop(maxIter=20, d=13, M=8, k=5, epsilon=0., ):
     # train a model for each speaker, and reserve data for testing
     for subdir, dirs, files in os.walk(dataDir):
         for speaker in dirs:
-            print(speaker)
+            # print(speaker)
 
             files = fnmatch.filter(os.listdir(os.path.join(dataDir, speaker)), "*npy")
             random.shuffle(files)
@@ -227,8 +236,6 @@ def outloop(maxIter=20, d=13, M=8, k=5, epsilon=0., ):
 
             trainThetas.append(train(speaker, X, M, epsilon, maxIter))
 
-    stdout = sys.stdout  # steal stdout so that we can redirect to file.
-    sys.stdout = open('gmmResults.txt', 'a')
     # evaluate
     numCorrect = 0
     for i in range(0, len(testMFCCs)):
