@@ -7,8 +7,8 @@ import random
 dataDir = "/scratch/ssd001/home/cchoquet/csc401/a3/code/data/data/"
 
 
-def sumexp(a, b):
-  return np.exp(a-b).sum(axis=0, keepdims=True)
+def sumexp(a, b, axis=0):
+  return np.exp(a-b).sum(axis=axis, keepdims=True)
 
 
 def compute_logs(x, M, theta):
@@ -21,11 +21,10 @@ def update_theta(theta, x, log_ps):
 
     ps = np.exp(log_ps)
     maxp = log_ps.max(1, keepdims=True)
-    print(ps.shape, x.shape, maxp.shape, log_ps.shape)
-    theta.reset_mu((ps @ x) / (maxp + sumexp(log_ps, maxp)))
+    theta.reset_mu((ps @ x) / (maxp + sumexp(log_ps, maxp, 1)))
     theta.reset_omega(np.mean(log_ps, 1))
 
-    sigma = (ps @ np.power(x, 2)) / (maxp + sumexp(log_ps, maxp))
+    sigma = (ps @ np.power(x, 2)) / (maxp + sumexp(log_ps, maxp, 1))
     sigma += 1e-10 - np.power(theta.mu, 2)
     theta.reset_Sigma(sigma)
     return theta
