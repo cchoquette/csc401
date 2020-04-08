@@ -181,6 +181,7 @@ def train(speaker, X, M=8, epsilon=0.0, maxIter=20):
         prev_l = l
         i += 1
         print(f"iteration {i} done with l: {round(l, 3)} and delta: {round(delta, 3)}")
+    myTheta.reset_precompute()  # 1 last one now that we're done.
     return myTheta
 
 
@@ -199,7 +200,7 @@ def test(mfcc, correctID, models, k=5):
     """
     loglikes = []
     M = len(models[0].omega)
-    for i, model in enumerate(models):
+    for model in models:
         log_bs = compute_logs(mfcc, M, model, just_bs=True)
         l = logLik(log_bs, model)
         loglikes.append(l)
