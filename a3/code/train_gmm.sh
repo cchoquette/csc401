@@ -12,4 +12,4 @@ conda activate csc401a2
 . /etc/profile.d/lmod.sh
 module use /pkgs/environment-modules/
 
-python -u a3_gmm.py
+python -u a3_gmm_structured.py
