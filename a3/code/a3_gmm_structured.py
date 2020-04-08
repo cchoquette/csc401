@@ -77,7 +77,6 @@ class theta:
     def reset_Sigma(self, Sigma):
         """Pass in `sigma` of shape [M, d]
         """
-        print(Sigma)
         Sigma = np.asarray(Sigma)
         shape = Sigma.shape
         assert shape == (self._M, self._d), "`Sigma` must be of size (M,d)"
@@ -155,7 +154,7 @@ def train(speaker, X, M=8, epsilon=0.0, maxIter=20):
     myTheta.reset_mu(X[np.random.randint(0, X.shape[0], M)])
     # set sigma
     sig_shape = (M, X.shape[1])
-    sig = np.reciprocal(np.arange(1, M+1))
+    sig = np.reciprocal(np.arange(1, M+1).astype(np.float))
     myTheta.reset_Sigma(np.broadcast_to(np.expand_dims(sig, 1), sig_shape))
 
     i = 0
