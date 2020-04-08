@@ -17,17 +17,17 @@ def compute_logs(x, M, theta):
     return log_bs, log_ps
 
 
-def update_theta(theta, x, log_ps):
+def update_theta(t, x, log_ps):
 
     ps = np.exp(log_ps)
     maxp = log_ps.max(1, keepdims=True)
-    theta.reset_mu((ps @ x) / (maxp + sumexp(log_ps, maxp, 1)))
-    theta.reset_omega(np.mean(log_ps, 1))
+    t.reset_mu((ps @ x) / (maxp + sumexp(log_ps, maxp, 1)))
+    t.reset_omega(np.mean(log_ps, 1))
 
     sigma = (ps @ np.power(x, 2)) / (maxp + sumexp(log_ps, maxp, 1))
-    sigma += 1e-10 - np.power(theta.mu, 2)
-    theta.reset_Sigma(sigma)
-    return theta
+    sigma += 1e-10 - np.power(t.mu, 2)
+    t.reset_Sigma(sigma)
+    return t
 
 
 class theta:
@@ -164,7 +164,7 @@ def train(speaker, X, M=8, epsilon=0.0, maxIter=20):
         log_bs, log_ps = compute_logs(X, M, myTheta)
         l = logLik(log_bs, myTheta)
 
-        myTheta = update_theta(theta, X, log_ps)
+        myTheta = update_theta(myTheta, X, log_ps)
         delta = prev_l - l
         prev_l = l
         i += 1
