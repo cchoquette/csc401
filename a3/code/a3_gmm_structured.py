@@ -109,6 +109,7 @@ def log_b_m_x(m, x, myTheta):
     log_bmx = - np.einsum('ij,ji->i', x / sigma, x.T) / 2
     log_bmx += (x / sigma) @ mu
     log_bmx -= myTheta.precomputedForM(m)
+    print(log_bmx)
     return log_bmx
 
 
@@ -127,7 +128,9 @@ def log_p_m_x(log_Bs, myTheta):
     """
     alllog = log_Bs + np.log(myTheta.omega)
     logmax = alllog.max(axis=0, keepdims=True)
-    return alllog - logmax - np.log(sumexp(alllog, logmax))
+    log_pmx = alllog - logmax - np.log(sumexp(alllog, logmax))
+    print(log_pmx)
+    return log_pmx
 
 
 def logLik(log_Bs, myTheta):
@@ -160,7 +163,9 @@ def train(speaker, X, M=8, epsilon=0.0, maxIter=20):
     sig_shape = (M, X.shape[1])
     sig = np.reciprocal(np.arange(1, M+1).astype(np.float))
     myTheta.reset_Sigma(np.broadcast_to(np.expand_dims(sig, 1), sig_shape))
-
+    print(myTheta.omega)
+    print(myTheta.mu)
+    print(myTheta.Sigma)
     i = 0
     prev_l = -np.inf
     delta = np.inf
