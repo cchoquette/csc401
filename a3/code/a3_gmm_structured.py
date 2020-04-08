@@ -45,6 +45,7 @@ class theta:
         self.precompute = None
 
     def reset_precompute(self):
+        print(self.Sigma, )
         precomp = (np.power(self.mu, 2) / (2 * self.Sigma)).sum(axis=1)
         precomp += (self._d / 2) * np.log(2 * np.pi * np.ones((self._M)))
         precomp += np.log(self.Sigma).sum(axis=1) / 2
@@ -76,6 +77,7 @@ class theta:
     def reset_Sigma(self, Sigma):
         """Pass in `sigma` of shape [M, d]
         """
+        print(Sigma)
         Sigma = np.asarray(Sigma)
         shape = Sigma.shape
         assert shape == (self._M, self._d), "`Sigma` must be of size (M,d)"
