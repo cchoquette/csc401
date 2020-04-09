@@ -241,7 +241,7 @@ def outloop(maxIter=20, d=13, M=8, k=5, epsilon=0., ):
     for i in range(0, len(testMFCCs)):
         numCorrect += test(testMFCCs[i], i, trainThetas, k)
     accuracy = 1.0*numCorrect/len(testMFCCs)
-    print(f"accuracy: {accuracy}")
+    print(f"accuracy: {accuracy} with M={M}, maxIter={maxIter}, eps={epsilon}")
     sys.stdout.flush()
 
 
