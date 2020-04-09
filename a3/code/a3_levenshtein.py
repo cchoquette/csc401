@@ -59,6 +59,8 @@ def Levenshtein(r, h):
     # now we do the backward algorithm
     counts = {0: 0, 1: 0, 2: 0}  # indices correspond to choices
     i, j, _ = R.shape
+    i -= 1
+    j -= 1
     while i > 0 or j > 0:
         match_type = R[i, j, 1]
         # extra check to see if its a match or a substitute
