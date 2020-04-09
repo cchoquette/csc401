@@ -54,6 +54,7 @@ def Levenshtein(r, h):
             insert = R[i_1, j, 0]
             choices = np.array([delete, insert, substitute]) + 1
             R[i_1, j_1, 1] = choices.argmin()
+            print(choices.argmin())
             R[i_1, j_1, 0] = choices[R[i_1, j_1, 1]]
 
     # now we do the backward algorithm
