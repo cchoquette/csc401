@@ -106,4 +106,9 @@ if __name__ == "__main__":
                 print(s.format(*kald))
                 g_lev.append(goog)
                 k_lev.append(kald)
-    out1 = ""
+    g_lev = np.array(g_lev)
+    k_lev = np.array(k_lev)
+    out1 = f"Google has a mean of: {np.mean(g_lev[:, 0])} " \
+        f"and std_dev of: {np.sqrt(np.var(g_lev[:, 0]))}. Kaldi has a mean of: " \
+        f"{np.mean(k_lev[:, 0])} and std_dev of: " \
+        f"{np.sqrt(np.var(k_lev[:, 0]))}."
