@@ -251,11 +251,12 @@ if __name__ == "__main__":
     d = 13
     max_M = 15
     max_epsilon = 10
-    max_maxIter = 150
+    max_maxIter = 100
     sys.stdout = open('gmmResults.txt', 'w')
-    for M in range(1, max_M):
-        outloop(M=M)
-    for epsilon in np.linspace(0, max_epsilon, int((max_epsilon-0)/0.1)+1):
-        outloop(epsilon=epsilon)
-    for maxIter in range(0, max_maxIter, 10):
-        outloop(maxIter=maxIter)
+    print('done')
+    # for M in range(1, max_M):
+    #     outloop(M=M)
+    # for epsilon in np.linspace(0, max_epsilon, int((max_epsilon-0)/0.1)+1):
+    #     outloop(epsilon=epsilon)
+    # for maxIter in range(0, max_maxIter, 10):
+    #     outloop(maxIter=maxIter)
