@@ -217,6 +217,8 @@ def test(mfcc, correctID, models, k=5):
 
 
 def outloop(maxIter=20, d=13, M=8, k=5, epsilon=0., ):
+    trainThetas = []
+    testMFCCs = []
     # train a model for each speaker, and reserve data for testing
     for subdir, dirs, files in os.walk(dataDir):
         for speaker in dirs:
@@ -247,8 +249,6 @@ def outloop(maxIter=20, d=13, M=8, k=5, epsilon=0., ):
 
 if __name__ == "__main__":
 
-    trainThetas = []
-    testMFCCs = []
     d = 13
     max_M = 15
     max_epsilon = 10
