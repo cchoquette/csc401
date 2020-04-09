@@ -4,6 +4,7 @@ import sys
 import re
 
 dataDir = '/u/cs401/A3/data/'
+dataDir = "/scratch/ssd001/home/cchoquet/csc401/a3/code/data/data/"
 
 
 def Levenshtein(r, h):
