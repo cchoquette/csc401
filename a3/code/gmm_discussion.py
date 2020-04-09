@@ -205,14 +205,14 @@ def test(mfcc, correctID, models, k=5):
     # print(loglikes)
     best_indices = np.argsort(-np.array(loglikes))  # -'ves to reverse order
     bestModel = best_indices[0]
-    if k > 0:
-        # print(models[correctID].name)
-        top_k = best_indices[:k]
-        kmodels = [models[i] for i in top_k]
-        klogs = [loglikes[i] for i in top_k]
-        # for model, loglike in zip(kmodels, klogs):
-        #     print(f"{model.name} {loglike}")
-        # print("")
+    # if k > 0:
+    #     print(models[correctID].name)
+    #     top_k = best_indices[:k]
+    #     kmodels = [models[i] for i in top_k]
+    #     klogs = [loglikes[i] for i in top_k]
+    #     for model, loglike in zip(kmodels, klogs):
+    #         print(f"{model.name} {loglike}")
+    #     print("")
     return 1 if (bestModel == correctID) else 0
 
 
