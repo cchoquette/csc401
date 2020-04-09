@@ -206,13 +206,13 @@ def test(mfcc, correctID, models, k=5):
     best_indices = np.argsort(-np.array(loglikes))  # -'ves to reverse order
     bestModel = best_indices[0]
     if k > 0:
-        print(models[correctID].name)
+        # print(models[correctID].name)
         top_k = best_indices[:k]
         kmodels = [models[i] for i in top_k]
         klogs = [loglikes[i] for i in top_k]
-        for model, loglike in zip(kmodels, klogs):
-            print(f"{model.name} {loglike}")
-        print("")
+        # for model, loglike in zip(kmodels, klogs):
+        #     print(f"{model.name} {loglike}")
+        # print("")
     return 1 if (bestModel == correctID) else 0
 
 
@@ -242,6 +242,7 @@ def outloop(maxIter=20, d=13, M=8, k=5, epsilon=0., ):
         numCorrect += test(testMFCCs[i], i, trainThetas, k)
     accuracy = 1.0*numCorrect/len(testMFCCs)
     print(f"accuracy: {accuracy}")
+    sys.stdout.flush()
 
 
 if __name__ == "__main__":
@@ -254,6 +255,7 @@ if __name__ == "__main__":
     max_maxIter = 100
     sys.stdout = open('gmmResults.txt', 'w')
     print('done')
+
     # for M in range(1, max_M):
     #     outloop(M=M)
     # for epsilon in np.linspace(0, max_epsilon, int((max_epsilon-0)/0.1)+1):
