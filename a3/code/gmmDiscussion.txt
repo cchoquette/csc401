@@ -77,4 +77,7 @@ task appears toe be easy, indicating that it might even be (nearly) linearly sep
 very easy to keep enough information to still be able to separate the different output distributions. However,
 at small PCA components <5, we see that there is indeed a decrease in accuracy (around 50% accuracy achieved),
 due to the loss of crucial information needed to separate the speaker distributions. In this regime,
-we see less than 70% of the original variance is maintained.
+we see less than 65% of the original variance is maintained. At a latent dimensionality of 5,
+we see that 70% of the explained variance is enough to achieve a reasonable accuracy of 87.5%. Only
+77% of the expalained variance is needed to almost fully reattain our original accuracy, where this model
+achieves just under 97% accuracy with less than half the number of dimensions in its input space.
