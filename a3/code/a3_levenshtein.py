@@ -43,54 +43,43 @@ def Levenshtein(r, h):
     # dim 1: for h
     # dim 2: 2D where 0 index is the distance and 1 index is the type
     # types are 0: delete, 1: insert, 2: substitute
-    R = np.zeros((len(r) + 2, len(h) + 2))
-    R[0, :] = np.arange(R.shape[1])
-    R[:, 0] = np.arange(R.shape[0])
-    # R[0, :, 1] = np.ones_like(R[0, :, 1])  # inserts
-    # R[:, 0, 1] = np.zeros_like(R[:, 0, 1])  # deletes
-    # now setup strings for comparison
-    r = add_tags(r)
-    h = add_tags(h)
-    # following the forward-backward algorithm, this is the forward part.
-    print(R.shape)
-    for i in range(1, R.shape[0]):
-        for j in range(1, R.shape[1]):
+    nS = 0
+    nI = 0
+    nD = 0
+    n = len(r)
+    m = len(h)
+    r.insert(0, '<s>')
+    r.append('</s>')
+    h.insert(0, '<s>')
+    h.append('</s>')
+    R = np.zeros([n + 2, m + 2])
+    R[0] = np.arange(m + 2)
+    R[:, 0] = np.arange(n + 2)
+    for i in range(1, n + 2):
+        for j in range(1, m + 2):
             substitution = 1
             if r[i] == h[j]:
                 substitution = 0
             R[i, j] = np.min([R[i - 1, j] + 1, R[i - 1, j - 1] + substitution, R[i, j - 1] + 1])
-    # now we do the backward algorithm
-    counts = {0: 0, 1: 0, 2: 0}  # indices correspond to choices
-    i, j = R.shape
-    i -= 1
-    j -= 1
-    while i > 0 or j > 0:
-        i_1 = i - 1
-        j_1 = j - 1
-        if i > 0 and R[i_1, j] == R[i, j] - 1:
-            counts[0] += 1  # deletion
-            i -= 1
-        elif j > 0 and R[i, j_1] == R[i, j] - 1:
-            counts[1] += 1  # insertion
-            j -= 1
-        elif i > 0 and j > 0 and R[i_1, j_1] == R[i, j] - 1:
-            counts[2] += 1
-            i -= 1
-            j -= 1
-        elif i > 0 and j > 0 and R[i_1, j_1] == R[i, j]:
-            i -= 1
-            j -= 1
-        # match_type = R[i, j, 1]
-        # # extra check to see if its a match or a substitute
-        # to_add = 0 if match_type == 2 and r[i-1] == h[i-1] else 1
-        # counts[match_type] += to_add
-        # i_dec = 0 if match_type == 1 else 1  # we don't decrement i if insert
-        # j_dec = 0 if match_type == 0 else 1  # we don't decrement j if delete
-        # i -= i_dec
-        # j -= j_dec
 
-    # return, WER, followed by counts, mine are in reverse order
-    return [R[-1, -1] / (len(R) - 2)] + [counts[i] for i in reversed(range(3))]
+    i = n + 1
+    j = m + 1
+    while i != 0 or j != 0:
+        if R[i - 1, j - 1] == R[i, j] and i > 0 and j > 0:
+            i, j = i - 1, j - 1
+        elif R[i - 1, j - 1] + 1 == R[i, j] and i > 0 and j > 0:
+            nS += 1
+            i, j = i - 1, j - 1
+        elif R[i, j - 1] + 1 == R[i, j] and j > 0:
+            nI += 1
+            j = j - 1
+        elif R[i - 1, j] + 1 == R[i, j] and i > 0:
+            nD += 1
+            i = i - 1
+        # else:
+        #     raise AssertionError("Not any of the four cases.")
+
+    return R[-1, -1] / n, nS, nI, nD
 
 
 def process_line(l):
