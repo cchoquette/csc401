@@ -7,6 +7,12 @@ dataDir = '/u/cs401/A3/data/'
 dataDir = "/scratch/ssd001/home/cchoquet/csc401/a3/code/data/data/"
 
 
+def add_tags(str_list):
+    str_list.insert(0, '<s>')
+    str_list.insert(len(str_list), '</s>')
+    return str_list
+
+
 def Levenshtein(r, h):
     """                                                                         
     Calculation of WER with Levenshtein distance.                               
@@ -42,7 +48,9 @@ def Levenshtein(r, h):
     R[:, 0] = np.arange(R.shape[0])
     # R[0, :, 1] = np.ones_like(R[0, :, 1])  # inserts
     # R[:, 0, 1] = np.zeros_like(R[:, 0, 1])  # deletes
-    # print(len(r), len(h))
+    # now setup strings for comparison
+    r = add_tags(r)
+    h = add_tags(h)
     # following the forward-backward algorithm, this is the forward part.
     for i in range(R.shape[0]):
         for j in range(R.shape[1]):
