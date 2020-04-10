@@ -44,7 +44,6 @@ def Levenshtein(r, h):
     R[:, 0, 1] = np.ones_like(R[:, 0, 1])
 
     # following the forward-backward algorithm, this is the forward part.
-    last = (None, None)
     for i in range(R.shape[0]-1):
         for j in range(R.shape[1]-1):
             j_1 = j+1
