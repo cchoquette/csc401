@@ -43,7 +43,7 @@ def Levenshtein(r, h):
     # dim 1: for h
     # dim 2: 2D where 0 index is the distance and 1 index is the type
     # types are 0: delete, 1: insert, 2: substitute
-    R = np.zeros((len(r) + 1, len(h) + 1))
+    R = np.zeros((len(r) + 2, len(h) + 2))
     R[0, :] = np.arange(R.shape[1])
     R[:, 0] = np.arange(R.shape[0])
     # R[0, :, 1] = np.ones_like(R[0, :, 1])  # inserts
