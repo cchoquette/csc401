@@ -129,11 +129,10 @@ if __name__ == "__main__":
             except:
                 print("error encountered")
                 continue
-            for i, opened_transcripts in enumerate(alllines):
-                if any([len(x) == 0 for x in opened_transcripts]):
-                    print("a transcript file was empty or missing.")
-                    continue
-                r, g, k = opened_transcripts
+            if any([len(x) == 0 for x in alllines]):
+                print("a transcript file was empty or missing.")
+                continue
+            for i, (r, g, k) in enumerate(alllines):
                 r = process_line(r)
                 goog = Levenshtein(r, process_line(g))
                 g_lev.append(goog)
