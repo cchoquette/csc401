@@ -124,14 +124,16 @@ if __name__ == "__main__":
         for speaker in ds:
             print(speaker)
             paths = [os.path.join(root, speaker, t) for t in transcripts]
-            try:
-                alllines = zip(*[open(p, 'r').readlines() for p in paths])
-            except:
-                print("error encountered")
-                continue
+            alllines = [open(p, 'r').readlines() for p in paths]
             if any([len(x) == 0 for x in alllines]):
                 print("a transcript file was empty or missing.")
                 continue
+            try:
+                alllines = zip(*alllines)
+            except:
+                print("error encountered")
+                continue
+
             for i, (r, g, k) in enumerate(alllines):
                 r = process_line(r)
                 goog = Levenshtein(r, process_line(g))
