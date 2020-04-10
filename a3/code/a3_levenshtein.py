@@ -136,8 +136,9 @@ if __name__ == "__main__":
                 continue
 
             for i, (r, g, k) in enumerate(alllines):
-                r = process_line(r)[2:]
-                goog = Levenshtein(r, process_line(g)[2:])
+                r = process_line(r)[1:]
+                print(r)
+                goog = Levenshtein(r, process_line(g)[1:])
                 g_lev.append(goog)
                 goog = make_print(speaker, 'Google', i, goog)
                 kald = Levenshtein(r, process_line(k)[2:])

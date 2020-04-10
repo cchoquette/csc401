@@ -216,7 +216,7 @@ def test(mfcc, correctID, models, k=5):
     return 1 if (bestModel == correctID) else 0
 
 
-def outloop(maxIter=20, d=13, M=8, k=5, epsilon=0., ):
+def outloop(maxIter=20, d=13, M=8, k=5, epsilon=0., pca=None):
     trainThetas = []
     testMFCCs = []
     # train a model for each speaker, and reserve data for testing
@@ -235,7 +235,8 @@ def outloop(maxIter=20, d=13, M=8, k=5, epsilon=0., ):
             for file in files:
                 myMFCC = np.load(os.path.join(dataDir, speaker, file))
                 X = np.append(X, myMFCC, axis=0)
-
+            if pca is not None:
+                X = pca.fit_transform(X)
             trainThetas.append(train(speaker, X, M, epsilon, maxIter))
 
     # evaluate
@@ -247,17 +248,47 @@ def outloop(maxIter=20, d=13, M=8, k=5, epsilon=0., ):
     sys.stdout.flush()
 
 
+def get_pca(X, desired_d):
+    from sklearn.decomposition import PCA
+    pca = PCA(n_components=desired_d)
+    pca.fit(X)
+    total_explained_variance = pca.explained_variance_ratio_.sum()
+    print(f"total explariance variance ratio: {total_explained_variance}")
+    return pca
+
+
+def gather_X():
+    all_X = []
+    for subdir, dirs, files in os.walk(dataDir):
+        for speaker in dirs:
+            # print(speaker)
+
+            files = fnmatch.filter(os.listdir(os.path.join(dataDir, speaker)), "*npy")
+            random.shuffle(files)
+
+            X = np.empty((0, d))
+
+            for file in files:
+                myMFCC = np.load(os.path.join(dataDir, speaker, file))
+                X = np.append(X, myMFCC, axis=0)
+            all_X.append(X)
+    return np.array(all_X)
+
+
 if __name__ == "__main__":
 
-    d = 13
     max_M = 15
     max_epsilon = 10
     max_maxIter = 100
     sys.stdout = open('gmmResults.txt', 'w')
-
+    max_d = 13
     for M in range(1, max_M):
         outloop(M=M)
     for epsilon in np.linspace(0, max_epsilon, int((max_epsilon-0)/0.1)+1):
         outloop(epsilon=epsilon)
     for maxIter in range(0, max_maxIter, 10):
         outloop(maxIter=maxIter)
+    for d in range(1, max_d):
+        X = gather_X()
+        pca = get_pca(X, d)
+        outloop(pca=pca)
