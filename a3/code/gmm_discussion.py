@@ -272,7 +272,7 @@ def gather_X(d=13):
                 myMFCC = np.load(os.path.join(dataDir, speaker, file))
                 X = np.append(X, myMFCC, axis=0)
             all_X.append(X)
-    return np.array(all_X)
+    return np.concatenate(all_X, axis=0)
 
 
 if __name__ == "__main__":
