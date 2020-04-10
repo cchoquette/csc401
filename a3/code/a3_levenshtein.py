@@ -50,19 +50,20 @@ def Levenshtein(r, h):
             j_1 = j+1
             i_1 = i+1
             same = int(r[i] == h[j])
-            substitute = R[i, j, 0] - same  # if they were the same, will cancel with the +1 later
             delete = R[i, j_1, 0]
             insert = R[i_1, j, 0]
+            substitute = R[i, j, 0] - same  # if they were the same, will cancel with the +1 later
             choices = np.array([delete, insert, substitute]) + 1
             R[i_1, j_1, 1] = choices.argmin()
             R[i_1, j_1, 0] = choices[int(R[i_1, j_1, 1])]
-
+    print(R[:, :, 0])
     # now we do the backward algorithm
     counts = {0: 0, 1: 0, 2: 0}  # indices correspond to choices
     i, j, _ = R.shape
     i -= 1
     j -= 1
     while i > 0 or j > 0:
+        print(i, j)
         match_type = R[i, j, 1]
         # extra check to see if its a match or a substitute
         to_add = 0 if match_type == 2 and r[i-1] == h[i-1] else 1
