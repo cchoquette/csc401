@@ -95,7 +95,7 @@ def Levenshtein(r, h):
         # j -= j_dec
 
     # return, WER, followed by counts, mine are in reverse order
-    return [R[-1, -1, 0] / (len(R) - 1)] + [counts[i] for i in reversed(range(3))]
+    return [R[-1, -1] / (len(R) - 2)] + [counts[i] for i in reversed(range(3))]
 
 
 def process_line(l):
