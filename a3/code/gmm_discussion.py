@@ -282,13 +282,17 @@ if __name__ == "__main__":
     max_maxIter = 100
     sys.stdout = open('gmmResults.txt', 'w')
     max_d = 13
-    for M in range(1, max_M):
-        outloop(M=M)
-    for epsilon in np.linspace(0, max_epsilon, int((max_epsilon-0)/0.1)+1):
-        outloop(epsilon=epsilon)
-    for maxIter in range(0, max_maxIter, 10):
-        outloop(maxIter=maxIter)
-    for d in range(1, max_d):
-        X = gather_X()
-        pca = get_pca(X, d)
-        outloop(pca=pca)
+    do_discussion = False
+    do_bonus = True
+    if do_discussion:
+        for M in range(1, max_M):
+            outloop(M=M)
+        for epsilon in np.linspace(0, max_epsilon, int((max_epsilon-0)/0.1)+1):
+            outloop(epsilon=epsilon)
+        for maxIter in range(0, max_maxIter, 10):
+            outloop(maxIter=maxIter)
+    if do_bonus:
+        for d in range(1, max_d):
+            X = gather_X()
+            pca = get_pca(X, d)
+            outloop(pca=pca)
