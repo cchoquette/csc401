@@ -52,6 +52,7 @@ def Levenshtein(r, h):
     r = add_tags(r)
     h = add_tags(h)
     # following the forward-backward algorithm, this is the forward part.
+    print(R.shape)
     for i in range(R.shape[0]-1):
         for j in range(R.shape[1]-1):
             j_1 = j+1
