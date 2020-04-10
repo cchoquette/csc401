@@ -239,7 +239,7 @@ def outloop(maxIter=20, d=13, M=8, k=5, epsilon=0., pca=None, max_speakers=None)
                 myMFCC = np.load(os.path.join(dataDir, speaker, file))
                 X = np.append(X, myMFCC, axis=0)
             if pca is not None:
-                X = pca.fit_transform(X)
+                X = pca.transform(X)
             trainThetas.append(train(speaker, X, M, epsilon, maxIter))
             if n_speakers > max_speakers:
                 break
@@ -248,7 +248,10 @@ def outloop(maxIter=20, d=13, M=8, k=5, epsilon=0., pca=None, max_speakers=None)
     # evaluate
     numCorrect = 0
     for i in range(0, len(testMFCCs)):
-        numCorrect += test(testMFCCs[i], i, trainThetas, k)
+        testmfcc = testMFCCs[i]
+        if pca is not None:
+            testmfcc = pca.transform(testmfcc)
+        numCorrect += test(testmfcc, i, trainThetas, k)
     accuracy = 1.0*numCorrect/len(testMFCCs)
     print(f"accuracy: {accuracy} with M={M}, maxIter={maxIter}, eps={epsilon}")
     print("max_speakers={}".format(max_speakers))

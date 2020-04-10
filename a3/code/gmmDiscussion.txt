@@ -69,3 +69,11 @@ however this model will grow inefficient very quickly with lots of data. Finally
 a convolutional neural network trained on the raw speech data (over a fixed interval). Then, we select
 a fixed number of speakers and have a densely connected output layers to select which class (from the final
 convolutional hidden layer's features).
+--- BONUS
+for my bonus, I explored the use of PCA. We see that PCA in general does not decrease the test accuracy
+of the models even for only half the number of features kept. This is because the data is linearly transformable
+such that the total kept variance is still very close to the original data (near 100%). We would expect these results as the
+task appears toe be easy, indicating that it might even be (nearly) linearly separable. In this case, it can be
+very easy to keep enough information to still be able to separate the different output distributions. However,
+at small PCA components <5, we see that there is indeed a decrease in accuracy, due to the loss of crucial information
+needed to separtae the speaker distributions.
