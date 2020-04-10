@@ -144,6 +144,7 @@ if __name__ == "__main__":
                 s = " ".join(["{}" for _ in range(7)])
                 print(s.format(*goog))
                 print(s.format(*kald))
+                sys.stdout.flush()
     g_lev = np.array(g_lev)
     k_lev = np.array(k_lev)
     out1 = f"Google has a mean of: {np.mean(g_lev[:, 0])} " \
