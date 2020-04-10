@@ -303,7 +303,7 @@ if __name__ == "__main__":
             outloop(max_speakers=n_speakers, epsilon=5., maxIter=10, M=5)
     if do_bonus:
         sys.stdout = open('gmmBonus.txt', 'w')
-        for d in range(1, max_d):
+        for d in range(2, max_d):
             X = gather_X()
             pca = get_pca(X, d)
             outloop(pca=pca)
