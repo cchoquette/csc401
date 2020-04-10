@@ -295,11 +295,11 @@ if __name__ == "__main__":
         sys.stdout = open('gmmResults.txt', 'w')
         for M in range(1, max_M):
             outloop(M=M)
-        # for epsilon in np.linspace(0, max_epsilon, int((max_epsilon-0)/0.1)+1):
-        #     outloop(epsilon=epsilon)
-        # for maxIter in range(0, max_maxIter, 10):
-        #     outloop(maxIter=maxIter)
-        for n_speakers in range(32):
+        for epsilon in np.linspace(0, max_epsilon, int((max_epsilon-0)/0.1)+1):
+            outloop(epsilon=epsilon)
+        for maxIter in range(0, max_maxIter, 10):
+            outloop(maxIter=maxIter)
+        for n_speakers in range(30):
             outloop(max_speakers=n_speakers, epsilon=5., maxIter=10, M=5)
     if do_bonus:
         sys.stdout = open('gmmBonus.txt', 'w')

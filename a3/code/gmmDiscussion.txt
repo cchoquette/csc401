@@ -1,3 +1,5 @@
+---- Experimental analysis: I have varied S, M, epsilon, and the maxiter.
+M:
 As the number of different Gaussians increases above the default of 8, we see that
 the model consistently attains 100% accuracy (including at 8). However, as the number
 of Gaussians decreases below 8, we see that for some M, the accuracy may fall in the range
@@ -11,7 +13,9 @@ given how easy the task is. Of course, with many
 Gaussians we run the risk of overfitting, however in the range I have tested, it
 does not appear to be an issue (I tested 1<=M<=14). However, it is also possible
 that we have too little data to be able to properly test any overfitting to sampling
-errors.
+errors. In a rerun of the variation of M, we very clearly see that low M values (<5) lead
+to decreases in accuracy due to limited model capacity underfitting the data distribution.
+maxiter, epsilon:
 I also test the convergence of the optimization algorithm by varying the max iterations
 and the required improvement, independently. These results are very noisy, as they should
 be given that I only ran them for one seed, but they show a general correlation that
@@ -25,4 +29,43 @@ impact we see is that 0 iterations leads to untrained models giving horrible per
 These results can be viewed in gmmResults.txt. It is important to note that I used
 the mean log likelihood for this run, so epsilon values in the range of 1-10 are
 about 1-25% of the mean log likelihood (40-50).
-For the given set of hyperparameters,
+S:
+For the given set of hyperparameters, we would observe 100% accuracy on all numbers of speakers, as
+for the current number (32), we already get 100% and fewer speakers means an easier task. So,
+I have tested with worse hyperparameters settings that give worse accuracies and we see that infact,
+when 32 speakers does not give 100% accuracy, we do see an increase in accuracy with fewer speakers.
+For my chosen hyperparametres, we see that at around 12 speakers is the first deviation from 100%
+accuracy. The accuracy oscillates back but then consistently drops to 95% around 20 speakers.
+----- Hypothetical answers
+To improve the classification accuracy, without adding more data, we do a rigorous
+hyperparameter search. As I have already shown in the above experiments, these hyperparamters can be vital
+to the performance of the algorithm (namely, the epsilon and M). To find the best hyperparameters, we should
+use a randomized grid search to evaluate a wide range of values (it has been shown to converge quicker than
+full grid search). Given that the training phase for these models is realtively quick, I would not
+recommend Bayesian Optimization to find the best hyperparamters. However, I we should be using a holdout validation set
+to veryfiy the final validation accuracy of the model. In this setup, we would have three datasets, a training set, a test
+set, and a validation set, where we find our best hyperparameters on the test set and report our best
+accuracy on the validation set. We could also use more rigorous testing methods such as
+k-fold cross-validation to better account for any instabilities in the data.
+Finally, we could also test other distributions other than Gaussian, though this would require
+us to paramterize the distribution in different manners and solve for the log likelihood for each
+distribution.
+
+Based on the current implementation, there is never a scenario where the classifier will
+say the an utterance is not from any of the speakers; it will always pick a speaker, even if
+it is very unlikely. Specifically, the use of an argmax() will always give a result. This assumption
+is fine if the test distribution is sampled from the same output space as the training distribution,
+but this is not always true. To make this model for production, we should implement a threshold on
+the likelihood to determine if a data point is from any of the speaker models. We could gather new samples
+that are out of distribution to determine a good setting for this threshold. Alternatively, we could
+train another model to predict out of distribution data.
+
+A common method for acoustic speech verification is to train an LSTM on each speaker and
+then evaluate the cosine distance of the hidden states for all saved speakers and the new speaker.
+We could borrow on this paradigm here and train an LSTM for each speaker. Then, on new speaker inputs
+we evaluate the cosine distance to some threshold and return the selected speaker. This model works well
+as we can also detect out of distribution data easily and achieve high precision. We could also use KNN,
+however this model will grow inefficient very quickly with lots of data. Finally, we could also try
+a convolutional neural network trained on the raw speech data (over a fixed interval). Then, we select
+a fixed number of speakers and have a densely connected output layers to select which class (from the final
+convolutional hidden layer's features).
