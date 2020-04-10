@@ -66,7 +66,7 @@ def Levenshtein(r, h):
     print(R)
     # now we do the backward algorithm
     counts = {0: 0, 1: 0, 2: 0}  # indices correspond to choices
-    i, j, _ = R.shape
+    i, j = R.shape
     while i > 0 or j > 0:
         i_1 = i - 1
         j_1 = j - 1
