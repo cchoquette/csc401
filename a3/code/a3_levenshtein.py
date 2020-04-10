@@ -107,6 +107,7 @@ def make_print(speaker, t, i, out):
     prefixes = ['S:{}', 'I:{}', 'D:{}']
     beg + list([p.format(o) for p, o in zip(prefixes, out[1:])])
     print(beg)
+    return beg
 
 
 if __name__ == "__main__":
