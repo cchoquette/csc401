@@ -60,14 +60,14 @@ def Levenshtein(r, h):
         if i > 0 and j > 0 and R[i_1, j_1] == R[i, j]:
             i -= 1
             j -= 1
-        elif i > 0 and j > 0 and R[i_1, j_1] + 1 == R[i, j]:
+        elif i > 0 and j > 0 and R[i_1, j_1] == R[i, j] - 1:
             counts[2] += 1
             i -= 1
             j -= 1
-        elif j > 0 and R[i, j - 1] + 1 == R[i, j]:
+        elif j > 0 and R[i, j - 1] == R[i, j] - 1:
             counts[1] += 1
             j -= 1
-        elif i > 0 and R[i - 1, j] + 1 == R[i, j]:
+        elif i > 0 and R[i - 1, j] == R[i, j] - 1:
             counts[0] += 1
             i -= 1
 
