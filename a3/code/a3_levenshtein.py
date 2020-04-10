@@ -57,19 +57,20 @@ def Levenshtein(r, h):
     j = R.shape[1] - 1
     while i > 0 or j > 0:
         i_1, j_1 = i-1, j-1
-        if i > 0 and j > 0 and R[i_1, j_1] == R[i, j]:
+        if j > 0 and R[i, j - 1] == R[i, j] - 1:
+            counts[1] += 1
+            j -= 1
+        elif i > 0 and R[i - 1, j] == R[i, j] - 1:
+            counts[0] += 1
+            i -= 1
+        elif i > 0 and j > 0 and R[i_1, j_1] == R[i, j]:
             i -= 1
             j -= 1
         elif i > 0 and j > 0 and R[i_1, j_1] == R[i, j] - 1:
             counts[2] += 1
             i -= 1
             j -= 1
-        elif j > 0 and R[i, j - 1] == R[i, j] - 1:
-            counts[1] += 1
-            j -= 1
-        elif i > 0 and R[i - 1, j] == R[i, j] - 1:
-            counts[0] += 1
-            i -= 1
+
 
     return [R[-1, -1] / (R.shape[0] - 2)] + [counts[i] for i in reversed(range(3))]
 
