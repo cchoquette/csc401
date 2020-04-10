@@ -252,6 +252,12 @@ def get_pca(X, desired_d):
     from sklearn.decomposition import PCA
     pca = PCA(n_components=desired_d)
     pca.fit(X)
+    print(pca.explained_variance_ratio_, pca.explained_variance_)
+    total_explained_variance = pca.explained_variance_ratio_.sum()
+    print(f"total explariance variance ratio: {total_explained_variance}")
+    pca = PCA()
+    pca.fit(X)
+    print(pca.explained_variance_ratio_, pca.explained_variance_)
     total_explained_variance = pca.explained_variance_ratio_.sum()
     print(f"total explariance variance ratio: {total_explained_variance}")
     return pca
@@ -295,6 +301,5 @@ if __name__ == "__main__":
         sys.stdout = open('gmmBonus.txt', 'w')
         for d in range(1, max_d):
             X = gather_X()
-            print(X.shape)
             pca = get_pca(X, d)
             outloop(pca=pca)
