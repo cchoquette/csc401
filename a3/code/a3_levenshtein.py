@@ -44,8 +44,8 @@ def Levenshtein(r, h):
     r = add_tags(r)
     h = add_tags(h)
     R = np.zeros((len(r), len(h)))
-    R[0] = np.arange(R.shape[0])
-    R[:, 0] = np.arange(R.shape[1])
+    R[:, 0] = np.arange(R.shape[0])
+    R[0, :] = np.arange(R.shape[1])
     for i in range(1, R.shape[0]):
         for j in range(1, R.shape[1]):
             substitution = 1
