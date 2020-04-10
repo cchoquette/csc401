@@ -38,9 +38,6 @@ def Levenshtein(r, h):
     >>> wer("".split(), "who is there".split())                                 
     Inf 0 3 0                                                                           
     """
-    nS = 0
-    nI = 0
-    nD = 0
     r = add_tags(r)
     h = add_tags(h)
     R = np.zeros((len(r), len(h)))
@@ -55,25 +52,23 @@ def Levenshtein(r, h):
             delete = R[i, j_1]
             insert = R[i_1, j]
             R[i_1, j_1] = np.array([delete, insert, sub]).min() + 1
-
+    counts = {0: 0, 1: 0, 2: 0}
     i = R.shape[0] - 1
     j = R.shape[1] - 1
-    while i != 0 or j != 0:
+    while i > 0 or j > 0:
         if R[i - 1, j - 1] == R[i, j] and i > 0 and j > 0:
             i, j = i - 1, j - 1
         elif R[i - 1, j - 1] + 1 == R[i, j] and i > 0 and j > 0:
-            nS += 1
+            counts[2] += 1
             i, j = i - 1, j - 1
         elif R[i, j - 1] + 1 == R[i, j] and j > 0:
-            nI += 1
+            counts[1] += 1
             j = j - 1
         elif R[i - 1, j] + 1 == R[i, j] and i > 0:
-            nD += 1
+            counts[0] += 1
             i = i - 1
-        # else:
-        #     raise AssertionError("Not any of the four cases.")
 
-    return R[-1, -1] / (R.shape[0] - 2), nS, nI, nD
+    return R[-1, -1] / (R.shape[0] - 2), [counts[i] for i in reversed(range(3))]
 
 
 # # create and initialize our grids
