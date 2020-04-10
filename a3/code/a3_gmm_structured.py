@@ -148,7 +148,7 @@ def logLik(log_Bs, myTheta):
     alllog = log_Bs + np.log(myTheta.omega)
     logmax = alllog.max(axis=0, keepdims=True)
     # print(f"alllog: {alllog}, logmax: {logmax}")
-    return np.mean(logmax + np.log(sumexp(alllog, logmax)))
+    return (logmax + np.log(sumexp(alllog, logmax))).sum()
 
 
 def train(speaker, X, M=8, epsilon=0.0, maxIter=20):
