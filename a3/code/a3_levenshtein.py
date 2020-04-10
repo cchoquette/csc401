@@ -8,6 +8,12 @@ dataDir = "/scratch/ssd001/home/cchoquet/csc401/a3/code/data/data/"
 
 
 def add_tags(str_list):
+    """Add start and end tag to list of strings.
+
+    :param str_list: a list of strings
+    :return: the same list with a start and end tag pre-pended
+    and post-pended, respectively
+    """
     str_list.insert(0, '<s>')
     str_list.insert(len(str_list), '</s>')
     return str_list
@@ -38,11 +44,17 @@ def Levenshtein(r, h):
     >>> wer("".split(), "who is there".split())                                 
     Inf 0 3 0                                                                           
     """
+    # add a start and end tag to each list so we can compare them
     r = add_tags(r)
     h = add_tags(h)
+    # create and initialize our grids
+    # dim 0: for r
+    # dim 1: for h
+    # types are 0: delete, 1: insert, 2: substitute
     R = np.zeros((len(r), len(h)))
     R[:, 0] = np.arange(R.shape[0])
     R[0, :] = np.arange(R.shape[1])
+    # following the forward-backward algorithm, this is the forward part.
     for i in range(R.shape[0] - 1):
         for j in range(R.shape[1] - 1):
             i_1 = i + 1
@@ -64,10 +76,10 @@ def Levenshtein(r, h):
             j -= 1
             if next_R == curr_R - 1:
                 counts[2] += 1
-        elif j > 0 and R[i, j - 1] == R[i, j] - 1:
+        elif j > 0 and R[i, j - 1] == curr_R - 1:
             counts[1] += 1
             j -= 1
-        elif i > 0 and R[i - 1, j] == R[i, j] - 1:
+        elif i > 0 and R[i - 1, j] == curr_R - 1:
             counts[0] += 1
             i -= 1
 
