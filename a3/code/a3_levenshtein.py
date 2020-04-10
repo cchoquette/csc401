@@ -68,7 +68,7 @@ def Levenshtein(r, h):
             counts[0] += 1
             i = i - 1
 
-    return R[-1, -1] / (R.shape[0] - 2), [counts[i] for i in reversed(range(3))]
+    return [R[-1, -1] / (R.shape[0] - 2)] + [counts[i] for i in reversed(range(3))]
 
 
 # # create and initialize our grids
