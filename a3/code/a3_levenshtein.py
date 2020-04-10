@@ -64,7 +64,7 @@ def Levenshtein(r, h):
             choices = np.array([delete, insert, substitute]) + 1
             # R[i_1, j_1, 1] = choices.argmin()
             R[i_1, j_1] = choices.min()
-        print(R[i])
+        print(R[i_1])
     # now we do the backward algorithm
     counts = {0: 0, 1: 0, 2: 0}  # indices correspond to choices
     i, j = R.shape
@@ -122,7 +122,10 @@ if __name__ == "__main__":
                 alllines = zip(*[open(p, 'r').readlines() for p in paths])
             except:
                 continue
-            for i, (r, g, k) in enumerate(alllines):
+            for i, opened_transcripts in enumerate(alllines):
+                if any([len(x) == 0 for x in opened_transcripts]):
+                    continue
+                r, g, k = opened_transcripts
                 r = process_line(r)
                 print(r)
                 print(process_line(g))
