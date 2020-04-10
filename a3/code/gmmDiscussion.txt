@@ -75,5 +75,5 @@ of the models even for only half the number of features kept. This is because th
 such that the total kept variance is still very close to the original data (near 100%). We would expect these results as the
 task appears toe be easy, indicating that it might even be (nearly) linearly separable. In this case, it can be
 very easy to keep enough information to still be able to separate the different output distributions. However,
-at small PCA components <5, we see that there is indeed a decrease in accuracy, due to the loss of crucial information
-needed to separtae the speaker distributions.
+at small PCA components <5, we see that there is indeed a decrease in accuracy (around 50% accuracy achieved),
+due to the loss of crucial information needed to separtae the speaker distributions.
