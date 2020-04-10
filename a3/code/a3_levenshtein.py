@@ -48,10 +48,10 @@ def Levenshtein(r, h):
     R[0, :] = np.arange(R.shape[1])
     for i in range(R.shape[0] - 1):
         for j in range(R.shape[1] - 1):
-            j_1 = j+1
-            i_1 = i+1
+            i_1 = i + 1
+            j_1 = j + 1
             same = int(r[i_1] == h[j_1])
-            R[i_1, j_1] = np.min([R[i, j_1], R[i_1, j_1] - same, R[i_1, j]]) + 1
+            R[i_1, j_1] = np.min([R[i, j_1], R[i, j] - same, R[i_1, j]]) + 1
 
     i = R.shape[0] - 1
     j = R.shape[1] - 1
