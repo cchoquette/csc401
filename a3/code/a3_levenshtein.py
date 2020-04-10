@@ -105,9 +105,7 @@ def process_line(l):
 def make_print(speaker, t, i, out):
     beg = [speaker, t, i, out[0]]
     prefixes = ['S:{}', 'I:{}', 'D:{}']
-    beg + list([p.format(o) for p, o in zip(prefixes, out[1:])])
-    print(beg)
-    return beg
+    return beg + list([p.format(o) for p, o in zip(prefixes, out[1:])])
 
 
 if __name__ == "__main__":
@@ -130,7 +128,7 @@ if __name__ == "__main__":
                 print(process_line(k))
                 goog = Levenshtein(r, process_line(g))
                 g_lev.append(goog)
-                gog = make_print(speaker, 'Google', i, goog)
+                goog = make_print(speaker, 'Google', i, goog)
                 kald = Levenshtein(r, process_line(k))
                 k_lev.append(kald)
                 kald = make_print(speaker, 'Kaldi', i, kald)
