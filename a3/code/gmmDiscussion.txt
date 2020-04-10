@@ -1,0 +1,28 @@
+As the number of different Gaussians increases above the default of 8, we see that
+the model consistently attains 100% accuracy (including at 8). However, as the number
+of Gaussians decreases below 8, we see that for some M, the accuracy may fall in the range
+of 5%. For such an easy task (easy, as our simple gaussian model can achieve 100% accuracy
+very reliably), this deviation is significant. It shows how smaller numbers of Gaussians
+may not be able to as accurately generate the data and may not learn some of the
+intricacies of the task, leading to poorer performance. In this case, we would
+say the the low capacity of the model has led to underfitting of the data. It is
+important to note that this underfitting is not major, though it is significant
+given how easy the task is. Of course, with many
+Gaussians we run the risk of overfitting, however in the range I have tested, it
+does not appear to be an issue (I tested 1<=M<=14). However, it is also possible
+that we have too little data to be able to properly test any overfitting to sampling
+errors.
+I also test the convergence of the optimization algorithm by varying the max iterations
+and the required improvement, independently. These results are very noisy, as they should
+be given that I only ran them for one seed, but they show a general correlation that
+with a higher required improvement, we see worse performance. This results is
+as expected because we are undertraining each Gaussian mode, preventing it from
+learning some of the variance needed to differentiate the speakers. The noise in
+these results could be due to a lack of stability of the data or of the model, as well.
+In testing the max iterations, we see that it has relatively no impact, as the models
+train in very few iterations and converge given the standard settings. The only major
+impact we see is that 0 iterations leads to untrained models giving horrible performance.
+These results can be viewed in gmmResults.txt. It is important to note that I used
+the mean log likelihood for this run, so epsilon values in the range of 1-10 are
+about 1-25% of the mean log likelihood (40-50).
+For the given set of hyperparameters,

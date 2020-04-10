@@ -216,11 +216,14 @@ def test(mfcc, correctID, models, k=5):
     return 1 if (bestModel == correctID) else 0
 
 
-def outloop(maxIter=20, d=13, M=8, k=5, epsilon=0., pca=None):
+def outloop(maxIter=20, d=13, M=8, k=5, epsilon=0., pca=None, max_speakers=None):
     trainThetas = []
     testMFCCs = []
     # train a model for each speaker, and reserve data for testing
+    n_speakers = 0
     for subdir, dirs, files in os.walk(dataDir):
+        if max_speakers is None:
+            max_speakers = len(dirs)
         for speaker in dirs:
             # print(speaker)
 
@@ -238,6 +241,9 @@ def outloop(maxIter=20, d=13, M=8, k=5, epsilon=0., pca=None):
             if pca is not None:
                 X = pca.fit_transform(X)
             trainThetas.append(train(speaker, X, M, epsilon, maxIter))
+            if n_speakers > max_speakers:
+                break
+            n_speakers += 1
 
     # evaluate
     numCorrect = 0
@@ -245,6 +251,7 @@ def outloop(maxIter=20, d=13, M=8, k=5, epsilon=0., pca=None):
         numCorrect += test(testMFCCs[i], i, trainThetas, k)
     accuracy = 1.0*numCorrect/len(testMFCCs)
     print(f"accuracy: {accuracy} with M={M}, maxIter={maxIter}, eps={epsilon}")
+    print("max_speakers={}".format(max_speakers))
     sys.stdout.flush()
 
 
@@ -288,10 +295,12 @@ if __name__ == "__main__":
         sys.stdout = open('gmmResults.txt', 'w')
         for M in range(1, max_M):
             outloop(M=M)
-        for epsilon in np.linspace(0, max_epsilon, int((max_epsilon-0)/0.1)+1):
-            outloop(epsilon=epsilon)
-        for maxIter in range(0, max_maxIter, 10):
-            outloop(maxIter=maxIter)
+        # for epsilon in np.linspace(0, max_epsilon, int((max_epsilon-0)/0.1)+1):
+        #     outloop(epsilon=epsilon)
+        # for maxIter in range(0, max_maxIter, 10):
+        #     outloop(maxIter=maxIter)
+        for n_speakers in range(32):
+            outloop(max_speakers=n_speakers, epsilon=5., maxIter=10, M=5)
     if do_bonus:
         sys.stdout = open('gmmBonus.txt', 'w')
         for d in range(1, max_d):
