@@ -40,8 +40,8 @@ def Levenshtein(r, h):
     R = np.zeros((len(r) + 1, len(h) + 1, 2))
     R[0, :, 0] = np.arange(R.shape[1])
     R[:, 0, 0] = np.arange(R.shape[0])
-    R[0, :, 1] = np.ones_like(R[0, :, 1])
-    R[:, 0, 1] = np.ones_like(R[:, 0, 1])
+    R[0, :, 1] = np.ones_like(R[0, :, 1])  # inserts
+    R[:, 0, 1] = np.zeros_like(R[:, 0, 1])  # deletes
 
     # following the forward-backward algorithm, this is the forward part.
     for i in range(R.shape[0]-1):
@@ -102,6 +102,9 @@ if __name__ == "__main__":
                 continue
             for i, (r, g, k) in enumerate(alllines):
                 r = process_line(r)
+                print(r)
+                print(process_line(g))
+                print(process_line(k))
                 goog = Levenshtein(r, process_line(g))
                 make_print(speaker, 'Google', i, goog)
                 kald = Levenshtein(r, process_line(k))
