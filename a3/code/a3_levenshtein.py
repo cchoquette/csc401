@@ -77,7 +77,7 @@ def Levenshtein(r, h):
 
 
 def process_line(l):
-    return re.sub(r"[^a-z\\\[\]]", "", l, re.IGNORECASE).split()
+    return re.sub(r"[^a-z\[\]]]", "", l.lower()).split()
 
 
 def make_print(speaker, t, i, out):
