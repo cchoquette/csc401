@@ -148,7 +148,7 @@ def logLik(log_Bs, myTheta):
     alllog = log_Bs + np.log(myTheta.omega)
     logmax = alllog.max(axis=0, keepdims=True)
     # print(f"alllog: {alllog}, logmax: {logmax}")
-    return np.mean(logmax + np.log(sumexp(alllog, logmax)))
+    return (logmax + np.log(sumexp(alllog, logmax))).sum()
 
 
 def train(speaker, X, M=8, epsilon=0.0, maxIter=20):
@@ -251,11 +251,6 @@ def outloop(maxIter=20, d=13, M=8, k=5, epsilon=0., pca=None):
 def get_pca(X, desired_d):
     from sklearn.decomposition import PCA
     pca = PCA(n_components=desired_d)
-    pca.fit(X)
-    print(pca.explained_variance_ratio_, pca.explained_variance_)
-    total_explained_variance = pca.explained_variance_ratio_.sum()
-    print(f"total explariance variance ratio: {total_explained_variance}")
-    pca = PCA()
     pca.fit(X)
     print(pca.explained_variance_ratio_, pca.explained_variance_)
     total_explained_variance = pca.explained_variance_ratio_.sum()

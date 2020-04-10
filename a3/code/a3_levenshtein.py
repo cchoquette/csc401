@@ -174,3 +174,4 @@ if __name__ == "__main__":
         f" it could show that Google has prioritize minimizing different types " \
         f"of errors than Kaldi, potentially due to the use cases or perceived" \
         f" naturalness."
+    print(out2)
