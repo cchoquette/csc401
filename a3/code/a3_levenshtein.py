@@ -153,5 +153,24 @@ if __name__ == "__main__":
     out1 = f"Google has a mean of: {np.mean(g_lev[:, 0])} " \
         f"and std_dev of: {np.sqrt(np.var(g_lev[:, 0]))}. Kaldi has a mean of: " \
         f"{np.mean(k_lev[:, 0])} and std_dev of: " \
-        f"{np.sqrt(np.var(k_lev[:, 0]))}."
+        f"{np.sqrt(np.var(k_lev[:, 0]))}. We see that Kaldi performs a bit " \
+        f"better than Google in terms of its mean WER, which is about 30% " \
+        f"lower than Google's. This large difference appears to make Kaldi " \
+        f"to be signifcantly better than Google, however, which such small " \
+        f"WER, we would need to conduct statistical testing to be rigorous. " \
+        f"We also see that Kaldi " \
+        f"is marginally more consistent, with a smaller standard deviation. "
     print(out1)
+    out2 = f"We now further analyze the types of errors made by each system. " \
+        f"Comparing the mean substitution rate of Google: {np.mean(g_lev[:, 1])}" \
+        f" with Kaldi: {np.mean(k_lev[:, 1])}, we see that Google makes fewer " \
+        f"substition errors than Kaldi (only marginally). Comparing the " \
+        f"insertion errors, Google has: {np.mean(g_lev[:, 2])} and Kaldi has: " \
+        f"{np.mean(k_lev[:, 2])}, where Google is again marginally lower. In " \
+        f"fact, google on average makes no insertion errors. However, comparing" \
+        f" deletion errors, Google has: {np.mean(g_lev[:, 3])} and Kaldi has: " \
+        f"{np.mean(k_lev[:, 3])}, where we see that Google makes " \
+        f"substantially more deletion errors. These results are interesting as" \
+        f" it could show that Google has prioritize minimizing different types " \
+        f"of errors than Kaldi, potentially due to the use cases or perceived" \
+        f" naturalness."
