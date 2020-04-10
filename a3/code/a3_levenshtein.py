@@ -52,8 +52,8 @@ def Levenshtein(r, h):
     r = add_tags(r)
     h = add_tags(h)
     # following the forward-backward algorithm, this is the forward part.
-    for i in range(R.shape[0]):
-        for j in range(R.shape[1]):
+    for i in range(R.shape[0]-1):
+        for j in range(R.shape[1]-1):
             j_1 = j+1
             i_1 = i+1
             same = int(r[i_1] == h[j_1])
