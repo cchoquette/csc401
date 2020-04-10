@@ -42,7 +42,7 @@ def Levenshtein(r, h):
     R[:, 0, 0] = np.arange(R.shape[0])
     R[0, :, 1] = np.ones_like(R[0, :, 1])  # inserts
     R[:, 0, 1] = np.zeros_like(R[:, 0, 1])  # deletes
-
+    print(len(r), len(h))
     # following the forward-backward algorithm, this is the forward part.
     for i in range(R.shape[0]-1):
         for j in range(R.shape[1]-1):
