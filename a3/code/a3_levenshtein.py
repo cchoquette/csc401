@@ -135,6 +135,7 @@ if __name__ == "__main__":
                 k_lev.append(kald)
                 kald = make_print(speaker, 'Kaldi', i, kald)
                 s = " ".join(["{}" for _ in range(7)])
+                print(goog, kald)
                 print(s.format(*goog))
                 print(s.format(*kald))
     g_lev = np.array(g_lev)
