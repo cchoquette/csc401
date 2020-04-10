@@ -295,5 +295,6 @@ if __name__ == "__main__":
         sys.stdout = open('gmmBonus.txt', 'w')
         for d in range(1, max_d):
             X = gather_X()
+            print(X.shape)
             pca = get_pca(X, d)
             outloop(pca=pca)
