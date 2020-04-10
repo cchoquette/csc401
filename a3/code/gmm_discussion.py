@@ -289,7 +289,7 @@ if __name__ == "__main__":
     max_epsilon = 10
     max_maxIter = 100
     max_d = 13
-    do_discussion = False
+    do_discussion = True
     do_bonus = True
     if do_discussion:
         sys.stdout = open('gmmResults.txt', 'w')
