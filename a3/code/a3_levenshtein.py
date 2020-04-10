@@ -141,7 +141,7 @@ if __name__ == "__main__":
                 goog = Levenshtein(r, process_line(g)[1:])
                 g_lev.append(goog)
                 goog = make_print(speaker, 'Google', i, goog)
-                kald = Levenshtein(r, process_line(k)[2:])
+                kald = Levenshtein(r, process_line(k)[1:])
                 k_lev.append(kald)
                 kald = make_print(speaker, 'Kaldi', i, kald)
                 s = " ".join(["{}" for _ in range(7)])
