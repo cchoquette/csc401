@@ -74,6 +74,7 @@ def Levenshtein(r, h):
         i_1, j_1 = i-1, j-1  # next indices
         curr_R = R[i, j]  # common numpy accesses
         next_R = R[i_1, j_1]
+        # priorities are sub > insert > delete.
         # check sub
         if i > 0 and j > 0 and (next_R == curr_R or next_R == curr_R - 1):
             i -= 1
@@ -135,11 +136,11 @@ if __name__ == "__main__":
                 continue
 
             for i, (r, g, k) in enumerate(alllines):
-                r = process_line(r)
-                goog = Levenshtein(r, process_line(g))
+                r = process_line(r)[2:]
+                goog = Levenshtein(r, process_line(g)[2:])
                 g_lev.append(goog)
                 goog = make_print(speaker, 'Google', i, goog)
-                kald = Levenshtein(r, process_line(k))
+                kald = Levenshtein(r, process_line(k)[2:])
                 k_lev.append(kald)
                 kald = make_print(speaker, 'Kaldi', i, kald)
                 s = " ".join(["{}" for _ in range(7)])
