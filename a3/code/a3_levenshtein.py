@@ -37,41 +37,52 @@ def Levenshtein(r, h):
     # dim 1: for h
     # dim 2: 2D where 0 index is the distance and 1 index is the type
     # types are 0: delete, 1: insert, 2: substitute
-    R = np.zeros((len(r) + 1, len(h) + 1, 2))
-    R[0, :, 0] = np.arange(R.shape[1])
-    R[:, 0, 0] = np.arange(R.shape[0])
-    R[0, :, 1] = np.ones_like(R[0, :, 1])  # inserts
-    R[:, 0, 1] = np.zeros_like(R[:, 0, 1])  # deletes
-    print(len(r), len(h))
+    R = np.zeros((len(r) + 1, len(h) + 1))
+    R[0, :] = np.arange(R.shape[1])
+    R[:, 0] = np.arange(R.shape[0])
+    # R[0, :, 1] = np.ones_like(R[0, :, 1])  # inserts
+    # R[:, 0, 1] = np.zeros_like(R[:, 0, 1])  # deletes
+    # print(len(r), len(h))
     # following the forward-backward algorithm, this is the forward part.
-    for i in range(R.shape[0]-1):
-        for j in range(R.shape[1]-1):
+    for i in range(R.shape[0]):
+        for j in range(R.shape[1]):
             j_1 = j+1
             i_1 = i+1
-            same = int(r[i] == h[j])
-            delete = R[i, j_1, 0]
-            insert = R[i_1, j, 0]
-            substitute = R[i, j, 0] - same  # if they were the same, will cancel with the +1 later
+            same = int(r[i_1] == h[j_1])
+            delete = R[i, j_1]
+            insert = R[i_1, j]
+            substitute = R[i, j] - same  # if they were the same, will cancel with the +1 later
             choices = np.array([delete, insert, substitute]) + 1
-            R[i_1, j_1, 1] = choices.argmin()
-            R[i_1, j_1, 0] = choices[int(R[i_1, j_1, 1])]
-            print(R[i_1, j_1])
-    print(R[:, :, 0])
+            # R[i_1, j_1, 1] = choices.argmin()
+            R[i_1, j_1] = choices.min()
+    print(R)
     # now we do the backward algorithm
     counts = {0: 0, 1: 0, 2: 0}  # indices correspond to choices
     i, j, _ = R.shape
-    i -= 1
-    j -= 1
     while i > 0 or j > 0:
-        print(i, j)
-        match_type = R[i, j, 1]
-        # extra check to see if its a match or a substitute
-        to_add = 0 if match_type == 2 and r[i-1] == h[i-1] else 1
-        counts[match_type] += to_add
-        i_dec = 0 if match_type == 1 else 1  # we don't decrement i if insert
-        j_dec = 0 if match_type == 0 else 1  # we don't decrement j if delete
-        i -= i_dec
-        j -= j_dec
+        i_1 = i - 1
+        j_1 = j - 1
+        if i > 0 and R[i_1, j] == R[i, h] - 1:
+            counts[0] += 1  # deletion
+            i -= 1
+        elif j > 0 and R[i, j_1] == R[i, j] - 1:
+            counts[1] += 1  # insertion
+            j -= 1
+        elif i > 0 and j > 0 and R[i_1, j_1] == R[i, j] - 1:
+            counts[2] += 1
+            i -= 1
+            j -= 1
+        elif i > 0 and j > 0 and R[i_1, j_1] == R[i, j]:
+            i -= 1
+            j -= 1
+        # match_type = R[i, j, 1]
+        # # extra check to see if its a match or a substitute
+        # to_add = 0 if match_type == 2 and r[i-1] == h[i-1] else 1
+        # counts[match_type] += to_add
+        # i_dec = 0 if match_type == 1 else 1  # we don't decrement i if insert
+        # j_dec = 0 if match_type == 0 else 1  # we don't decrement j if delete
+        # i -= i_dec
+        # j -= j_dec
 
     # return, WER, followed by counts, mine are in reverse order
     return [R[-1, -1, 0] / (len(R) - 1)] + [counts[i] for i in reversed(range(3))]
