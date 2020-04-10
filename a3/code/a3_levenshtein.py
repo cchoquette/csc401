@@ -55,6 +55,7 @@ def Levenshtein(r, h):
             choices = np.array([delete, insert, substitute]) + 1
             R[i_1, j_1, 1] = choices.argmin()
             R[i_1, j_1, 0] = choices[int(R[i_1, j_1, 1])]
+            print(R[i_1, j_1])
     print(R[:, :, 0])
     # now we do the backward algorithm
     counts = {0: 0, 1: 0, 2: 0}  # indices correspond to choices
