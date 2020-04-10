@@ -72,7 +72,7 @@ def Levenshtein(r, h):
     while i > 0 or j > 0:
         i_1 = i - 1
         j_1 = j - 1
-        if i > 0 and R[i_1, j] == R[i, h] - 1:
+        if i > 0 and R[i_1, j] == R[i, j] - 1:
             counts[0] += 1  # deletion
             i -= 1
         elif j > 0 and R[i, j_1] == R[i, j] - 1:
