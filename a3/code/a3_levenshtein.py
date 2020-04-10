@@ -53,34 +53,33 @@ def Levenshtein(r, h):
     h = add_tags(h)
     # following the forward-backward algorithm, this is the forward part.
     print(R.shape)
-    for i in range(R.shape[0]-1):
-        for j in range(R.shape[1]-1):
-            j_1 = j+1
-            i_1 = i+1
-            same = int(r[i_1] == h[j_1])
-            delete = R[i, j_1]
-            insert = R[i_1, j]
-            substitute = R[i, j] - same  # if they were the same, will cancel with the +1 later
-            choices = np.array([delete, insert, substitute]) + 1
-            # R[i_1, j_1, 1] = choices.argmin()
-            R[i_1, j_1] = choices.min()
+    for i in range(1, R.shape[0]):
+        for j in range(1, R.shape[1]):
+            substitution = 1
+            if r[i] == h[j]:
+                substitution = 0
+            R[i, j] = np.min([R[i - 1, j] + 1, R[i - 1, j - 1] + substitution, R[i, j - 1] + 1])
     # now we do the backward algorithm
     counts = {0: 0, 1: 0, 2: 0}  # indices correspond to choices
     i, j = R.shape
-    i = len(r) + 1
-    j = len(h) + 1
-    while i != 0 or j != 0:
-        if R[i - 1, j - 1] == R[i, j] and i > 0 and j > 0:
-            i, j = i - 1, j - 1
-        elif R[i - 1, j - 1] + 1 == R[i, j] and i > 0 and j > 0:
+    i -= 1
+    j -= 1
+    while i > 0 or j > 0:
+        i_1 = i - 1
+        j_1 = j - 1
+        if i > 0 and R[i_1, j] == R[i, j] - 1:
+            counts[0] += 1  # deletion
+            i -= 1
+        elif j > 0 and R[i, j_1] == R[i, j] - 1:
+            counts[1] += 1  # insertion
+            j -= 1
+        elif i > 0 and j > 0 and R[i_1, j_1] == R[i, j] - 1:
             counts[2] += 1
-            i, j = i - 1, j - 1
-        elif R[i, j - 1] + 1 == R[i, j] and j > 0:
-            counts[1] += 1
-            j = j - 1
-        elif R[i - 1, j] + 1 == R[i, j] and i > 0:
-            counts[0] += 1
-            i = i - 1
+            i -= 1
+            j -= 1
+        elif i > 0 and j > 0 and R[i_1, j_1] == R[i, j]:
+            i -= 1
+            j -= 1
         # match_type = R[i, j, 1]
         # # extra check to see if its a match or a substitute
         # to_add = 0 if match_type == 2 and r[i-1] == h[i-1] else 1
