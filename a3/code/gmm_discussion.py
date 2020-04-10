@@ -257,7 +257,7 @@ def get_pca(X, desired_d):
     return pca
 
 
-def gather_X():
+def gather_X(d=13):
     all_X = []
     for subdir, dirs, files in os.walk(dataDir):
         for speaker in dirs:
