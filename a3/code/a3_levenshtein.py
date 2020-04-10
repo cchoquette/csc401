@@ -56,17 +56,20 @@ def Levenshtein(r, h):
     i = R.shape[0] - 1
     j = R.shape[1] - 1
     while i > 0 or j > 0:
-        if i > 0 and j > 0 and R[i - 1, j - 1] == R[i, j]:
-            i, j = i - 1, j - 1
-        elif i > 0 and j > 0 and R[i - 1, j - 1] + 1 == R[i, j]:
+        i_1, j_1 = i-1, j-1
+        if i > 0 and j > 0 and R[i_1, j_1] == R[i, j]:
+            i -= 1
+            j -= 1
+        elif i > 0 and j > 0 and R[i_1, j_1] + 1 == R[i, j]:
             counts[2] += 1
-            i, j = i - 1, j - 1
+            i -= 1
+            j -= 1
         elif j > 0 and R[i, j - 1] + 1 == R[i, j]:
             counts[1] += 1
-            j = j - 1
+            j -= 1
         elif i > 0 and R[i - 1, j] + 1 == R[i, j]:
             counts[0] += 1
-            i = i - 1
+            i -= 1
 
     return [R[-1, -1] / (R.shape[0] - 2)] + [counts[i] for i in reversed(range(3))]
 
@@ -163,11 +166,9 @@ if __name__ == "__main__":
                 print(process_line(g))
                 print(process_line(k))
                 goog = Levenshtein(r, process_line(g))
-                print(goog)
                 g_lev.append(goog)
                 goog = make_print(speaker, 'Google', i, goog)
                 kald = Levenshtein(r, process_line(k))
-                print(kald)
                 k_lev.append(kald)
                 kald = make_print(speaker, 'Kaldi', i, kald)
                 s = " ".join(["{}" for _ in range(7)])
