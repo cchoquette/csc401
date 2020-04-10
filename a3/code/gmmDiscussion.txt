@@ -80,4 +80,12 @@ due to the loss of crucial information needed to separate the speaker distributi
 we see less than 65% of the original variance is maintained. At a latent dimensionality of 5,
 we see that 70% of the explained variance is enough to achieve a reasonable accuracy of 87.5%. Only
 77% of the expalained variance is needed to almost fully reattain our original accuracy, where this model
-achieves just under 97% accuracy with less than half the number of dimensions in its input space.
+achieves just under 97% accuracy with less than half the number of dimensions in its input space. Past this,
+a lot more dimensions are needed to recover the full accuracy, where, depending on the application, this
+little bit of accuracy may not be required. Thus, I would tend to stick at picking the 6 components.
+However, it is important to note that though we have saved 50% of our memory (and sped up training),
+the improvement is marginal since our dataset has few features (d=13). Further, it is important to note that
+though there is a decrease in test accuracy, we should really have an additional holdout set ot see if the accuracy is
+really decreasing. In fact, it is possible the reduced dimensionality will reduce generalization error; cases where this
+happens is usually where the number of dimensions is very larger (>100 or > 1000) and reducing the dimensions helps
+smoothen the loss surface for learning.
