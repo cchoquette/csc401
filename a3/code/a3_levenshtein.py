@@ -59,13 +59,11 @@ def Levenshtein(r, h):
         i_1, j_1 = i-1, j-1
         curr_R = R[i, j]
         next_R = R[i_1, j_1]
-        if i > 0 and j > 0 and next_R == curr_R:
+        if i > 0 and j > 0 and (next_R == curr_R or next_R == curr_R - 1):
             i -= 1
             j -= 1
-        elif i > 0 and j > 0 and next_R == curr_R - 1:
-            counts[2] += 1
-            i -= 1
-            j -= 1
+            if next_R == curr_R - 1:
+                counts[2] += 1
         elif j > 0 and R[i, j - 1] == R[i, j] - 1:
             counts[1] += 1
             j -= 1
