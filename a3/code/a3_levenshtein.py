@@ -127,9 +127,11 @@ if __name__ == "__main__":
             try:
                 alllines = zip(*[open(p, 'r').readlines() for p in paths])
             except:
+                print("error encountered")
                 continue
             for i, opened_transcripts in enumerate(alllines):
                 if any([len(x) == 0 for x in opened_transcripts]):
+                    print("a transcript file was empty or missing.")
                     continue
                 r, g, k = opened_transcripts
                 r = process_line(r)
@@ -140,6 +142,8 @@ if __name__ == "__main__":
                 k_lev.append(kald)
                 kald = make_print(speaker, 'Kaldi', i, kald)
                 s = " ".join(["{}" for _ in range(7)])
+                print(s.format(*goog))
+                print(s.format(*kald))
     g_lev = np.array(g_lev)
     k_lev = np.array(k_lev)
     out1 = f"Google has a mean of: {np.mean(g_lev[:, 0])} " \
