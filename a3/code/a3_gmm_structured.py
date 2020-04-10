@@ -178,7 +178,7 @@ def train(speaker, X, M=8, epsilon=0.0, maxIter=20):
         delta = l - prev_l
         prev_l = l
         i += 1
-        print(f"iteration {i} done with l: {round(l, 3)} and delta: {round(delta, 3)}")
+        # print(f"iteration {i} done with l: {round(l, 3)} and delta: {round(delta, 3)}")
     myTheta.reset_precompute()  # 1 last one now that we're done.
     return myTheta
 
@@ -253,6 +253,7 @@ if __name__ == "__main__":
         numCorrect += test(testMFCCs[i], i, trainThetas, k)
     accuracy = 1.0 * numCorrect / len(testMFCCs)
     stdout = sys.stdout  # steal stdout so that we can redirect to file.
+    print(f"accuracy: {accuracy}")
     sys.stdout = open('gmmLiks.txt', 'w')
     # evaluate
     numCorrect = 0
@@ -260,4 +261,3 @@ if __name__ == "__main__":
         numCorrect += test(testMFCCs[i], i, trainThetas, k)
     accuracy = 1.0*numCorrect/len(testMFCCs)
     sys.stdout = stdout
-    print(f"accuracy: {accuracy}")
