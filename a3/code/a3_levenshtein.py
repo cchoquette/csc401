@@ -133,9 +133,11 @@ if __name__ == "__main__":
                 k_lev.append(kald)
                 kald = make_print(speaker, 'Kaldi', i, kald)
                 s = " ".join(["{}" for _ in range(7)])
-                print(goog, kald)
                 print(s.format(*goog))
                 print(s.format(*kald))
+                break
+            break
+        break
     g_lev = np.array(g_lev)
     k_lev = np.array(k_lev)
     out1 = f"Google has a mean of: {np.mean(g_lev[:, 0])} " \
