@@ -95,6 +95,7 @@ if __name__ == "__main__":
     transcripts = ['transcripts.txt', 'transcripts.Google.txt', 'transcripts.Kaldi.txt']
     for root, ds, fs in os.walk(dataDir):
         for speaker in ds:
+            print(speaker)
             paths = [os.path.join(root, speaker, t) for t in transcripts]
             try:
                 alllines = zip(*[open(p, 'r').readlines() for p in paths])
